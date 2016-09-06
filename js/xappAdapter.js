@@ -44,11 +44,19 @@ XAPPAdapter.prototype.adapt = function(xappTag, intent, xappResponse) {
     };
 
     var tracks = [];
+    var ssml = null;
     for (var action of xappResponse.actions) {
         if (action.actionType === 'CUSTOM') {
-            if (intent !== null && !intent.startsWith("AMAZON") && intent !== action.phrase) {
-                // Filter by the intent if one is specified
-                continue;
+            var customActionIntent = false;
+            // If the user said something, and it was not a builtin intent, only use the action
+            //  that corresponds to the intent
+            if (intent !== null && !intent.startsWith("AMAZON")) {
+                if (!phrasesMatch(intent, action.phrase)) {
+                    // Filter by the intent if one is specified
+                    continue;
+                } else {
+                    customActionIntent = true;
+                }
             }
 
             var customParameter = action.fulfillments[0].extras.customParameter;
@@ -57,18 +65,31 @@ XAPPAdapter.prototype.adapt = function(xappTag, intent, xappResponse) {
             try {
                 customJSON = JSON.parse(customParameter);
             } catch (e) {
-                console.error(e);
+                console.error(e + ' CustomData: ' + customParameter);
             }
 
             // Do a couple possible things here:
+            //  If the JSON is empty, use the trailing audio
+            //      Though only if this specific custom action was called for by the  user
+            //  If it has a TTS element, play that back
+            //      Though only if this specific custom action was called for by the  user
             //  If it has a tracks array, then this is a playlist
             //  If it has one element, then just one stream
-            if (customJSON !== null && customJSON.tracks !== undefined) {
+            if (customActionIntent && customJSON === null) {
+                ssml = '<speak><audio url="' + action.fulfillments[0].trailingAudioURL + '" /></speak>';
+
+            } else if (customActionIntent && customJSON.tts !== undefined) {
+                // If there is a tts set, use that
+                ssml = this.textAsSSML(customJSON.tts);
+
+            } else if (customJSON !== null && customJSON.tracks !== undefined) {
                 for (var track of customJSON.tracks) {
                     this.addTrack(tracks, xappTag, track);
                 }
-            } else {
+
+            } else if (customJSON !== null && customJSON.title !== undefined) {
                 this.addTrack(tracks, xappTag, customJSON);
+
             }
 
         }
@@ -76,6 +97,7 @@ XAPPAdapter.prototype.adapt = function(xappTag, intent, xappResponse) {
     var audioData = {
         'introduction': introduction,
         'introductionReprompt': introduction,
+        'ssml': ssml,
         'tracks': tracks
     }
     return audioData;
@@ -205,6 +227,21 @@ XAPPAccessor.prototype.call = function (path, requestJSON, callback) {
 
 XAPPAccessor.prototype.respondToXAPP = function () {
     // No-op for now - we use V4
+};
+
+function phrasesMatch (s, s2) {
+    if (s === undefined || s === null || s2 === undefined || s2 === null) {
+        return false;
+    }
+
+    s = replaceAll(s, ' ', '').toLowerCase();
+    s2 = replaceAll(s2, ' ', '').toLowerCase();
+
+    return s === s2;
+}
+
+function replaceAll(str, search, replacement) {
+    return str.split(search).join(replacement);
 };
 
 exports.XAPPAccessor = XAPPAccessor;

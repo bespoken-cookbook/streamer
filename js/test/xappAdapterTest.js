@@ -36,8 +36,28 @@ describe('XAPPAdapter', function() {
                 'XappMediaApiKey',
                 'DefaultApp');
             adapter.request('Streaming/JPKStreamingTest', 'AMAZON.PlayIntent', function(audioData) {
-                assert.equal(audioData.introduction, "<speak>Speak now or forever</speak>");
+                assert.equal(audioData.introduction, '<speak>Speak now or forever</speak>');
                 assert.equal(audioData.tracks.length, 3);
+                done();
+            });
+        });
+
+        it("Loads and adapts XAPP - with tts action", function(done) {
+            var adapter = new XAPPAdapter('preview.xappmedia.com',
+                'XappMediaApiKey',
+                'DefaultApp');
+            adapter.request('JPKUnitTest/JPKUnitTest-CustomActionTTS', 'abOutus', function(audioData) {
+                assert.equal(audioData.ssml, '<speak>This is TTS</speak>');
+                done();
+            });
+        });
+
+        it("Loads and adapts XAPP - with trailing audio action", function(done) {
+            var adapter = new XAPPAdapter('preview.xappmedia.com',
+                'XappMediaApiKey',
+                'DefaultApp');
+            adapter.request('JPKUnitTest/JPKUnitTest-CustomActionTTS', 'academics', function(audioData) {
+                assert.equal(audioData.ssml, '<speak><audio url="https://d2mxb5cuq6ityb.cloudfront.net/ContentPromoPrompt-d77c8cac-de94-4c5b-8014-34c65beb0cc1.m4a" /></speak>');
                 done();
             });
         });
