@@ -15,7 +15,6 @@ describe('XAPPAdapter', function() {
                 assert.equal(audioData.tracks[1].title, 'Podcast1');
                 assert.equal(audioData.tracks[2].title, 'Podcast2');
                 done();
-                //assert.equal(audioData.tracks[0].title, '');
             });
         });
     });

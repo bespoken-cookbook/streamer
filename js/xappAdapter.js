@@ -12,6 +12,12 @@ var XAPPAdapter = function (server, apiKey, appKey) {
     this.accessor = new XAPPAccessor(server, apiKey, appKey);
 }
 
+/**
+ * Requests the specified xapp
+ * Returns audioData to set on the AudioManager
+ * @param xappTag
+ * @param callback
+ */
 XAPPAdapter.prototype.request = function(xappTag, callback) {
     var self = this;
     this.accessor.request(xappTag, function (xappResponse) {
@@ -20,6 +26,12 @@ XAPPAdapter.prototype.request = function(xappTag, callback) {
     });
 }
 
+/**
+ * Turns the raw XAPP response into AudioData
+ * @param xappTag
+ * @param xappResponse
+ * @returns {{introduction: string, introductionReprompt: string, tracks: Array}}
+ */
 XAPPAdapter.prototype.adapt = function(xappTag, xappResponse) {
     var introduction = '';
     if (xappResponse.nowPlayingText !== null) {
