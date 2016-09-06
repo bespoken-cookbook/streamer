@@ -19,10 +19,11 @@
   "dependencies": {
     "alexa-sdk": "^1.0.4",
     "mockery": "^1.7.0",
+    "node-uuid": "^1.4.7",
     "xml2js": "0.4.15"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/alexa/skill-sample-nodejs-audio-player"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexa/skill-sample-nodejs-audio-player"
   }
 }

@@ -8,7 +8,9 @@
  * @constructor
  */
 var AudioManager = {
-    audioAssetArray: null, // Will be array of audio items
+    introduction: 'Welcome to the AWS Podcast. You can say, play the audio to begin the podcast.',
+    introductionReprompt: 'You can say, play the audio, to begin.',
+    tracks: null, // Will be array of audio items
 
     load: function (audioSourceType, audioSource, callback) {
         this.audioSourceType = audioSourceType;
@@ -20,13 +22,13 @@ var AudioManager = {
                 AudioManager.audioAssetArray = require('./audioAssets');
                 callback();
             } else if (audioSourceType === 'url') {
-                require('./rssAdapter').fromURL(this.audioSource, function (error, audioArray) {
-                    AudioManager.audioAssetArray = audioArray;
+                require('./rssAdapter').fromURL(this.audioSource, function (error, audioData) {
+                    AudioManager.configure(audioData);
                     callback();
                 });
             } else if (audioSourceType === 'file') {
-                require('./rssAdapter').fromFile(this.audioSource, function (error, audioArray) {
-                    AudioManager.audioAssetArray = audioArray;
+                require('./rssAdapter').fromFile(this.audioSource, function (error, audioData) {
+                    AudioManager.configure(audioData)
                     callback();
                 });
             }
@@ -34,6 +36,10 @@ var AudioManager = {
             callback();
         }
 
+    },
+
+    configure: function(audioData) {
+        AudioManager.audioAssetArray = audioData.tracks;
     },
 
     audioAssets: function () {
