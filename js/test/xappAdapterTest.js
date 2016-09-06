@@ -8,12 +8,36 @@ describe('XAPPAdapter', function() {
             var adapter = new XAPPAdapter('preview.xappmedia.com',
                 'XappMediaApiKey',
                 'DefaultApp');
-            adapter.request('Streaming/JPKStreamingTest', function(audioData) {
+            adapter.request('Streaming/JPKStreamingTest', null, function(audioData) {
                 assert.equal(audioData.introduction, "<speak>Speak now or forever</speak>");
                 assert.equal(audioData.tracks.length, 3);
                 assert.equal(audioData.tracks[0].title, 'Podcast1');
                 assert.equal(audioData.tracks[1].title, 'Podcast1');
                 assert.equal(audioData.tracks[2].title, 'Podcast2');
+                done();
+            });
+        });
+
+        it("Loads and adapts XAPP - filtered by intent", function(done) {
+            var adapter = new XAPPAdapter('preview.xappmedia.com',
+                'XappMediaApiKey',
+                'DefaultApp');
+            adapter.request('Streaming/JPKStreamingTest', 'Academics', function(audioData) {
+                assert.equal(audioData.introduction, "<speak>Speak now or forever</speak>");
+                assert.equal(audioData.tracks.length, 2);
+                assert.equal(audioData.tracks[0].title, 'Podcast1');
+                assert.equal(audioData.tracks[1].title, 'Podcast2');
+                done();
+            });
+        });
+
+        it("Loads and adapts XAPP - filtering ignores builtin", function(done) {
+            var adapter = new XAPPAdapter('preview.xappmedia.com',
+                'XappMediaApiKey',
+                'DefaultApp');
+            adapter.request('Streaming/JPKStreamingTest', 'AMAZON.PlayIntent', function(audioData) {
+                assert.equal(audioData.introduction, "<speak>Speak now or forever</speak>");
+                assert.equal(audioData.tracks.length, 3);
                 done();
             });
         });

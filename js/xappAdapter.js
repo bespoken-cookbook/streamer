@@ -14,14 +14,16 @@ var XAPPAdapter = function (server, apiKey, appKey) {
 
 /**
  * Requests the specified xapp
+ * Passes an intent if specified
  * Returns audioData to set on the AudioManager
  * @param xappTag
+ * @param intent
  * @param callback
  */
-XAPPAdapter.prototype.request = function(xappTag, callback) {
+XAPPAdapter.prototype.request = function(xappTag, intent, callback) {
     var self = this;
     this.accessor.request(xappTag, function (xappResponse) {
-        var audioData = self.adapt(xappTag, xappResponse);
+        var audioData = self.adapt(xappTag, intent, xappResponse);
         callback(audioData);
     });
 }
@@ -32,7 +34,7 @@ XAPPAdapter.prototype.request = function(xappTag, callback) {
  * @param xappResponse
  * @returns {{introduction: string, introductionReprompt: string, tracks: Array}}
  */
-XAPPAdapter.prototype.adapt = function(xappTag, xappResponse) {
+XAPPAdapter.prototype.adapt = function(xappTag, intent, xappResponse) {
     var introduction = '';
     if (xappResponse.nowPlayingText !== null) {
         // If we see the speak tag, means this is already ssml
@@ -44,6 +46,11 @@ XAPPAdapter.prototype.adapt = function(xappTag, xappResponse) {
     var tracks = [];
     for (var action of xappResponse.actions) {
         if (action.actionType === 'CUSTOM') {
+            if (intent !== null && !intent.startsWith("AMAZON") && intent !== action.phrase) {
+                // Filter by the intent if one is specified
+                continue;
+            }
+
             var customParameter = action.fulfillments[0].extras.customParameter;
 
             var customJSON = null;
