@@ -1,5 +1,6 @@
 var child_process = require('child_process');
 var fs = require('fs');
+var https = require('https');
 var AWS = require('aws-sdk');
 var tmp = require('tmp');
 
@@ -41,22 +42,59 @@ var AudioConverter = {
         });
     },
 
+    download: function(url, callback) {
+        // The url will be in the form:
+        //  https://d2mxb5cuq6ityb.cloudfront.net/ContentPromoPrompt-d77c8cac-de94-4c5b-8014-34c65beb0cc1.m4a
+        var hostAndPath = url.split('//')[1];
+        var host = hostAndPath.split('/')[0];
+        var path = '/' + hostAndPath.split('/')[1];
+
+        var options = {
+            host: host,
+            path: path
+        };
+
+        var responseCallback = function(response) {
+            var data = new Buffer('');
+
+            //another chunk of data has been recieved, so append it to `str`
+            response.on('data', function (chunk) {
+                data = Buffer.concat([data, chunk]);
+            });
+
+            //the whole response has been received, so we just print it out here
+            response.on('end', function () {
+                callback(data);
+            });
+        }
+
+        https.request(options, responseCallback).end();
+
+    },
+
     upload: function(bucket, key, data, callback) {
+        var self = this;
         var s3 = new AWS.S3();
         var params = {Bucket: bucket, Key: key, Body: data, ACL: 'public-read'};
         s3.putObject(params, function (err, data) {
-            var url = 'https://s3.amazonaws.com/' + bucket + '/' + key;
-            callback(url);
+            callback(self.urlForKey(bucket, key));
         });
     },
 
-    convertAndUpload: function(name, inputData, callback) {
+    convertAndUpload: function(name, url, callback) {
         var self = this;
-        this.convert(inputData, function (outputData) {
-            self.upload(self.bucket, name, outputData, function (url) {
-                callback(url);
+        this.download(url, function (inputData) {
+            self.convert(inputData, function (outputData) {
+                self.upload(self.bucket, name, outputData, function (url) {
+                    callback(url);
+                });
             });
         });
+        return this.urlForKey(this.bucket, name);
+    },
+
+    urlForKey: function(bucket, key) {
+        return 'https://s3.amazonaws.com/' + bucket + '/' + key;
     }
 };
 

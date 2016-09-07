@@ -53,11 +53,14 @@ describe('XAPPAdapter', function() {
         });
 
         it("Loads and adapts XAPP - with trailing audio action", function(done) {
+            this.timeout(5000);
             var adapter = new XAPPAdapter('preview.xappmedia.com',
                 'XappMediaApiKey',
                 'DefaultApp');
             adapter.request('JPKUnitTest/JPKUnitTest-CustomActionTTS', 'academics', function(audioData) {
-                assert.equal(audioData.ssml, '<speak><audio url="https://d2mxb5cuq6ityb.cloudfront.net/ContentPromoPrompt-d77c8cac-de94-4c5b-8014-34c65beb0cc1.m4a" /></speak>');
+                assert.equal(audioData.ssml, '<speak><audio url="https://s3.amazonaws.com/xapp-alexa/JPKUnitTest-JPKUnitTest-CustomActionTTS-2760-TRAILING.mp3" /></speak>');
+            }, function () {
+                console.log("Converted");
                 done();
             });
         });

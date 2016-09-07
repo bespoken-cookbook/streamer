@@ -1,5 +1,6 @@
 var https = require('https');
 var uuid = require('node-uuid');
+var AudioConverter = require('./audioConverter');
 
 /**
  * XAPPAdapter calls the accessor and turns XAPPs into Alexa feeds
@@ -20,10 +21,10 @@ var XAPPAdapter = function (server, apiKey, appKey) {
  * @param intent
  * @param callback
  */
-XAPPAdapter.prototype.request = function(xappTag, intent, callback) {
+XAPPAdapter.prototype.request = function(xappTag, intent, callback, conversionCallback) {
     var self = this;
     this.accessor.request(xappTag, function (xappResponse) {
-        var audioData = self.adapt(xappTag, intent, xappResponse);
+        var audioData = self.adapt(xappTag, intent, xappResponse, conversionCallback);
         callback(audioData);
     });
 }
@@ -34,7 +35,7 @@ XAPPAdapter.prototype.request = function(xappTag, intent, callback) {
  * @param xappResponse
  * @returns {{introduction: string, introductionReprompt: string, tracks: Array}}
  */
-XAPPAdapter.prototype.adapt = function(xappTag, intent, xappResponse) {
+XAPPAdapter.prototype.adapt = function(xappTag, intent, xappResponse, conversionCallback) {
     var introduction = '';
     if (xappResponse.nowPlayingText !== null) {
         // If we see the speak tag, means this is already ssml
@@ -76,7 +77,8 @@ XAPPAdapter.prototype.adapt = function(xappTag, intent, xappResponse) {
             //  If it has a tracks array, then this is a playlist
             //  If it has one element, then just one stream
             if (customActionIntent && customJSON === null) {
-                ssml = '<speak><audio url="' + action.fulfillments[0].trailingAudioURL + '" /></speak>';
+                var url = this.convert(xappResponse, 'TRAILING', action.fulfillments[0].trailingAudioURL, conversionCallback);
+                ssml = '<speak><audio url="' + url + '" /></speak>';
 
             } else if (customActionIntent && customJSON.tts !== undefined) {
                 // If there is a tts set, use that
@@ -99,8 +101,24 @@ XAPPAdapter.prototype.adapt = function(xappTag, intent, xappResponse) {
         'introductionReprompt': introduction,
         'ssml': ssml,
         'tracks': tracks
-    }
+    };
     return audioData;
+};
+
+/**
+ * Creates a new name for the file and uploads asynchronously to S3
+ * @param xapp
+ * @param part
+ */
+XAPPAdapter.prototype.convert = function(xapp, part, url, callback) {
+    var key = strip(xapp.accountName) + "-" + strip(xapp.xappName) + "-" + xapp.id + "-" + part + ".mp3";
+    var s3url = AudioConverter.convertAndUpload(key, url, function (outputUrl) {
+        if (callback !== undefined) {
+            console.log("S3 Object Created: " + outputUrl);
+            callback();
+        }
+    });
+    return s3url;
 };
 
 XAPPAdapter.prototype.addTrack = function(tracks, xappTag, jsonData) {
@@ -239,6 +257,10 @@ function phrasesMatch (s, s2) {
 
     return s === s2;
 }
+
+function strip(s) {
+    return replaceAll(s, ' ', '');
+};
 
 function replaceAll(str, search, replacement) {
     return str.split(search).join(replacement);
