@@ -47,9 +47,6 @@ exports.handler = function(event, context, callback){
         AudioManager.load("XAPP", 'Streaming/JPKStreamingTest', {environment: 'XappMediaTest'}, intentName, function () {
             alexa.execute();
         });
-        // AudioManager.load("file", "test/rssFeed.xml", intentName, function () {
-        //     alexa.execute();
-        // });
     }
 };
 
