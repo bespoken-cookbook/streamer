@@ -25,5 +25,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/alexa/skill-sample-nodejs-audio-player"
+  },
+  "scripts": {
+    "test": "mocha test/*Test.js"
   }
 }

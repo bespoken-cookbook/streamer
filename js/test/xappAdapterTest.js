@@ -58,7 +58,7 @@ describe('XAPPAdapter', function() {
                 'XappMediaApiKey',
                 'DefaultApp');
             adapter.request('JPKUnitTest/JPKUnitTest-CustomActionTTS', 'academics', function(audioData) {
-                assert.equal(audioData.ssml, '<speak><audio url="https://s3.amazonaws.com/xapp-alexa/JPKUnitTest-JPKUnitTest-CustomActionTTS-2760-TRAILING.mp3" /></speak>');
+                assert.equal(audioData.ssml, '<speak><audio src="https://s3.amazonaws.com/xapp-alexa/JPKUnitTest-JPKUnitTest-CustomActionTTS-2760-TRAILING.mp3" /></speak>');
             }, function () {
                 console.log("Converted");
                 done();

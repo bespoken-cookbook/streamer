@@ -18,7 +18,7 @@ describe('AudioManager', function() {
                 function () {
                     assert.equal(AudioManager.audioAssets().length, 0);
                     assert(AudioManager.ssml);
-                    assert.equal(AudioManager.ssml, '<audio url="https://s3.amazonaws.com/xapp-alexa/Streaming-JPKStreamingTest-2874-TRAILING.mp3" />');
+                    assert.equal(AudioManager.ssml, '<audio src="https://s3.amazonaws.com/xapp-alexa/Streaming-JPKStreamingTest-2874-TRAILING.mp3" />');
                     done();
                 }
             );
