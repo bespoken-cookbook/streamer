@@ -2,6 +2,19 @@ var https = require('https');
 var uuid = require('node-uuid');
 var AudioConverter = require('./audioConverter');
 
+var environments = {
+    AlexaDemo: {
+        server: 'preview.xappmedia.com',
+        apiKey: '28caaa49-ce89-4fcd-a662-1d5dbb82ca06',
+        appKey: '1e748bcb-3fc2-46bf-812d-7afa805d5fec'
+    },
+    XappMediaTest: {
+        server: 'preview.xappmedia.com',
+        apiKey: 'XappMediaApiKey',
+        appKey: 'DefaultApp'
+    }
+};
+
 /**
  * XAPPAdapter calls the accessor and turns XAPPs into Alexa feeds
  * @param server
@@ -13,6 +26,14 @@ var XAPPAdapter = function (server, apiKey, appKey) {
     this.accessor = new XAPPAccessor(server, apiKey, appKey);
 }
 
+XAPPAdapter.fromRequest = function(environmentName, tag, intent, callback) {
+    var environment = environments[environmentName];
+    if (environment === undefined) {
+        throw new Error("No environment defined: " + environmentName);
+    }
+    var adapter = new XAPPAdapter(environment.server, environment.apiKey, environment.appKey);
+    adapter.request(tag, intent, callback);
+}
 /**
  * Requests the specified xapp
  * Passes an intent if specified
@@ -194,7 +215,7 @@ XAPPAccessor.prototype.request = function (xappTag, callback) {
         }
     };
 
-    console.log("JSON: " + JSON.stringify(request, null, 2));
+    //console.log("JSON: " + JSON.stringify(request, null, 2));
 
     this.call('/rest/api/v4/xappRequest', request, callback);
 }
@@ -227,7 +248,7 @@ XAPPAccessor.prototype.call = function (path, requestJSON, callback) {
 
         response.on('end', function (arg1) {
             var responseData = JSON.parse(responseString);
-            console.log(JSON.stringify(responseData, null, 2));
+            //console.log(JSON.stringify(responseData, null, 2));
             if (response.statusCode === 200) {
                 callback(responseData);
             } else {

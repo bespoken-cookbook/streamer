@@ -86,7 +86,10 @@ RSSAdapter.fromXML = function(xml, callback) {
         tracks.push(alexaItem);
     }
 
-    callback(null, tracks);
+    var audioData = {
+        tracks: tracks
+    }
+    callback(null, audioData);
 };
 
 exports = module.exports = RSSAdapter;

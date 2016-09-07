@@ -24,21 +24,29 @@ exports.handler = function(event, context, callback){
         audioEventHandlers
     );
 
+    var intentName = null;
+    if (event.request.requestType === 'IntentRequest') {
+        intentName = event.request.intent.name;
+    }
+
     if (event.context !== undefined && event.context.System.device.supportedInterfaces.AudioPlayer === undefined) {
         alexa.emit(':tell', 'Sorry, this skill is not supported on this device');
     }
     else {
         // The resources are loaded once and then cached, but this is done asynchronously
-        AudioManager.load("file", "test/rssFeed.xml", function () {
+        AudioManager.load("XAPP", "test/rssFeed.xml", intentName, function () {
             alexa.execute();
         });
+        // AudioManager.load("file", "test/rssFeed.xml", intentName, function () {
+        //     alexa.execute();
+        // });
     }
 };
 
 function setupDynamo (alexa) {
     // Flip this flag if you want to use dynamo
     // If this is not set, we just use a simple, local Mock DB
-    let useDynamo = false;
+    var useDynamo = false;
     if (useDynamo) {
         // Configure this JSON file with your correct credentials
         //  Make a copy of config.example.json and substitute in the correct credentials for accessing Dynamo
