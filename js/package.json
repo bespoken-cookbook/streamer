@@ -4,7 +4,7 @@
   "description": "An audio player sample skill.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/*Test.js"
   },
   "keywords": [
     "alexa",
@@ -20,13 +20,11 @@
     "alexa-sdk": "^1.0.4",
     "mockery": "^1.7.0",
     "node-uuid": "^1.4.7",
+    "tmp": "0.0.28",
     "xml2js": "0.4.15"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/alexa/skill-sample-nodejs-audio-player"
-  },
-  "scripts": {
-    "test": "mocha test/*Test.js"
   }
 }
