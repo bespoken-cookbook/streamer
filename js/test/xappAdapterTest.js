@@ -9,9 +9,10 @@ describe('XAPPAdapter', function() {
                 'XappMediaApiKey',
                 'DefaultApp');
             adapter.request('Streaming/JPKStreamingTest', null, function(audioData) {
-                assert.equal(audioData.introduction, "<speak>Speak now or forever</speak>");
-                assert.equal(audioData.tracks.length, 3);
-                assert.equal(audioData.tracks[0].title, 'Podcast1');
+                assert.equal(audioData.introduction, '<speak>Speak now or forever</speak>');
+                assert.equal(audioData.tracks.length, 4);
+                assert.equal(audioData.tracks[0].title, 'About Us');
+                assert.equal(audioData.tracks[0].url, 'https://d2mxb5cuq6ityb.cloudfront.net/ContentPromoPrompt-d40b89b0-bd79-4fbc-8f4f-f74f76c2d89f.m4a');
                 assert.equal(audioData.tracks[1].title, 'Podcast1');
                 assert.equal(audioData.tracks[2].title, 'Podcast2');
                 done();
@@ -22,11 +23,10 @@ describe('XAPPAdapter', function() {
             var adapter = new XAPPAdapter('preview.xappmedia.com',
                 'XappMediaApiKey',
                 'DefaultApp');
-            adapter.request('Streaming/JPKStreamingTest', 'Academics', function(audioData) {
-                assert.equal(audioData.introduction, "<speak>Speak now or forever</speak>");
-                assert.equal(audioData.tracks.length, 2);
-                assert.equal(audioData.tracks[0].title, 'Podcast1');
-                assert.equal(audioData.tracks[1].title, 'Podcast2');
+            adapter.request('Streaming/JPKStreamingTest', 'Confirm Payment', function(audioData) {
+                assert.equal(audioData.introduction, '<speak>Speak now or forever</speak>');
+                assert.equal(audioData.tracks.length, 0);
+                assert.equal(audioData.ssml, '<speak><audio src="https://s3.amazonaws.com/xapp-alexa/Streaming-JPKStreamingTest-2874-TRAILING.mp3" /></speak>');
                 done();
             });
         });
@@ -37,7 +37,7 @@ describe('XAPPAdapter', function() {
                 'DefaultApp');
             adapter.request('Streaming/JPKStreamingTest', 'AMAZON.PlayIntent', function(audioData) {
                 assert.equal(audioData.introduction, '<speak>Speak now or forever</speak>');
-                assert.equal(audioData.tracks.length, 3);
+                assert.equal(audioData.tracks.length, 4);
                 done();
             });
         });

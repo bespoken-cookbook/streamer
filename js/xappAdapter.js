@@ -72,7 +72,7 @@ XAPPAdapter.prototype.adapt = function(xappTag, intent, xappResponse, conversion
             var customActionIntent = false;
             // If the user said something, and it was not a builtin intent, only use the action
             //  that corresponds to the intent
-            if (intent !== null && !intent.startsWith("AMAZON")) {
+            if (intent !== null && !intent.startsWith("AMAZON") && intent !== 'PlayAudio') {
                 if (!phrasesMatch(intent, action.phrase)) {
                     // Filter by the intent if one is specified
                     continue;
@@ -82,10 +82,13 @@ XAPPAdapter.prototype.adapt = function(xappTag, intent, xappResponse, conversion
             }
 
             var customParameter = action.fulfillments[0].extras.customParameter;
+            var trailingAudioURL = action.fulfillments[0].trailingAudioURL;
 
             var customJSON = null;
             try {
-                customJSON = JSON.parse(customParameter);
+                if (customParameter !== null && customParameter.length > 0) {
+                    customJSON = JSON.parse(customParameter);
+                }
             } catch (e) {
                 console.error(e + ' CustomData: ' + customParameter);
             }
@@ -97,9 +100,10 @@ XAPPAdapter.prototype.adapt = function(xappTag, intent, xappResponse, conversion
             //      Though only if this specific custom action was called for by the  user
             //  If it has a tracks array, then this is a playlist
             //  If it has one element, then just one stream
+            //  If it is set to feed = true, then play the trailing audio as a stream
             if (customActionIntent && customJSON === null) {
-                var url = this.convert(xappResponse, 'TRAILING', action.fulfillments[0].trailingAudioURL, conversionCallback);
-                ssml = '<speak><audio url="' + url + '" /></speak>';
+                var url = this.convert(xappResponse, 'TRAILING', trailingAudioURL, conversionCallback);
+                ssml = '<speak><audio src="' + url + '" /></speak>';
 
             } else if (customActionIntent && customJSON.tts !== undefined) {
                 // If there is a tts set, use that
@@ -112,6 +116,9 @@ XAPPAdapter.prototype.adapt = function(xappTag, intent, xappResponse, conversion
 
             } else if (customJSON !== null && customJSON.title !== undefined) {
                 this.addTrack(tracks, xappTag, customJSON);
+
+            } else if (customJSON !== null && customJSON.feed !== undefined && customJSON.feed) {
+                this.addTrack(tracks, xappTag, {'title': action.phrase, 'url': trailingAudioURL});
 
             }
 

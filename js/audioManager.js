@@ -10,14 +10,15 @@
 var AudioManager = {
     introduction: 'Welcome to the JPK Podcast. You can say, play the audio to begin the podcast.',
     introductionReprompt: 'You can say, play the audio, to begin.',
+    ssml: null,
     tracks: null, // Will be array of audio items
 
-    load: function (audioSourceType, audioSource, intent, callback) {
+    load: function (audioSourceType, audioSource, options, intent, callback) {
         this.audioSourceType = audioSourceType;
         this.audioSource = audioSource;
 
         if (audioSourceType === 'XAPP') {
-            require('./xappAdapter').XAPPAdapter.fromRequest('XappMediaTest', 'Streaming/JPKStreamingTest', intent, function (audioData) {
+            require('./xappAdapter').XAPPAdapter.fromRequest(options.environment, audioSource, intent, function (audioData) {
                 AudioManager.configure(audioData);
                 callback();
             });
@@ -45,6 +46,9 @@ var AudioManager = {
 
     configure: function(audioData) {
         AudioManager.tracks = audioData.tracks;
+        AudioManager.introduction = cleanSSML(audioData.introduction);
+        AudioManager.introductionReprompt = cleanSSML(audioData.introductionReprompt);
+        AudioManager.ssml = cleanSSML(audioData.ssml);
     },
 
     audioAssets: function () {
@@ -56,6 +60,18 @@ var AudioManager = {
         }
     }
 };
+
+function cleanSSML(ssml) {
+    if (ssml === undefined) {
+        return undefined;
+    }
+
+    if (ssml === null) {
+        return null;
+    }
+
+    return ssml.substring(7, ssml.indexOf('</speak>'));
+}
 
 module.exports = AudioManager;
 

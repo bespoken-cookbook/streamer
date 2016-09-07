@@ -21,11 +21,21 @@ exports.handler = function(event, context, callback){
         stateHandlers.playModeIntentHandlers,
         stateHandlers.remoteControllerHandlers,
         stateHandlers.resumeDecisionModeIntentHandlers,
-        audioEventHandlers
+        audioEventHandlers,
+        {
+            'unhandled': function () {
+                if (AudioManager.ssml !== undefined && AudioManager.ssml !== null) {
+                    var message = AudioManager.ssml;
+                    console.log("Message: " + message);
+                    this.response.speak(message).listen(message);
+                    this.emit(':responseReady');
+                }
+            }
+        }
     );
 
     var intentName = null;
-    if (event.request.requestType === 'IntentRequest') {
+    if (event.request.type === 'IntentRequest') {
         intentName = event.request.intent.name;
     }
 
@@ -34,7 +44,7 @@ exports.handler = function(event, context, callback){
     }
     else {
         // The resources are loaded once and then cached, but this is done asynchronously
-        AudioManager.load("XAPP", "test/rssFeed.xml", intentName, function () {
+        AudioManager.load("XAPP", 'Streaming/JPKStreamingTest', {environment: 'XappMediaTest'}, intentName, function () {
             alexa.execute();
         });
         // AudioManager.load("file", "test/rssFeed.xml", intentName, function () {

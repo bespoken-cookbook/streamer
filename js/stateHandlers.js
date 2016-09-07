@@ -59,7 +59,7 @@ var stateHandlers = {
             // No session ended logic
         },
         'Unhandled' : function () {
-            var message = 'Sorry, I could not understand. Please say, play the audio, to begin the audio.';
+            var message = overrideMessage('Sorry, I could not understand. Please say, play the audio, to begin the audio.');
             this.response.speak(message).listen(message);
             this.emit(':responseReady');
         }
@@ -117,7 +117,7 @@ var stateHandlers = {
             // No session ended logic
         },
         'Unhandled' : function () {
-            var message = 'Sorry, I could not understand. You can say, Next or Previous to navigate through the playlist.';
+            var message = overrideMessage('Sorry, I could not understand. You can say, Next or Previous to navigate through the playlist.');
             this.response.speak(message).listen(message);
             this.emit(':responseReady');
         }
@@ -165,7 +165,7 @@ var stateHandlers = {
             // No session ended logic
         },
         'Unhandled' : function () {
-            var message = 'Sorry, this is not a valid command. Please say help to hear what you can say.';
+            var message = overrideMessage('Sorry, this is not a valid command. Please say help to hear what you can say.');
             this.response.speak(message).listen(message);
             this.emit(':responseReady');
         }
@@ -323,6 +323,13 @@ var controller = function () {
         }
     }
 }();
+
+function overrideMessage(message) {
+    if (AudioManager.ssml !== undefined && AudioManager.ssml !== null) {
+        message = AudioManager.ssml;
+    }
+    return message;
+}
 
 function canThrowCard() {
     /*
