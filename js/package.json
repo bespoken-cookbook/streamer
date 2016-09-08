@@ -1,11 +1,8 @@
 {
   "name": "skill-sample-nodejs-audio-player",
-  "version": "1.0.0",
+  "version": "0.1.4",
   "description": "An audio player sample skill.",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha test/*Test.js"
-  },
   "keywords": [
     "alexa",
     "skill",
@@ -26,6 +23,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexa/skill-sample-nodejs-audio-player"
+    "url": "https://github.com/bespoken/skill-sample-nodejs-audio-player"
+  },
+  "scripts": {
+    "postversion": "git push && git push --tags",
+    "test": "mocha test/*Test.js"
   }
 }
