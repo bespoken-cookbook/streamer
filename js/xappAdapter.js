@@ -45,8 +45,14 @@ XAPPAdapter.fromRequest = function(environmentName, tag, intent, callback) {
 XAPPAdapter.prototype.request = function(xappTag, intent, callback, conversionCallback) {
     var self = this;
     this.accessor.request(xappTag, function (xappResponse) {
-        var audioData = self.adapt(xappTag, intent, xappResponse, conversionCallback);
-        callback(audioData);
+        if (xappResponse === null) {
+            console.error("No XAPP found: " + xappTag);
+            callback(null);
+        } else {
+            var audioData = self.adapt(xappTag, intent, xappResponse, conversionCallback);
+            callback(audioData);
+        }
+
     });
 }
 

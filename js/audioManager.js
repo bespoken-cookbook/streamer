@@ -19,8 +19,11 @@ var AudioManager = {
 
         if (audioSourceType === 'XAPP') {
             require('./xappAdapter').XAPPAdapter.fromRequest(options.environment, audioSource, intent, function (audioData) {
-                AudioManager.configure(audioData);
-                callback();
+                if (audioData === null) {
+                    callback("XAPP not found or error occurred");
+                } else {
+                    callback();
+                }
             });
         } else if (this.tracks === null) {
             console.log("Loading Audio Assets");

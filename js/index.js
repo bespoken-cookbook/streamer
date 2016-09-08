@@ -39,13 +39,25 @@ exports.handler = function(event, context, callback){
         intentName = event.request.intent.name;
     }
 
+    let xapp = "Streaming/JPKStreamingTest";
+    let environment = "XappMediaTest";
+    if (context.hasOwnProperty("queryString")) {
+        xapp = context.queryString["XAPP"];
+        environment = context.queryString["environment"];
+    }
+
+    console.log("Environment: " + environment + " XAPP: " + xapp);
     if (event.context !== undefined && event.context.System.device.supportedInterfaces.AudioPlayer === undefined) {
         alexa.emit(':tell', 'Sorry, this skill is not supported on this device');
     }
     else {
         // The resources are loaded once and then cached, but this is done asynchronously
-        AudioManager.load("XAPP", 'Streaming/JPKStreamingTest', {environment: 'XappMediaTest'}, intentName, function () {
-            alexa.execute();
+        AudioManager.load("XAPP", xapp, {environment: environment}, intentName, function (error) {
+            if (error !== undefined && error !== null) {
+                context.fail(error);
+            } else {
+                alexa.execute();
+            }
         });
     }
 };
