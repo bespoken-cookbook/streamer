@@ -1,7 +1,7 @@
 'use strict';
 
 var Alexa = require('alexa-sdk');
-var AudioManager = require('./AudioManager');
+var AudioManager = require('./audioManager');
 var constants = require('./constants');
 
 var stateHandlers = {

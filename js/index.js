@@ -2,9 +2,10 @@
 
 // We use mockery so that we can bypass Dynamo by default
 var mockery = require('mockery');
+var AWS = require('aws-sdk');
+
 setupDynamo();
 
-var AWS = require('aws-sdk');
 var Alexa = require('alexa-sdk');
 var constants = require('./constants');
 var stateHandlers = require('./stateHandlers');
