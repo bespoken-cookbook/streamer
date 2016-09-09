@@ -5,3 +5,4 @@ Create Docker image for Travis to run on
 Deploy it!
 Document syntax
 Put this in a separate repo?
+Figure out why npm version patch is not working

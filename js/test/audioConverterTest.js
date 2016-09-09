@@ -26,7 +26,7 @@ describe('AudioConverter', function() {
 
     describe('#upload', function() {
         it("Uploads file to S3", function(done) {
-            this.timeout(5000);
+            this.timeout(10000);
             var data = fs.readFileSync('test/UnitTestOutput.mp3');
             AudioConverter.upload('xapp-alexa', 'UnitTestOutput.mp3', data, function (url) {
                 assert.equal(url, 'https://s3.amazonaws.com/xapp-alexa/UnitTestOutput.mp3');
