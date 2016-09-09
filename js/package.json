@@ -1,6 +1,6 @@
 {
   "name": "skill-sample-nodejs-audio-player",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "An audio player sample skill.",
   "main": "index.js",
   "keywords": [

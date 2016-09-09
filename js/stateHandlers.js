@@ -335,7 +335,13 @@ var controller = function () {
             this.attributes['index'] = 0;
             this.attributes['offsetInMilliseconds'] = 0;
             this.attributes['playbackIndexChanged'] = true;
-            controller.play.call(this);
+            //controller.play.call(this);
+
+            var message = AudioManager.introduction;
+            var reprompt = AudioManager.introductionReprompt;
+
+            this.response.speak(message).listen(reprompt);
+            this.emit(':responseReady');
         }
     }
 }();
