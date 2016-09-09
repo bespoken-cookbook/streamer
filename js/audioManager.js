@@ -49,6 +49,7 @@ var AudioManager = {
     },
 
     configure: function(audioData) {
+        AudioManager.play = (audioData.customActionIntent && audioData.tracks.length > 0);
         AudioManager.tracks = audioData.tracks;
         AudioManager.introduction = cleanSSML(audioData.introduction);
         AudioManager.introductionReprompt = cleanSSML(audioData.introductionReprompt);

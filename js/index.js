@@ -28,9 +28,13 @@ exports.handler = function(event, context, callback){
     if (event.request.type === 'IntentRequest') {
         intentName = event.request.intent.name;
     }
+    console.log("IntentName: " + intentName);
 
-    let xapp = "Streaming/JPKStreamingTest";
-    let environment = "XappMediaTest";
+    //let xapp = "Streaming/JPKStreamingTest";
+    //let environment = "XappMediaTest";
+    let xapp = 'Brand Haiku/HomePageStreaming';
+    let environment = 'AlexaDemo';
+
     if (context.hasOwnProperty("queryString")) {
         xapp = context.queryString["XAPP"];
         environment = context.queryString["environment"];

@@ -6,3 +6,7 @@ Deploy it!
 Document syntax
 Put this in a separate repo?
 Figure out why npm version patch is not working
+Add re-prompt text
+    Now playing?
+    Special 
+Handle help text

@@ -59,9 +59,15 @@ var stateHandlers = {
             // No session ended logic
         },
         'Unhandled' : function () {
-            var message = overrideMessage('Sorry, I could not understand. Please say, play the audio, to begin the audio.');
-            this.response.speak(message).listen(message);
-            this.emit(':responseReady');
+            console.log('HereStarted' + AudioManager.play);
+            if (AudioManager.play) {
+                this.emit('PlayAudio');
+            } else {
+                var message = overrideMessage('Sorry, I could not understand. Please say, play the audio, to begin the audio.');
+                this.response.speak(message).listen(message);
+                this.emit(':responseReady');
+            }
+
         }
     }),
     playModeIntentHandlers : Alexa.CreateStateHandler(constants.states.PLAY_MODE, {
@@ -117,9 +123,15 @@ var stateHandlers = {
             // No session ended logic
         },
         'Unhandled' : function () {
-            var message = overrideMessage('Sorry, I could not understand. You can say, Next or Previous to navigate through the playlist.');
-            this.response.speak(message).listen(message);
-            this.emit(':responseReady');
+            console.log('HerePlaying');
+
+            if (AudioManager.play) {
+                this.emit('PlayAudio');
+            } else {
+                var message = overrideMessage('Sorry, I could not understand. You can say, Next or Previous to navigate through the playlist.');
+                this.response.speak(message).listen(message);
+                this.emit(':responseReady');
+            }
         }
     }),
     remoteControllerHandlers : Alexa.CreateStateHandler(constants.states.PLAY_MODE, {
@@ -165,9 +177,13 @@ var stateHandlers = {
             // No session ended logic
         },
         'Unhandled' : function () {
-            var message = overrideMessage('Sorry, this is not a valid command. Please say help to hear what you can say.');
-            this.response.speak(message).listen(message);
-            this.emit(':responseReady');
+            if (AudioManager.play) {
+                this.emit('PlayAudio');
+            } else {
+                var message = overrideMessage('Sorry, this is not a valid command. Please say help to hear what you can say.');
+                this.response.speak(message).listen(message);
+                this.emit(':responseReady');
+            }
         }
     })
 };

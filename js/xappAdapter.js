@@ -64,15 +64,19 @@ XAPPAdapter.prototype.request = function(xappTag, intent, callback, conversionCa
  */
 XAPPAdapter.prototype.adapt = function(xappTag, intent, xappResponse, conversionCallback) {
     var introduction = '';
-    if (xappResponse.nowPlayingText !== null) {
+    //console.log(JSON.stringify(xappResponse, null, 2));
+
+    if (xappResponse.nowPlayingText !== null && xappResponse.nowPlayingText.length > 0) {
         // If we see the speak tag, means this is already ssml
         introduction = this.textAsSSML(xappResponse.nowPlayingText);
     } else {
-        introduction = '<audio>' + xappResponse.linearCreatives[0].url + '</audio>';
+        var introURL = this.convert(xappResponse, 'PROMPT', xappResponse.linearCreatives[0].url);
+        introduction = '<speak><audio src="' + introURL + '"></audio></speak>';
     };
 
     var tracks = [];
     var ssml = null;
+    var hasCustomIntent = false;
     for (var action of xappResponse.actions) {
         if (action.actionType === 'CUSTOM') {
             var customActionIntent = false;
@@ -84,6 +88,7 @@ XAPPAdapter.prototype.adapt = function(xappTag, intent, xappResponse, conversion
                     continue;
                 } else {
                     customActionIntent = true;
+                    hasCustomIntent = true;
                 }
             }
 
@@ -131,6 +136,7 @@ XAPPAdapter.prototype.adapt = function(xappTag, intent, xappResponse, conversion
         }
     }
     var audioData = {
+        'customActionIntent': hasCustomIntent,
         'introduction': introduction,
         'introductionReprompt': introduction,
         'ssml': ssml,
