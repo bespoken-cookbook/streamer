@@ -16,23 +16,12 @@ exports.handler = function(event, context, callback){
     var alexa = Alexa.handler(event, context);
     alexa.appId = constants.appId;
     alexa.dynamoDBTableName = constants.dynamoDBTableName;
-
     alexa.registerHandlers(
         stateHandlers.startModeIntentHandlers,
         stateHandlers.playModeIntentHandlers,
         stateHandlers.remoteControllerHandlers,
         stateHandlers.resumeDecisionModeIntentHandlers,
-        audioEventHandlers,
-        {
-            'unhandled': function () {
-                if (AudioManager.ssml !== undefined && AudioManager.ssml !== null) {
-                    var message = AudioManager.ssml;
-                    console.log("Message: " + message);
-                    this.response.speak(message).listen(message);
-                    this.emit(':responseReady');
-                }
-            }
-        }
+        audioEventHandlers
     );
 
     var intentName = null;

@@ -44,7 +44,7 @@ class LambdaRunner {
 
         this.lambda = require(path);
         let context = new LambdaContext(response);
-        let qs = request.url.substr(request.url.lastIndexOf("?"));
+        let qs = request.url.substr(request.url.lastIndexOf("?") + 1);
         console.log("qs: "+ qs);
         context.queryString = querystring.parse(qs);
         try {

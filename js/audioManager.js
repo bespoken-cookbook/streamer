@@ -22,6 +22,7 @@ var AudioManager = {
                 if (audioData === null) {
                     callback("XAPP not found or error occurred");
                 } else {
+                    AudioManager.configure(audioData);
                     callback();
                 }
             });

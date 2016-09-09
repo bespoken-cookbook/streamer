@@ -156,6 +156,7 @@ XAPPAdapter.prototype.convert = function(xapp, part, url, callback) {
 };
 
 XAPPAdapter.prototype.addTrack = function(tracks, xappTag, jsonData) {
+    console.log("AddTrack: " + JSON.stringify(jsonData));
     let track = null;
     if (jsonData.title === undefined) {
         console.error('XAPP ' + xappTag + ' No title defined for track: ' + JSON.stringify(jsonData));
