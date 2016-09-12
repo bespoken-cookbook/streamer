@@ -7,7 +7,7 @@ node_js:
   - "4.4.6"
   - "4.4.5"
   - "4.4.4"
-before_install: cd js
+before_install: cd lib
 branches:
   only:
     - "XAPPAdapter"

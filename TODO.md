@@ -18,3 +18,17 @@ Create Docker image for Travis to run on
     Image MUST be private if it has AWS credentials
 Deploy it!
 Put this in a separate repo?
+
+**Speak Testing**
+AudioPlayer Speaker
+Add session support
+Change BSTSpeak to BSTEmulator?
+Handle audio player context info
+	"AudioPlayer": {
+      "offsetInMilliseconds": 16741,
+      "token": "1",
+      "playerActivity": "STOPPED"
+    },
+
+
+	
