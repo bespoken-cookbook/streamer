@@ -23,12 +23,17 @@ Put this in a separate repo?
 AudioPlayer Speaker
 Add session support
 Change BSTSpeak to BSTEmulator?
+Add support for JSON schemas
 Handle audio player context info
 	"AudioPlayer": {
       "offsetInMilliseconds": 16741,
       "token": "1",
       "playerActivity": "STOPPED"
     },
+    
+**Questions**
+What happens when replace enqueued is called but nothing is playing?
+    Assume it just starts playing, but perhaps there is an error thrown? need to check
 
 
 	

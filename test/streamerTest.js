@@ -15,8 +15,13 @@ describe('Streamer', function() {
                         console.error("Error: " + error);
                     }
 
-                    alexa.speak("Play Haiku", function(request, response, error) {
+                    // alexa.on(bst.AudioPlayer.RequestPlaybackNearlyFinished, function (request: any, response: any) {
+                    //
+                    // });
+
+                    alexa.speak('Play Haiku', function(request, response, error) {
                         assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
+                        done();
                     });
                 });
 
