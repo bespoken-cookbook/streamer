@@ -1,0 +1,450 @@
+Johns-MacBook-Pro:streamer jpk$ bst proxy lambda lib/index.js --verbose
+BST: v0.6.14  Node: v6.3.0
+
+Your URL for Alexa Skill configuration:
+https://proxy.bespoken.tools?node-id=eff1567e-c8a7-46b5-af5b-fe764dcd264c
+
+Enabling verbose logging
+INFO  2016-09-14T18:34:13.836Z LambdaRunner started on port: 10000
+INFO  2016-09-14T18:34:13.959Z Connected - proxy.bespoken.tools:5000
+INFO  2016-09-14T18:34:21.007Z RequestReceived: POST /?node-id=eff1567e-c8a7-46b5-af5b-fe764dcd264c&XAPP=Brand+Haiku/HomePageStreaming&environment=AlexaDemo ID: 1473878052474
+VERB  2016-09-14T18:34:21.008Z Payload:
+{
+  "version": "1.0",
+  "session": {
+    "new": true,
+    "sessionId": "amzn1.echo-api.session.f09b60a3-ed90-41c6-b208-191e3321077d",
+    "application": {
+      "applicationId": "amzn1.ask.skill.6dae2afb-790d-4547-973e-c8fca4ff8393"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AFP3ZWPOS2BGJR7OWJZ3DHPKMOMJJ3L4U3OCQE5UYPDHCCVAY3ZK4IJNKHAVGN3WZBBVLVYVTK43WVU3BB73SG7NA2TGJM3ERIZ7FGMN34J3I4VCKHMKBPMNNRGFF2P46OFUJYNOQXTEDWCFY3IYT2KGP5LQMCBTUXNYBWBKKZJXJTLSVKZLFQW4YAHGV7TKBYHEN34JQIFSUFQ"
+    }
+  },
+  "context": {
+    "AudioPlayer": {
+      "offsetInMilliseconds": 9325,
+      "token": "1",
+      "playerActivity": "STOPPED"
+    },
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.6dae2afb-790d-4547-973e-c8fca4ff8393"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AFP3ZWPOS2BGJR7OWJZ3DHPKMOMJJ3L4U3OCQE5UYPDHCCVAY3ZK4IJNKHAVGN3WZBBVLVYVTK43WVU3BB73SG7NA2TGJM3ERIZ7FGMN34J3I4VCKHMKBPMNNRGFF2P46OFUJYNOQXTEDWCFY3IYT2KGP5LQMCBTUXNYBWBKKZJXJTLSVKZLFQW4YAHGV7TKBYHEN34JQIFSUFQ"
+      },
+      "device": {
+        "supportedInterfaces": {
+          "AudioPlayer": {}
+        }
+      }
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.c44fb5f2-cad2-40e3-84e1-0afaca919d43",
+    "timestamp": "2016-09-14T18:34:20Z",
+    "locale": "en-US",
+    "intent": {
+      "name": "PlayAudio"
+    }
+  }
+}
+INFO  2016-09-14T18:34:21.009Z Forwarding localhost:10000
+INFO  2016-09-14T18:34:21.016Z Invoking Lambda: lib/index.js
+IntentName: PlayAudio
+EventState: undefined
+Environment: AlexaDemo XAPP: Brand Haiku/HomePageStreaming
+Loading Audio Assets
+Warning: Application ID is not set
+DYNAMO SET: _PLAY_MODE
+INFO  2016-09-14T18:34:21.157Z ResponseReceived ID: 1473878052474
+VERB  2016-09-14T18:34:21.158Z Payload:
+{
+  "version": "1.0",
+  "response": {
+    "shouldEndSession": true,
+    "card": {
+      "type": "Simple",
+      "title": "Playing Episode 140",
+      "content": "Playing Episode 140"
+    },
+    "directives": [
+      {
+        "type": "AudioPlayer.Play",
+        "playBehavior": "REPLACE_ALL",
+        "audioItem": {
+          "stream": {
+            "url": "https://s3.amazonaws.com/xapp-alexa/JPKUnitTest-JPKUnitTest-1645-TAKEMETOWALMART-TRAILING.mp3",
+            "token": "0",
+            "expectedPreviousToken": null,
+            "offsetInMilliseconds": 0
+          }
+        }
+      }
+    ]
+  },
+  "sessionAttributes": {
+    "playOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "index": 0,
+    "offsetInMilliseconds": 0,
+    "loop": true,
+    "shuffle": false,
+    "playbackIndexChanged": false,
+    "enqueuedToken": null,
+    "STATE": "_PLAY_MODE"
+  }
+}
+INFO  2016-09-14T18:34:22.942Z RequestReceived: POST /?node-id=eff1567e-c8a7-46b5-af5b-fe764dcd264c&XAPP=Brand+Haiku/HomePageStreaming&environment=AlexaDemo ID: 1473878062850
+VERB  2016-09-14T18:34:22.942Z Payload:
+{
+  "version": "1.0",
+  "context": {
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.6dae2afb-790d-4547-973e-c8fca4ff8393"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AFP3ZWPOS2BGJR7OWJZ3DHPKMOMJJ3L4U3OCQE5UYPDHCCVAY3ZK4IJNKHAVGN3WZBBVLVYVTK43WVU3BB73SG7NA2TGJM3ERIZ7FGMN34J3I4VCKHMKBPMNNRGFF2P46OFUJYNOQXTEDWCFY3IYT2KGP5LQMCBTUXNYBWBKKZJXJTLSVKZLFQW4YAHGV7TKBYHEN34JQIFSUFQ"
+      },
+      "device": {
+        "supportedInterfaces": {
+          "AudioPlayer": {}
+        }
+      }
+    }
+  },
+  "request": {
+    "type": "AudioPlayer.PlaybackStarted",
+    "requestId": "amzn1.echo-api.request.7f546817-ab87-46cf-8326-6ddf22a739b0",
+    "timestamp": "2016-09-14T18:34:22Z",
+    "locale": "en-US",
+    "token": "0",
+    "offsetInMilliseconds": 0
+  }
+}
+INFO  2016-09-14T18:34:22.943Z Forwarding localhost:10000
+INFO  2016-09-14T18:34:22.945Z Invoking Lambda: lib/index.js
+IntentName: null
+EventState: undefined
+Environment: AlexaDemo XAPP: Brand Haiku/HomePageStreaming
+Warning: Application ID is not set
+DYNAMO GET: _PLAY_MODE
+DYNAMO SET: _PLAY_MODE
+INFO  2016-09-14T18:34:22.947Z ResponseReceived ID: 1473878062850
+VERB  2016-09-14T18:34:22.947Z Payload:
+{
+  "version": "1.0",
+  "response": {
+    "shouldEndSession": true
+  },
+  "sessionAttributes": {
+    "playOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "index": 0,
+    "offsetInMilliseconds": 0,
+    "loop": true,
+    "shuffle": false,
+    "playbackIndexChanged": false,
+    "enqueuedToken": null,
+    "STATE": "_PLAY_MODE",
+    "token": "0",
+    "playbackFinished": false
+  }
+}
+INFO  2016-09-14T18:34:23.105Z RequestReceived: POST /?node-id=eff1567e-c8a7-46b5-af5b-fe764dcd264c&XAPP=Brand+Haiku/HomePageStreaming&environment=AlexaDemo ID: 1473878063019
+VERB  2016-09-14T18:34:23.106Z Payload:
+{
+  "version": "1.0",
+  "context": {
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.6dae2afb-790d-4547-973e-c8fca4ff8393"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AFP3ZWPOS2BGJR7OWJZ3DHPKMOMJJ3L4U3OCQE5UYPDHCCVAY3ZK4IJNKHAVGN3WZBBVLVYVTK43WVU3BB73SG7NA2TGJM3ERIZ7FGMN34J3I4VCKHMKBPMNNRGFF2P46OFUJYNOQXTEDWCFY3IYT2KGP5LQMCBTUXNYBWBKKZJXJTLSVKZLFQW4YAHGV7TKBYHEN34JQIFSUFQ"
+      },
+      "device": {
+        "supportedInterfaces": {
+          "AudioPlayer": {}
+        }
+      }
+    }
+  },
+  "request": {
+    "type": "AudioPlayer.PlaybackNearlyFinished",
+    "requestId": "amzn1.echo-api.request.ec965128-efec-40fb-9a58-57f7564fba4c",
+    "timestamp": "2016-09-14T18:34:23Z",
+    "locale": "en-US",
+    "token": "0",
+    "offsetInMilliseconds": 68
+  }
+}
+INFO  2016-09-14T18:34:23.106Z Forwarding localhost:10000
+INFO  2016-09-14T18:34:23.108Z Invoking Lambda: lib/index.js
+IntentName: null
+EventState: undefined
+Environment: AlexaDemo XAPP: Brand Haiku/HomePageStreaming
+Warning: Application ID is not set
+DYNAMO GET: _PLAY_MODE
+DYNAMO SET: _PLAY_MODE
+INFO  2016-09-14T18:34:23.110Z ResponseReceived ID: 1473878063019
+VERB  2016-09-14T18:34:23.110Z Payload:
+{
+  "version": "1.0",
+  "response": {
+    "shouldEndSession": true,
+    "directives": [
+      {
+        "type": "AudioPlayer.Play",
+        "playBehavior": "ENQUEUE",
+        "audioItem": {
+          "stream": {
+            "url": "https://feeds.soundcloud.com/stream/274166909-amazon-web-services-306355661-aws-podcast-episode-139.mp3",
+            "token": "1",
+            "expectedPreviousToken": "0",
+            "offsetInMilliseconds": 0
+          }
+        }
+      }
+    ]
+  },
+  "sessionAttributes": {
+    "playOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "index": 0,
+    "offsetInMilliseconds": 0,
+    "loop": true,
+    "shuffle": false,
+    "playbackIndexChanged": false,
+    "enqueuedToken": "1",
+    "STATE": "_PLAY_MODE",
+    "token": "0",
+    "playbackFinished": false
+  }
+}
+INFO  2016-09-14T18:34:26.797Z RequestReceived: POST /?node-id=eff1567e-c8a7-46b5-af5b-fe764dcd264c&XAPP=Brand+Haiku/HomePageStreaming&environment=AlexaDemo ID: 1473878066710
+VERB  2016-09-14T18:34:26.797Z Payload:
+{
+  "version": "1.0",
+  "context": {
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.6dae2afb-790d-4547-973e-c8fca4ff8393"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AFP3ZWPOS2BGJR7OWJZ3DHPKMOMJJ3L4U3OCQE5UYPDHCCVAY3ZK4IJNKHAVGN3WZBBVLVYVTK43WVU3BB73SG7NA2TGJM3ERIZ7FGMN34J3I4VCKHMKBPMNNRGFF2P46OFUJYNOQXTEDWCFY3IYT2KGP5LQMCBTUXNYBWBKKZJXJTLSVKZLFQW4YAHGV7TKBYHEN34JQIFSUFQ"
+      },
+      "device": {
+        "supportedInterfaces": {
+          "AudioPlayer": {}
+        }
+      }
+    }
+  },
+  "request": {
+    "type": "AudioPlayer.PlaybackFinished",
+    "requestId": "amzn1.echo-api.request.9a646152-0fea-461f-81fc-449808c73776",
+    "timestamp": "2016-09-14T18:34:26Z",
+    "locale": "en-US",
+    "token": "0",
+    "offsetInMilliseconds": 3600
+  }
+}
+INFO  2016-09-14T18:34:26.797Z Forwarding localhost:10000
+INFO  2016-09-14T18:34:26.799Z Invoking Lambda: lib/index.js
+IntentName: null
+EventState: undefined
+Environment: AlexaDemo XAPP: Brand Haiku/HomePageStreaming
+Warning: Application ID is not set
+DYNAMO GET: _PLAY_MODE
+DYNAMO SET: _PLAY_MODE
+INFO  2016-09-14T18:34:26.800Z ResponseReceived ID: 1473878066710
+VERB  2016-09-14T18:34:26.800Z Payload:
+{
+  "version": "1.0",
+  "response": {
+    "shouldEndSession": true
+  },
+  "sessionAttributes": {
+    "playOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "index": 0,
+    "offsetInMilliseconds": 0,
+    "loop": true,
+    "shuffle": false,
+    "playbackIndexChanged": false,
+    "enqueuedToken": false,
+    "STATE": "_PLAY_MODE",
+    "token": "0",
+    "playbackFinished": true
+  }
+}
+INFO  2016-09-14T18:34:27.147Z RequestReceived: POST /?node-id=eff1567e-c8a7-46b5-af5b-fe764dcd264c&XAPP=Brand+Haiku/HomePageStreaming&environment=AlexaDemo ID: 1473878067045
+VERB  2016-09-14T18:34:27.147Z Payload:
+{
+  "version": "1.0",
+  "context": {
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.6dae2afb-790d-4547-973e-c8fca4ff8393"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AFP3ZWPOS2BGJR7OWJZ3DHPKMOMJJ3L4U3OCQE5UYPDHCCVAY3ZK4IJNKHAVGN3WZBBVLVYVTK43WVU3BB73SG7NA2TGJM3ERIZ7FGMN34J3I4VCKHMKBPMNNRGFF2P46OFUJYNOQXTEDWCFY3IYT2KGP5LQMCBTUXNYBWBKKZJXJTLSVKZLFQW4YAHGV7TKBYHEN34JQIFSUFQ"
+      },
+      "device": {
+        "supportedInterfaces": {
+          "AudioPlayer": {}
+        }
+      }
+    }
+  },
+  "request": {
+    "type": "AudioPlayer.PlaybackStarted",
+    "requestId": "amzn1.echo-api.request.fe813833-97d7-4681-9a8f-672836cecde6",
+    "timestamp": "2016-09-14T18:34:27Z",
+    "locale": "en-US",
+    "token": "1",
+    "offsetInMilliseconds": 0
+  }
+}
+INFO  2016-09-14T18:34:27.147Z Forwarding localhost:10000
+INFO  2016-09-14T18:34:27.149Z Invoking Lambda: lib/index.js
+IntentName: null
+EventState: undefined
+Environment: AlexaDemo XAPP: Brand Haiku/HomePageStreaming
+Warning: Application ID is not set
+DYNAMO GET: _PLAY_MODE
+DYNAMO SET: _PLAY_MODE
+INFO  2016-09-14T18:34:27.151Z ResponseReceived ID: 1473878067045
+VERB  2016-09-14T18:34:27.152Z Payload:
+{
+  "version": "1.0",
+  "response": {
+    "shouldEndSession": true
+  },
+  "sessionAttributes": {
+    "playOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "index": 1,
+    "offsetInMilliseconds": 0,
+    "loop": true,
+    "shuffle": false,
+    "playbackIndexChanged": false,
+    "enqueuedToken": false,
+    "STATE": "_PLAY_MODE",
+    "token": "1",
+    "playbackFinished": false
+  }
+}
+INFO  2016-09-14T18:34:30.180Z RequestReceived: POST /?node-id=eff1567e-c8a7-46b5-af5b-fe764dcd264c&XAPP=Brand+Haiku/HomePageStreaming&environment=AlexaDemo ID: 1473878070092
+VERB  2016-09-14T18:34:30.180Z Payload:
+{
+  "version": "1.0",
+  "context": {
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.6dae2afb-790d-4547-973e-c8fca4ff8393"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AFP3ZWPOS2BGJR7OWJZ3DHPKMOMJJ3L4U3OCQE5UYPDHCCVAY3ZK4IJNKHAVGN3WZBBVLVYVTK43WVU3BB73SG7NA2TGJM3ERIZ7FGMN34J3I4VCKHMKBPMNNRGFF2P46OFUJYNOQXTEDWCFY3IYT2KGP5LQMCBTUXNYBWBKKZJXJTLSVKZLFQW4YAHGV7TKBYHEN34JQIFSUFQ"
+      },
+      "device": {
+        "supportedInterfaces": {
+          "AudioPlayer": {}
+        }
+      }
+    }
+  },
+  "request": {
+    "type": "AudioPlayer.PlaybackNearlyFinished",
+    "requestId": "amzn1.echo-api.request.3890083b-a2d8-4e16-a2e6-c985b6a1d6c3",
+    "timestamp": "2016-09-14T18:34:30Z",
+    "locale": "en-US",
+    "token": "1",
+    "offsetInMilliseconds": 2748
+  }
+}
+INFO  2016-09-14T18:34:30.181Z Forwarding localhost:10000
+INFO  2016-09-14T18:34:30.183Z Invoking Lambda: lib/index.js
+IntentName: null
+EventState: undefined
+Environment: AlexaDemo XAPP: Brand Haiku/HomePageStreaming
+Warning: Application ID is not set
+DYNAMO GET: _PLAY_MODE
+DYNAMO SET: _PLAY_MODE
+INFO  2016-09-14T18:34:30.184Z ResponseReceived ID: 1473878070092
+VERB  2016-09-14T18:34:30.185Z Payload:
+{
+  "version": "1.0",
+  "response": {
+    "shouldEndSession": true,
+    "directives": [
+      {
+        "type": "AudioPlayer.Play",
+        "playBehavior": "ENQUEUE",
+        "audioItem": {
+          "stream": {
+            "url": "https://feeds.soundcloud.com/stream/273105224-amazon-web-services-306355661-aws-podcast-episode-138.mp3",
+            "token": "2",
+            "expectedPreviousToken": "1",
+            "offsetInMilliseconds": 0
+          }
+        }
+      }
+    ]
+  },
+  "sessionAttributes": {
+    "playOrder": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "index": 1,
+    "offsetInMilliseconds": 0,
+    "loop": true,
+    "shuffle": false,
+    "playbackIndexChanged": false,
+    "enqueuedToken": "2",
+    "STATE": "_PLAY_MODE",
+    "token": "1",
+    "playbackFinished": false
+  }
+}
+^C
+Johns-MacBook-Pro:streamer jpk$ 

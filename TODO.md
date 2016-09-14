@@ -30,10 +30,29 @@ Handle audio player context info
       "token": "1",
       "playerActivity": "STOPPED"
     },
+T4est launch requests
+Include playeractivity on audioplayer requests
+Removed debug flag from lambdarunner
+validate slots when called with intended
+Does not seem like session.used is being called at the right time
+    Is it a new session if I call resume after some time?
+Need to pass attributes back and forth
+Make sure everything works when no reply is received
     
 **Questions**
 What happens when replace enqueued is called but nothing is playing?
     Assume it just starts playing, but perhaps there is an error thrown? need to check
+Confirm that skills can jump straight in without launch request
+Add support for context device
+Do I get a playbacknearlyfinished everytime someone pauses and resumes?
+What do I get everytime a track changes?
+Does help get sent to the skill?
+Can we create a certifier, that runs through suite of common cases?
+There is no intent when the user says stop, right?
+Does the intent model get checked for builtin actions like Shuffle? Do they get sent if not present?
+What to do with expectedprevioustoken on the audioitem?
+Does stop need to be called when replaceAll comes down with a play directive?
+
 
 
 	
