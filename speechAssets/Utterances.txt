@@ -13,7 +13,11 @@ PlayAudio to start podcast
 PlayAudio to start the podcast
 PlayAudio to start playing the podcast
 PlayAudio to play the podcast
-PlayAudio Play Haiku
+PlayAudio play
+Scan scan
+Scan scan titles
+About about
+About about the podcast
 LatestAudio latest
 LatestAudio play latest
 LatestAudio play the latest

@@ -5,11 +5,11 @@ describe('AudioManager', function() {
     describe('#fromURL', function() {
         it("Correctly loads RSS feed from URL", function(done) {
             this.timeout(10000);
-            AudioManager.load('file', 'test/rssFeed.xml', null, null, function () {
+            AudioManager.load('file', 'test/rssFeed.xml', function () {
                 assert.equal(AudioManager.feed().items.length, 6);
                 assert(AudioManager.feed());
                 AudioManager.introductorySSML(function (ssml) {
-                    assert.equal(ssml, '<speak><audio src="https://s3.amazonaws.com/bespoken/streaming/ExampleAlexaPodcast-INTRODUCTION.mp3" /></speak>');
+                    assert.equal(ssml, '<audio src="https://s3.amazonaws.com/bespoken/streaming/ExampleAlexaPodcast-INTRODUCTION.mp3" />');
                     done();
                 });
             });

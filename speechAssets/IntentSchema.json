@@ -4,6 +4,12 @@
       "intent": "PlayAudio"
     },
     {
+      "intent": "About"
+    },
+    {
+      "intent": "Scan"
+    },
+    {
       "intent": "LatestAudio"
     },
     {
