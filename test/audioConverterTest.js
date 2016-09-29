@@ -1,14 +1,23 @@
 var assert = require('assert');
 var fs = require('fs');
-var AudioConverter = require('../audioConverter');
+var AudioConverter = require('../lib/audioConverter');
 
 describe('AudioConverter', function() {
     describe('#convert', function() {
-        it("Correctly converts file to mp3", function(done) {
+        it("Correctly converts m4a file to mp3", function(done) {
             var inputData  = fs.readFileSync('test/ContentPromoPrompt.m4a');
-            AudioConverter.convert(inputData, function (data) {
+            AudioConverter.convert(inputData, 'm4a', function (data) {
                 fs.writeFileSync('test/UnitTestOutput.mp3', data, {'encoding': null});
                 assert.equal(data.length, 189140);
+                done();
+            });
+        });
+
+        it("Correctly converts mp3 file to mp3", function(done) {
+            var inputData  = fs.readFileSync('test/UnitTestOutput.mp3');
+            AudioConverter.convert(inputData, 'mp3', function (data) {
+                fs.writeFileSync('test/UnitTestOutput.mp3', data, {'encoding': null});
+                assert.equal(data.length, 189356);
                 done();
             });
         });
@@ -41,7 +50,7 @@ describe('AudioConverter', function() {
             AudioConverter.convertAndUpload('UnitTestUploaded.mp3',
                 'https://d2mxb5cuq6ityb.cloudfront.net/ContentPromoPrompt-d77c8cac-de94-4c5b-8014-34c65beb0cc1.m4a',
                 function (url) {
-                    assert.equal(url, 'https://s3.amazonaws.com/xapp-alexa/UnitTestUploaded.mp3');
+                    assert.equal(url, 'https://s3.amazonaws.com/bespoken/streaming/UnitTestUploaded.mp3');
                     done();
                 }
             );
