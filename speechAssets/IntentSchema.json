@@ -1,16 +1,19 @@
 {
   "intents": [
     {
-      "intent": "PlayAudio"
+      "intent": "Play",
+      "slots": [
+          {
+            "name": "feedItem",
+            "type": "AMAZON.NUMBER"
+          }
+      ]
     },
     {
       "intent": "About"
     },
     {
       "intent": "Scan"
-    },
-    {
-      "intent": "LatestAudio"
     },
     {
       "intent": "AMAZON.PauseIntent"

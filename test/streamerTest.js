@@ -6,10 +6,11 @@ describe('Streamer', function() {
     var alexa = null;
 
     beforeEach(function (done) {
-        server = new bst.LambdaServer('./lib/index.js', 10000, true);
+        server = new bst.LambdaServer('./lib/index.js', 10000, false);
         alexa = new bst.BSTAlexa('http://localhost:10000',
             './speechAssets/IntentSchema.json',
-            './speechAssets/Utterances.txt');
+            './speechAssets/Utterances.txt',
+            'JPK');
         server.start(function (error) {
             alexa.start(function (error) {
                 if (error !== undefined) {
@@ -29,16 +30,65 @@ describe('Streamer', function() {
         });
     });
 
-    describe('#plays', function() {
-        it('Launches and plays', function (done) {
+    describe('Play Latest', function() {
+        it('Launches and then plays first', function (done) {
             this.timeout(10000);
 
-            alexa.launched(function(error, response) {
-                assert.equal(response.response.outputSpeech.ssml, '<speak> <audio src="https://s3.amazonaws.com/bespoken/streaming/WeStudyBillionaires-TheInvestorsPodcast-INTRODUCTION.mp3" /> </speak>');
+            alexa.launched(function (error, response) {
+                //assert.equal(response.response.outputSpeech.ssml, '<speak> <audio src="https://s3.amazonaws.com/bespoken/streaming/WeStudyBillionaires-TheInvestorsPodcast-INTRODUCTION.mp3" /> </speak>');
+                assert.equal(response.response.outputSpeech.ssml, '<speak> First, we like to have fun.  Second, we read and talk about the books that have influenced billionaires the most.   </speak>');
+                alexa.spoken('Play', function (error, response) {
+                    assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
+                    assert.equal(response.response.directives[0].audioItem.stream.token, '0');
+                    assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/theinvestorspodcast/TIP_-_105_-_Mastermind_-_final_mp3.mp3?dest-id=223117')
+                    done();
+                });
+            });
+        });
+
+        it('Plays', function (done) {
+            this.timeout(10000);
+
+            alexa.spoken('Play', function (error, response) {
+                assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
+                assert.equal(response.response.directives[0].audioItem.stream.token, '0');
+                assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/theinvestorspodcast/TIP_-_105_-_Mastermind_-_final_mp3.mp3?dest-id=223117')
                 done();
             });
         });
 
+        it('Plays And Goes To Next', function (done) {
+            this.timeout(10000);
+
+            alexa.spoken('Play', function (error, response) {
+                alexa.intended('AMAZON.NextIntent', null, function (error, response) {
+                    // We want to make sure playback started
+                    alexa.on('AudioPlayer.PlaybackStarted', function (audioItem) {
+                        assert.equal(audioItem.stream.url, 'https://traffic.libsyn.com/theinvestorspodcast/TIP_-_104_-_King_Icahn_final_mp3.mp3?dest-id=223117')
+                        done();
+                    });
+
+                    assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
+                    assert.equal(response.response.directives[0].audioItem.stream.token, '1');
+                    assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/theinvestorspodcast/TIP_-_104_-_King_Icahn_final_mp3.mp3?dest-id=223117');
+                });
+            });
+
+        });
+    });
+
+    describe('Play Named', function() {
+        it('Plays Named Podcast', function (done) {
+            this.timeout(10000);
+
+            alexa.spoken('Play {3}', function (error, response) {
+                assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
+                assert.equal(response.response.directives[0].audioItem.stream.token, '3');
+                assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/theinvestorspodcast/TIP102_final_mp3_with_new_intro_with_discount_code.mp3?dest-id=223117')
+                done();
+            });
+        });
+    });
         // it('Starts and plays', function (done) {
         //     this.timeout(10000);
         //
@@ -126,5 +176,4 @@ describe('Streamer', function() {
         //         });
         //     });
         // });
-    });
 });

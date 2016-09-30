@@ -40,31 +40,13 @@
         <description><![CDATA[First, we like to have fun.  Second, we read and talk about the books that have influenced billionaires the most.  ]]></description>
         <itunes:subtitle><![CDATA[We Study Billionaires - Investing Podcast]]></itunes:subtitle>
         <item>
-            <title>Introduction</title>
-            <link>http://podcast411.com/forums/viewtopic.php?t=451</link>
-            <guid>https://s3.amazonaws.com/bespoken/streaming/16683-WatchVideo.m4a</guid>
-            <description> Welcome the first show on Alexa Streaming </description>
-            <enclosure url="https://s3.amazonaws.com/xapp-alexa/JPKUnitTest-JPKUnitTest-1645-TAKEMETOWALMART-TRAILING.mp3" length="11779397" type="audio/mpeg"/>
-            <category>Podcasts</category>
-            <pubDate>Sun, 28 Aug 2016 11:30:00 -0500</pubDate>
-            <itunes:author>John @ bespoken.tools</itunes:author>
-
-            <itunes:explicit>No</itunes:explicit>
-            <itunes:subtitle>Welcome to the show it is August 28th and this is our first show
-                show.  Today will be information on how to use streaming with Alexa </itunes:subtitle>
-            <itunes:summary> Welcome to the show it is August 28th and this is our first show
-                show.  Today will be information on how to use streaming with Alexa </itunes:summary>
-            <itunes:duration>00:24:30</itunes:duration>
-            <itunes:keywords>Alexa, Bespoken</itunes:keywords>
-        </item>
-        <item>
             <title>TIP 105 : Mastermind Group 2016 3rd Quarter (Business Podcast)</title>
             <pubDate>Sun, 25 Sep 2016 00:00:00 +0000</pubDate>
             <guid isPermaLink="false"><![CDATA[faef809422e3c1d6250e1f680e9956b9]]></guid>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
-            <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
+            <itunes:image href="https://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode the Mastermind Group discusses various topics during the 3rd quarter 2016.  Below are some of the ideas the group talks about.</p> <ul> <li>How can the investor find a decent yield when so many asset classes are overvalued?</li> <li>Why special situations might provide the best investing approach right now</li> <li>If Humana is a profitable risk arbitrage investment right now</li> <li>How you can generate a steady cash flow by selling put options in great businesses</li> <li>If dollar cost averaging is a good investment strategy in the current market conditions</li> <li>If QE causes a roaring stock market</li> </ul> <p> </p> <p> </p> <p> </p>]]></description>
-            <enclosure length="40150425" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_-_105_-_Mastermind_-_final_mp3.mp3?dest-id=223117" />
+            <enclosure length="40150425" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_-_105_-_Mastermind_-_final_mp3.mp3?dest-id=223117" />
             <itunes:duration>41:49</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>toby,dollar,risk,janet,cost,decisions,options,fed,arbitrage,humana,quantitative,carlisle,yellen,averaging,easing</itunes:keywords>
@@ -77,7 +59,7 @@
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>One of the most misunderstood celebrity investors in the world is Billionaire Carl Icahn. Luckily for our audience, our guest Mark Stevens was one of the few people to forge a relationship with the unique and un-empathetic investor.</p> <p>In this episode you'll learn about:</p> <p>-What “greenmail” is and how Icahn basically got paid for not taking over companies<br /> -How to conduct an activist approach to investing<br /> -Why Carl Icahn always wins in a negotiation<br /> -If Carl Icahn is truly a bear in the current market conditions</p>]]></description>
-            <enclosure length="35423116" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_-_104_-_King_Icahn_final_mp3.mp3?dest-id=223117" />
+            <enclosure length="35423116" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_-_104_-_King_Icahn_final_mp3.mp3?dest-id=223117" />
             <itunes:duration>36:53</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:keywords>mark,carl,king,corporate,warren,hostile,stevens,buffett,raiders,icahn,takeovers</itunes:keywords>
@@ -90,7 +72,7 @@
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig talk to private equity expert, Doug McCormick, about using business principals to invest your family income.  Doug provides some unique ways to think about spending one's time and treating it like an asset.</p>]]></description>
-            <enclosure length="43727740" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_103_-_final_mp3.mp3?dest-id=223117" />
+            <enclosure length="43727740" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_103_-_final_mp3.mp3?dest-id=223117" />
             <itunes:duration>45:33</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>real,doug,ray,year,dave,estate,bubble,bond,30,interest,mccormick,rates,dalio</itunes:keywords>
@@ -103,7 +85,7 @@
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>Billionaire Warren Buffett said his investing approach is 85% Graham and 15% Fisher. Because of this quote, Preston and Stig read Philip Fisher's famous book, Common Stocks and Uncommon Profits.  The book provides an interesting background on qualitative investing.  Fisher's style is geared towards teaching the reader how to look for growth companies that promise expansion in their respective markets.   </p>]]></description>
-            <enclosure length="50513875" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP102_final_mp3_with_new_intro_with_discount_code.mp3?dest-id=223117" />
+            <enclosure length="50513875" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP102_final_mp3_with_new_intro_with_discount_code.mp3?dest-id=223117" />
             <itunes:duration>52:37</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>graham,money,investing,finance,phil,value,benjamin,fisher,warren,buffett</itunes:keywords>
@@ -116,7 +98,7 @@
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig read the book, Creativity Inc., by Ed Catmull.  This was a fantastic book for anyone wanting to learn how to be more creative.  Additionally, the book goes into great detail describing the important aspects of designing a business that will have an enduring competitive advantage.  </p>]]></description>
-            <enclosure length="67057415" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Creativity_Inc_-_final_new_intro.mp3?dest-id=223117" />
+            <enclosure length="67057415" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Creativity_Inc_-_final_new_intro.mp3?dest-id=223117" />
             <itunes:duration>46:34</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>steve,disney,walt,jobs,movies,story,star,wars,george,animation,ed,3d,lucas,pixar,toy,catmull</itunes:keywords>
@@ -129,7 +111,7 @@
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In Preston and Stig's 100th episode of The Investor's Podcast, they celebrate by cold calling a few members of their audience.  The members of the community can ask any question they want in an unscripted and open format.  Additionally, Preston and Stig talk about what their key take-aways were after studying billionaires and the market for 100 shows.</p>]]></description>
-            <enclosure length="83148569" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_100_final_-_with_RVTV_.mp3?dest-id=223117" />
+            <enclosure length="83148569" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_100_final_-_with_RVTV_.mp3?dest-id=223117" />
             <itunes:duration>01:55:27</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>graham,hill,jim,doug,jack,ma,flow,dale,andrew,value,napoleon,cash,benjamin,warren,intrinsic,mccormick,faber,buffett,meb,discounted,carnegie,rickards</itunes:keywords>
@@ -142,7 +124,7 @@
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig learn about the Chinese billionaire Jack Ma.  Jack is the founder of the internet company, Alibaba, which is the biggest internet company in Asia.  His company has over 407 million users and quickly growing.  Within the next five years, Alibaba may ship more packages per day than all the daily mail in the United States.  Preston and Stig learn about Jack by reading Duncan Clark's new book, Alibaba. </p>]]></description>
-            <enclosure length="31172467" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Final_TIP_99_mp3_-_with_real_vision.mp3?dest-id=223117" />
+            <enclosure length="31172467" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Final_TIP_99_mp3_-_with_real_vision.mp3?dest-id=223117" />
             <itunes:duration>43:16</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>jack,ma,jeff,bow,clark,duncan,ebay,amazon,ecommerce,tow,bezos,alibaba,alipay</itunes:keywords>
@@ -155,7 +137,7 @@
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p><a href= "https://www.theinvestorspodcast.com/the-power-of-habit-charles-duhigg/" target="_blank">View the Show Notes</a> for this episode</p> <p> </p> <p><a href= "https://www.amazon.com/gp/product/081298160X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=081298160X&linkCode=as2&tag=pypull-20&linkId=88d2d3e5bab22eeb0a781230aa0c1530"> Read reviews of, The Power of Habit, on Amazon</a></p> <p> </p> <p>In this episode, Preston and Stig talk about the New York Times best selling book, The Power of Habit, by Charles Duhigg.  The book is an amazing opportunity to learn about your personal habits and how powerful they are at controlling your daily life.  Once an individual recognizes which habits they want to reform, Charlies provides methods for re-programming your life. </p> <p> </p> <p> </p>]]></description>
-            <enclosure length="43429190" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Final_mp3_with_RVTV_V2.mp3?dest-id=223117" />
+            <enclosure length="43429190" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Final_mp3_with_RVTV_V2.mp3?dest-id=223117" />
             <itunes:duration>51:41</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>and,the,of,rich,charles,power,grow,think,andrew,habit,carnegie,duhigg</itunes:keywords>
@@ -168,7 +150,7 @@
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Mr. Richard Duncan provides a detailed lesson about the history of the US dollar and the American trade deficit.  As the episode progresses, the listener will learn how the US defaulted on the Bretton Woods agreement in 1971 and how that drastically impacted the difficult situations we face today.  Click here to view the <a href= "https://www.theinvestorspodcast.com/history-of-us-dollar-richard-duncan/"> Show Notes</a></p> <p> </p> <p>Links to Richard's books:</p> <p><a href= "https://www.amazon.com/gp/product/1118157796/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=pypull-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1118157796&linkId=b8dc0c661db1b8c360809a09c14a1616" target="_blank">The New Depression – Read reviews of this book</a></p> <p><a href= "https://www.amazon.com/gp/product/0470821701/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=pypull-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0470821701&linkId=c84f91441f38afa619646b99e42059e4"> The Dollar Crisis – Read reviews of this book</a></p> <p> </p> <p> </p> <p> </p>]]></description>
-            <enclosure length="54630026" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Final_Episode_96_V2mp3.mp3?dest-id=223117" />
+            <enclosure length="54630026" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Final_Episode_96_V2mp3.mp3?dest-id=223117" />
             <itunes:duration>01:05:01</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>conference,investing,trade,international,us,fund,deficit,woods,macro,monetary,imf,bretton</itunes:keywords>
@@ -181,7 +163,7 @@
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig talk about Billionaire Phil Knight and how he founded Nike.  They use the book, Shoe Dog, to gather a first-hand account of Phil's journey at starting the business.  You will learn about the struggles and difficulties of starting a brand and a new business.   </p>]]></description>
-            <enclosure length="41073280" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_97_V2_final_mp3.mp3?dest-id=223117" />
+            <enclosure length="41073280" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_97_V2_final_mp3.mp3?dest-id=223117" />
             <itunes:duration>48:53</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>of,university,shoes,bill,oregon,tiger,knight,nike,phillip,bowman</itunes:keywords>
@@ -194,7 +176,7 @@
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig talk about the most recent book they read, <em>Delivering Happiness</em>.  This book was written by billionaire Tony Hsieh and it was one of the best books that Preston and Stig read in 2016.    </p>]]></description>
-            <enclosure length="74495556" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Final_episode_95_V3_mp3_-_with_RV.mp3?dest-id=223117" />
+            <enclosure length="74495556" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Final_episode_95_V3_mp3_-_with_RV.mp3?dest-id=223117" />
             <itunes:duration>51:43</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>service,business,culture,strategy,jeff,customer,tony,zappos,amazon,bezos,hsieh</itunes:keywords>
@@ -207,7 +189,7 @@
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig talk to one of the most notable macro investors in the world, Raoul Pal.  Raoul is the owner and CEO of Real Vision TV and he has interviewed some of the biggest names in finance.  During this interview, Raoul talks about some of the biggest ideas he has heard from billionaire hedge fund managers and high net worth individuals.  </p>]]></description>
-            <enclosure length="40761741" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Episode_94_final_V4_mp3.mp3?dest-id=223117" />
+            <enclosure length="40761741" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Episode_94_final_V4_mp3.mp3?dest-id=223117" />
             <itunes:duration>42:25</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>real,jim,investing,rogers,tv,george,ray,china,vision,warren,stan,pal,raoul,buffett,soros,dalio,druckenmiller</itunes:keywords>
@@ -220,7 +202,7 @@
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig have a mastermind discussion about BREXIT with two close friends that live in the UK and Germany.  The discussion centers around the potential of other countries leaving the EU and central banking.  The group discusses the potential risks of more exits from the EU along with thoughts of other famous billionaires on the issue.</p>]]></description>
-            <enclosure length="27654896" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Episode_93_final2_mp3.mp3?dest-id=223117" />
+            <enclosure length="27654896" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Episode_93_final2_mp3.mp3?dest-id=223117" />
             <itunes:duration>38:23</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>the,uk,george,union,howard,banks,central,stanley,warren,marks,european,buffett,referendum,soros,ecb,druckenmiller</itunes:keywords>
@@ -233,7 +215,7 @@
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig interview the billionaire owner of the Atlanta Hawks, Jesse Itzler.  Jesse discusses his experience of living with one of the most extreme athletes in the entire world for 30 days.  Additionally, Jesse talks about being successful in business and his sale of Marquis Jet to Warren Buffett.</p>]]></description>
-            <enclosure length="37294124" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Episode_92_-_final3_mp3.mp3?dest-id=223117" />
+            <enclosure length="37294124" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Episode_92_-_final3_mp3.mp3?dest-id=223117" />
             <itunes:duration>44:22</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>a,living,jet,atlanta,with,jesse,seal,sara,warren,hawks,owner,buffett,blakely,marquis,itzler</itunes:keywords>
@@ -246,7 +228,7 @@
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, Preston and Stig join the members of their mastermind group to discuss a few hot topics.  The topics discussed are the following:</p> <p>The Value of Apple</p> <p>The Value of Amazon</p> <p>Mohnish Pabrai's new ETF</p> <p>How to look at share buy backs</p> <p> </p> <p> </p>]]></description>
-            <enclosure length="60670269" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Episode_91_-_final_version_2.mp3?dest-id=223117" />
+            <enclosure length="60670269" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Episode_91_-_final_version_2.mp3?dest-id=223117" />
             <itunes:duration>01:03:10</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>space,investing,x,jeff,apple,stock,etf,warren,charlie,amazon,buffett,tobias,carlisle,bezos,munger,pabrai,monish</itunes:keywords>
@@ -259,7 +241,7 @@
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig talk to billion dollar hedge fund manager, Jesse Felder.  Jesse talks about the investing approach of a couple billionaires and he identifies some of the biggest risks to the current global economy. </p>]]></description>
-            <enclosure length="40011061" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Episode_90_final_mp3.mp3?dest-id=223117" />
+            <enclosure length="40011061" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Episode_90_final_mp3.mp3?dest-id=223117" />
             <itunes:duration>47:37</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>george,jesse,stanley,warren,charlie,buffett,soros,munger,felder,druckenmiller</itunes:keywords>
@@ -272,7 +254,7 @@
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig interview oil expert, Gail Tverberg about the current market conditions with oil and other commodities.  If you're wanting to understand why the oil market might be heading lower, Gail provides some interesting arguments why low interest rates and government manipulation is causing major issues.</p>]]></description>
-            <enclosure length="36405573" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Episode_89_final_second_version_mp3.mp3?dest-id=223117" />
+            <enclosure length="36405573" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Episode_89_final_second_version_mp3.mp3?dest-id=223117" />
             <itunes:duration>43:19</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>carl,t,boone,gail,pickens,icahn,tverberg</itunes:keywords>
@@ -285,7 +267,7 @@
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig talk about Warren Buffett's favorite book, The Intelligent Investor.  </p>]]></description>
-            <enclosure length="43680588" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Episode_88_final_mp3.mp3?dest-id=223117" />
+            <enclosure length="43680588" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Episode_88_final_mp3.mp3?dest-id=223117" />
             <itunes:duration>51:59</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>graham,value,benjamin,warren,intrinsic,buffett</itunes:keywords>
@@ -298,7 +280,7 @@
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig play the 5 best questions that were discussed during the Berkshire Hathaway Shareholder's Meeting.  </p>]]></description>
-            <enclosure length="60045164" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Episode_87_-_final_mp3.mp3?dest-id=223117" />
+            <enclosure length="60045164" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Episode_87_-_final_mp3.mp3?dest-id=223117" />
             <itunes:duration>01:02:32</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>jeff,berkshire,warren,ibm,charlie,hathaway,buffett,bezos,munger,ginni,rometty</itunes:keywords>
@@ -311,7 +293,7 @@
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p><strong>In this episode, you'll learn: </strong></p> <ul> <li>Why you should always decide what your exit criteria is for a security before you get in</li> <li>How to use fundamentals in trading</li> <li>How to optimally measure the performance of your portfolio</li> <li>Why traders in particular might want to use daily data to evaluate their strategy</li> </ul>]]></description>
-            <enclosure length="25081630" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Episode_86_final_2.mp3?dest-id=223117" />
+            <enclosure length="25081630" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Episode_86_final_2.mp3?dest-id=223117" />
             <itunes:duration>29:51</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>investing,jack,ray,trading,versus,schwager,dalio</itunes:keywords>
@@ -324,7 +306,7 @@
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig interview legendary investment author, Jack Schwager. Jack has written books about the best investors on the planet, and in this interview with us, he shares some of the most interesting people he has met.  Jack talks about the most impressive investors and the scariest approaches he has written about. (remember, all the approaches resulted in fantastic results for the people implementing it)</p>]]></description>
-            <enclosure length="29003190" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Episode_85_final_mp3.mp3?dest-id=223117" />
+            <enclosure length="29003190" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Episode_85_final_mp3.mp3?dest-id=223117" />
             <itunes:duration>34:31</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>investing,jimmy,jack,trading,versus,edward,thorp,schwager,balodimas</itunes:keywords>
@@ -341,7 +323,7 @@ titled "Call Me Ted".  The book discusses the life and
 business adventures of the author.  It provide a glimpse into
 the decisions and thought process of growing a billion dollar
 empire.  </p>]]></description>
-            <enclosure length="35304066" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Episode_84_final_mp3.mp3?dest-id=223117" />
+            <enclosure length="35304066" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Episode_84_final_mp3.mp3?dest-id=223117" />
             <itunes:duration>36:46</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>time,university,atlanta,ted,brown,cnn,warner,aol,turner,braves</itunes:keywords>
@@ -355,7 +337,7 @@ empire.  </p>]]></description>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig discuss T Boone Pickens' book, "The First Billion is the hardest".  Pickens is a oil Tycoon from Texas and his book outlines his life of business decisions and capital management.  At the end of the show, The Investors answer three questions from the members of their audience.  </p>
 <p> </p>]]></description>
-            <enclosure length="39667421" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Episode_83_final_mp3.mp3?dest-id=223117" />
+            <enclosure length="39667421" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Episode_83_final_mp3.mp3?dest-id=223117" />
             <itunes:duration>47:12</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>carl,t,boone,oil,share,buy,pickens,backs,commodities,icahn</itunes:keywords>
@@ -368,7 +350,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, Preston & Stig have their second part interview with renown economist, Jim Rickards.  In this episode, Jim talks about his book, The New Case for Gold.  Jim shares his conversation with Ben Bernanke, what types of environments gold performs well, and when people need to be on the look-out for a down-turn in the economy.   </p>]]></description>
-            <enclosure length="38514471" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Episode_82_final_2_mp3.mp3?dest-id=223117" />
+            <enclosure length="38514471" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Episode_82_final_2_mp3.mp3?dest-id=223117" />
             <itunes:duration>40:06</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>podcast,ben,money,jim,business,investment,gold,currencies,bernanke,commodities,rickards</itunes:keywords>
@@ -381,7 +363,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig interview world renown economist Jim Rickards about his new book,  The New Case for Gold.  In the interview, Jim talks about people that have influenced his way of thinking, how global currencies work, the Chinese Yuan, the Japanese economy and many other topics.</p>]]></description>
-            <enclosure length="41498254" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Episode_81_final2_mp3.mp3?dest-id=223117" />
+            <enclosure length="41498254" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Episode_81_final2_mp3.mp3?dest-id=223117" />
             <itunes:duration>43:13</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>the,new,jim,for,rogers,bass,ray,china,gold,central,banking,kyle,stanley,warren,case,buffett,rickards,dalio,druckenmiller</itunes:keywords>
@@ -394,7 +376,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>Although everyone knows trust is important to the success of any organization, Stephen Covey takes the idea to a much deeper level.  In Covey's book, The Speed of Trust, you'll learn how trust is an economic issue that revolves around the speed at which people and organizations operate.  </p>]]></description>
-            <enclosure length="32525468" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Episode_80_-_final_mp3.mp3?dest-id=223117" />
+            <enclosure length="32525468" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Episode_80_-_final_mp3.mp3?dest-id=223117" />
             <itunes:duration>33:51</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>steve,leadership,stephen,forbes,warren,buffett,covey</itunes:keywords>
@@ -407,7 +389,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>One of the key leadership books that billionaire Jeff Bezos recommends for all his employees is Peter Drucker's, The Effective Executive.  In this episode Preston and Stig talk about the leadership lessons they learned from reading this book.</p>]]></description>
-            <enclosure length="35667236" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Episode_79_final2_mp3.mp3?dest-id=223117" />
+            <enclosure length="35667236" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Episode_79_final2_mp3.mp3?dest-id=223117" />
             <itunes:duration>37:08</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>business,leadership,jeff,peter,executive,drucker,bezos</itunes:keywords>
@@ -420,7 +402,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, the investors talk to author of the "Modern Monetary System" - investing expect Cullen Roche.  Cullen talks about some of the different investments that billionaires are making in the current market conditions.  Additionally, he has a discussion about negative interest rates and how the banking system fundamentally works.</p>]]></description>
-            <enclosure length="44213434" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Episode_78_-_final_mp3.mp3?dest-id=223117" />
+            <enclosure length="44213434" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Episode_78_-_final_mp3.mp3?dest-id=223117" />
             <itunes:duration>52:36</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>ray,reserve,federal,jamie,warren,interest,negative,cullen,buffett,roche,rates,dimon,dalio</itunes:keywords>
@@ -433,7 +415,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, Preston and Stig read a book from Billionaire Oprah Winfrey.  Although this episode isn't the typical accounting and financial talk, the information discussed might be some of the most important information a person needs to be successful in life.</p>]]></description>
-            <enclosure length="48077038" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Episode_77_Oprah_final_mp3.mp3?dest-id=223117" />
+            <enclosure length="48077038" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Episode_77_Oprah_final_mp3.mp3?dest-id=223117" />
             <itunes:duration>50:04</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>death,the,of,gary,soul,seat,oprah,winfrey,near,experiences,intentions,zukav</itunes:keywords>
@@ -446,7 +428,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, The Investor's Podcast mastermind group discusses a wide array of topics from oil, currencies, Japan, Warren Buffett's Shareholder Letters, and much more.</p>]]></description>
-            <enclosure length="46296606" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/Episode_76_final_mp3.mp3?dest-id=223117" />
+            <enclosure length="46296606" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/Episode_76_final_mp3.mp3?dest-id=223117" />
             <itunes:duration>48:13</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>japan,berkshire,oil,warren,currencies,letters,hathaway,buffett,shareholder,2015</itunes:keywords>
@@ -459,7 +441,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig discuss the topics covered at the Davos World Economic Forum.  Additionally, the investors discuss the book, The One Thing by Gary Keller.</p>]]></description>
-            <enclosure length="30930240" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_75_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="30930240" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_75_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>32:12</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>the,of,gary,ray,china,bank,keller,davos,interest,rates,dalio</itunes:keywords>
@@ -472,7 +454,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig review George Soro's book, The Alchemy of Finance.  Additionally, The Investors discuss three questions from the audience at the end of the show.</p>]]></description>
-            <enclosure length="36245583" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_74_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="36245583" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_74_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>37:45</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>graham,investing,george,benjamin,warren,macro,buffett,soros</itunes:keywords>
@@ -485,7 +467,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig review billionaire Howard Marks' book, The Most Important Thing. </p>]]></description>
-            <enclosure length="44435546" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_73_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="44435546" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_73_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>46:17</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>investing,joel,market,stock,howard,value,seth,warren,marks,buffett,greenblatt,klarman</itunes:keywords>
@@ -498,7 +480,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig interview multimillionaire Nathan Latka about creating your own assets.  Nathan created a $10 million dollar company by the age of 24.  </p>]]></description>
-            <enclosure length="54745523" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_72_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="54745523" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_72_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>57:01</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>red,nathan,warren,passive,income,creating,buffett,mccombs,latka</itunes:keywords>
@@ -511,7 +493,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://theinvestorspodcast.libsyn.com/tip-071-value-investing-questions-from-the-audience-and-benjamin-franklin-by-walter-isaacson]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig take value investing questions from the audience.  You won't want to miss their discussion on intrinsic value and many other numerous topics.  Additionally, the investors review Walter Isaacson's book, Benjamin Franklin.</p>]]></description>
-            <enclosure length="56716784" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_71_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="56716784" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_71_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>59:04</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>investing,george,ray,market,stock,bond,value,stanley,warren,intrinsic,buffett,soros,dalio,drunkenmiller</itunes:keywords>
@@ -524,7 +506,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig interview global value investor, Meb Faber.  Meb discussess the methods for investing internationally and also on how to conduct a clone investing approach to other famous investor's stock picks.</p>]]></description>
-            <enclosure length="43426083" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_70_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="43426083" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_70_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>45:13</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>the,house,investing,global,international,invest,with,value,asset,portfolio,ivy,yield,allocation,shareholder</itunes:keywords>
@@ -537,7 +519,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig talk about one of Warren Buffett's Favorite Books, How to Win Friends and Influence People by Dale Carnegie.  </p>]]></description>
-            <enclosure length="46260010" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_69_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="46260010" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_69_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>48:11</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>dale,warren,buffett,carnegie,munger,carlie</itunes:keywords>
@@ -550,7 +532,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig talk about billionaire George Soros' prediction that the current market conditions resemble that of 2008.  Additionally, the Investors talk about Michael Lewis' book Boomerang.  http://www.theinvestorspodcast.com/episodes/68-current-market-conditions-michael-lewis-liars-boomerang.html</p>]]></description>
-            <enclosure length="50582848" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_68_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="50582848" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_68_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>52:40</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>lewis,investing,michael,george,ray,crash,market,stock,value,stanley,warren,currencies,buffett,2016,commodities,soros,dalio,drunkenmiller</itunes:keywords>
@@ -563,7 +545,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig discuss the New York Times best selling book, Liar's Poker by Michael Lewis.</p>]]></description>
-            <enclosure length="39427377" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_67_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="39427377" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_67_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>41:03</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>lewis,investing,michael,brothers,market,stock,solomon</itunes:keywords>
@@ -576,7 +558,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, the mastermind group discusses new and trending topics.  Those topics include: investing in technology during the 4Q 2015, momentum investing combined with value investing, taking short positions in junk bonds, the Japanese currencies.</p>]]></description>
-            <enclosure length="53825743" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_66_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="53825743" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_66_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>56:04</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>investing,carl,bond,value,oil,warren,junk,buffett,icahn</itunes:keywords>
@@ -589,7 +571,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig discuss the key points from the book, Irrational Exuberance by Robert Shiller.</p>]]></description>
-            <enclosure length="48321349" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_65_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="48321349" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_65_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>50:19</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>the,of,george,finance,alan,robert,greenspan,warren,shiller,alchemy,buffett,irrational,soros,exuberance</itunes:keywords>
@@ -602,7 +584,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig discuss the key aspects of the book, Buffett: The Making of an American Capitalist by Roger Lowenstein.</p>]]></description>
-            <enclosure length="40634827" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_64_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="40634827" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_64_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>42:19</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>bill,furniture,rose,nebraska,warren,charlie,preston,buffett,mart,munger,stig,ackman,pysh,brodersen,blumkin</itunes:keywords>
@@ -615,7 +597,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, The Investors talk to quant investing expert Patrick O'Shaughnessy. Patrick talks about his experiences in statistical backtesting and modeling of the stock market.</p>]]></description>
-            <enclosure length="60934929" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_63_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="60934929" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_63_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>01:03:27</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>mark,investing,cuban,patrick,toby,value,warren,charlie,buffett,momentum,carlisle,munger,oshaughnessy</itunes:keywords>
@@ -628,7 +610,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig discuss their notes on Warren Buffett's Favorite Book, Security Analysis.  This book was written in the 1930's and it's an enormous text.  Many people in finance refer to the book as the bible of Value Investing.</p>]]></description>
-            <enclosure length="43865912" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_62_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="43865912" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_62_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>45:41</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>graham,investing,security,analysis,value,benjamin,warren,buffett</itunes:keywords>
@@ -641,7 +623,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, the Investors talk to Tren Griffin about his new book on Charlie Munger.  Munger is Warren Buffett's Vice Chairman at Berkshire Hathaway and one of the most influencial people in shaping Buffett's investment approach.</p>]]></description>
-            <enclosure length="44440266" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_61_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="44440266" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_61_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>46:17</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:keywords>griffin,berkshire,warren,charlie,hathaway,buffett,munger,tren</itunes:keywords>
@@ -654,7 +636,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, The Investors talk to money manager Cullen Roche about the modern monetary system.  Cullen was one of the few financial thinkers that predicted the deflationary forces that would occur from the FED's quantitative easing, so we talk to him about his model and how he arrived at his conclusion.</p>]]></description>
-            <enclosure length="49017071" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_60_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="49017071" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_60_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>51:03</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>the,money,system,investing,markets,modern,manager,financial,cullen,roche,monetary,quantitative,easing</itunes:keywords>
@@ -667,7 +649,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig talk about the best selling book, The 7 Habits of Highly Effective People by Stephen Covey.</p>]]></description>
-            <enclosure length="40494342" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_59_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="40494342" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_59_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>42:10</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>podcast,money,stephen,warren,buffett,covey</itunes:keywords>
@@ -680,7 +662,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig interview Kabir Sehgal about his New York Times best selling book, Coined.  The book provides a rich story of money and how its history has shaped us.  </p>]]></description>
-            <enclosure length="34976453" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_58_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="34976453" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_58_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>36:25</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>paul,richard,kabir,branson,volcker,bitcoin,sehgal</itunes:keywords>
@@ -693,7 +675,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, the Investors talk to legendary investor, James O'Shaughnessy about his book, What Works on Wall Street.</p>]]></description>
-            <enclosure length="38966730" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_57_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="38966730" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_57_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>40:34</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>james,on,street,what,wall,works,oshaughnessy</itunes:keywords>
@@ -706,7 +688,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, The Investors discuss the ever changing commodities market and potential impact that China might have on Japan's economy.  </p>]]></description>
-            <enclosure length="34221378" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_56_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="34221378" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_56_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>35:38</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>the,ray,banks,central,inflation,deflation,quantitative,yen,easing,dalio</itunes:keywords>
@@ -719,7 +701,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, media expert, Dori Clark, talks about how people can create online assets and develop a following around their content.</p>]]></description>
-            <enclosure length="42120926" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_55_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="42120926" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_55_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>38:50</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>dori,clark</itunes:keywords>
@@ -732,7 +714,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, the mastermind group discusses new information about Mohnish Pabrai's Dhandho Holding Company, the Japanese Stock Market, Currency Concerns, Quantitative Easing, Warren Buffett's recent stock market purchases, and much more. </p>]]></description>
-            <enclosure length="51310990" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_54_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="51310990" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_54_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>48:24</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>investing,japan,market,stock,value,holding,warren,company,buffett,quantitative,easing,mohnish,pabrai,dhandho</itunes:keywords>
@@ -745,7 +727,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, Preston and Stig start the show by talking about the current market conditions.  They focus their discussion on the quantitative easing that's happening in Europe and Japan.  After the initial discussion about the stock market, the Investor's discuss the newest book they read, Thinking Fast and Slow.  </p>]]></description>
-            <enclosure length="41051251" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_53_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="41051251" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_53_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>42:45</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>carl,ray,daniel,warren,buffett,etfs,icahn,kahneman,mohnish,pabrai,dalio</itunes:keywords>
@@ -758,7 +740,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, Preston and Stig discuss Ashlee Vance's book about Elon Musk.  If you want to learn more about one of Sillicon Valley's most unique investor/inventor, you won't want to miss this episode.</p>]]></description>
-            <enclosure length="52478467" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_52_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="52478467" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_52_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>54:39</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>space,x,tesla,elon,musk</itunes:keywords>
@@ -771,7 +753,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, we talk about billioniare Mark Cuban's book and how he acquired his wealth.  </p>]]></description>
-            <enclosure length="54765931" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_51_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="54765931" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_51_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>52:00</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>mark,investing,tips,business,cuban,entrepreneurship</itunes:keywords>
@@ -784,7 +766,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this brief episode, we read billionaire Ray Dalio's white paper on the end of a super cycle.</p>]]></description>
-            <enclosure length="11426166" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/In-B-Tween_9.mp3?dest-id=223117" />
+            <enclosure length="11426166" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/In-B-Tween_9.mp3?dest-id=223117" />
             <itunes:duration>11:54</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>super,ray,cycle,dalio</itunes:keywords>
@@ -797,7 +779,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, Preston and Stig talk about the crazy volatility in the financial market at the end of August 2015.  Additionally, The Investors read billionaire Chris Sacca's favorite book, The Magic of Thinking Big.  </p>]]></description>
-            <enclosure length="108067699" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_50_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="108067699" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_50_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>01:11:41</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>the,of,big,chris,magic,carl,high,ray,thinking,warren,bonds,junk,yield,buffett,quantitative,easing,icahn,dalio,sacca</itunes:keywords>
@@ -810,7 +792,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, we continue our discussion with Dr. Wesley Gray.  This time around, Dr. Gray talks about Quantitative Value Investing and how individuals can take advantage of mean reversion. </p>]]></description>
-            <enclosure length="45363246" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_49_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="45363246" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_49_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>42:12</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>gray,investing,mean,value,wesley,warren,buffett,quantitative,reversion</itunes:keywords>
@@ -823,7 +805,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>This episode is an advanced look at how Exchange Traded Funds, or ETFs, work.  We talk with fund manager, Dr. Wesley Gray, about some of the unknown secrets in the finance industry.  In addition to the ETF discussion, Stig and Preston talk to Wes about the current market conditions.</p>]]></description>
-            <enclosure length="49227583" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_48_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="49227583" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_48_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>46:14</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>gray,carl,bill,wesley,gross,warren,buffett,icahn</itunes:keywords>
@@ -836,7 +818,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>Billionaire Jeff Bezos and many other tech mogals have heavily endorsed the book, The Black Swan.  As a result, we read the book and recorded our discussion of the key points. </p>]]></description>
-            <enclosure length="53972143" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_47_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="53972143" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_47_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>51:10</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>mark,cuban,statistics,nicholas,warren,nassim,taleb,buffett</itunes:keywords>
@@ -849,7 +831,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, we talk about billionaire Jeff Bezos, Mark Cuban, and Michael Bloomberg's favorite book, The Innovator's Dilemma.</p>]]></description>
-            <enclosure length="37709160" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_46_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="37709160" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_46_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>34:14</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>mark,cuban,jeff,warren,christensen,clayton,buffett,bezos</itunes:keywords>
@@ -862,7 +844,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this weeks short episode, we discuss the global tug-of-war that has been taking place since 2008.  </p>]]></description>
-            <enclosure length="10781210" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/IBT008.mp3?dest-id=223117" />
+            <enclosure length="10781210" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/IBT008.mp3?dest-id=223117" />
             <itunes:duration>07:29</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>the,ben,investing,global,ray,warren,inflation,fed,buffett,deflation,bernanke,deleveraging,dalio</itunes:keywords>
@@ -875,7 +857,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.TheInvestorsPodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, we interview leadership expert, Mike Figliuolo. Mike talks about the ways that leaders can optimize the performance of their subordinates.  Additionally, he discusses the key variables of what to look for when investing in a business.  </p>]]></description>
-            <enclosure length="54277746" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_45_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="54277746" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_45_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>51:30</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>mike,ray,leadership,warren,buffett,dalio,figliuolo</itunes:keywords>
@@ -888,7 +870,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this week's In-B-Tweener, we talk about Billionaire Carl Icahn and his opinion that the Junk Bond Market is extremely overvalued.</p>]]></description>
-            <enclosure length="10576202" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/In-B-Tween___Billionaire_Carl_Icahn_and_Junk_Bonds_Investing_Podcasts.mp3?dest-id=223117" />
+            <enclosure length="10576202" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/In-B-Tween___Billionaire_Carl_Icahn_and_Junk_Bonds_Investing_Podcasts.mp3?dest-id=223117" />
             <itunes:duration>03:59</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>carl,high,larry,warren,bonds,junk,yield,fink,buffett,icahn</itunes:keywords>
@@ -901,7 +883,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, we talk to the Best Selling author, Morgan Downey, of the book Oil 101.  You won't want to miss his episode if you have an interest in the recent downturn in the oil market.</p>]]></description>
-            <enclosure length="76012159" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_44_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="76012159" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_44_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>01:14:08</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>morgan,t,boone,prince,warren,bin,downey,pickens,buffett,alwaleed,talal</itunes:keywords>
@@ -914,7 +896,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>This In-B-Tween episode covers Warren Buffett's intrinsic value and current conditions in the bond market.</p>]]></description>
-            <enclosure length="11124833" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/In-B-Tween___Intrinsic_Value_and_Bond_Market_Presures_Investing_Podcast.mp3?dest-id=223117" />
+            <enclosure length="11124833" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/In-B-Tween___Intrinsic_Value_and_Bond_Market_Presures_Investing_Podcast.mp3?dest-id=223117" />
             <itunes:duration>04:22</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>value,warren,bonds,intrinsic,buffett</itunes:keywords>
@@ -927,7 +909,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, the panel discusses the impact of oil, current market conditions, and top performing Billionaires and their investing approach.  </p>]]></description>
-            <enclosure length="50507093" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_43_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="50507093" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_43_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>47:34</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>investing,ray,oil,holding,warren,charlie,company,buffett,munger,pabrai,dalio,mohish,dhando</itunes:keywords>
@@ -940,7 +922,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>This In-B-Tween-isode covers the importance of competitive advantages.  The specific competitive advantage we discuss is the power of a brand.  </p>]]></description>
-            <enclosure length="10658911" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/In-B-Tween___Brands_and_Competitive_Advantages_Investing_Podcast.mp3?dest-id=223117" />
+            <enclosure length="10658911" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/In-B-Tween___Brands_and_Competitive_Advantages_Investing_Podcast.mp3?dest-id=223117" />
             <itunes:duration>04:03</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>jeff,richard,entrepreneur,warren,branson,buffett,bezos</itunes:keywords>
@@ -953,7 +935,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, we discuss the key highlights of Warren Buffett's Berkshire Hathaway shareholder letters. Preston and Stig discuss look-through earnings, intrinsic value, and the overall business structure.   </p>]]></description>
-            <enclosure length="57401781" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_42_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="57401781" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_42_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>54:45</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>value,warren,charlie,intrinsic,buffett,earnings,munger,lookthrough</itunes:keywords>
@@ -966,7 +948,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode, we research Warren Buffett and Bill Gates' opinions about heroes.  </p>]]></description>
-            <enclosure length="13217459" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/In-B-Tween___Warren_Buffett_and_Bill_Gates_on_Heroes_Investing_Podcast.mp3?dest-id=223117" />
+            <enclosure length="13217459" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/In-B-Tween___Warren_Buffett_and_Bill_Gates_on_Heroes_Investing_Podcast.mp3?dest-id=223117" />
             <itunes:duration>05:49</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>heroes,bill,warren,gates,buffett,selecting</itunes:keywords>
@@ -979,7 +961,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, we interview West Point economics instructor, Brian Retherford, about the 7 biggest mistakes new investors make in the stock market.  </p>]]></description>
-            <enclosure length="56762230" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_41_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="56762230" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_41_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>54:05</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>graham,investing,business,benjamin,warren,charlie,buffett,elon,munger,musk</itunes:keywords>
@@ -992,7 +974,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>What are the key ingrediants to marketing.  In this short In-B-Tween isode, Preston covers the importance of focus on the customer and creating a win-win environment for long-term sales.</p>]]></description>
-            <enclosure length="8994291" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/In-B-Tween___Marketing_101_Investing_Podcast.mp3?dest-id=223117" />
+            <enclosure length="8994291" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/In-B-Tween___Marketing_101_Investing_Podcast.mp3?dest-id=223117" />
             <itunes:duration>02:53</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>marketing</itunes:keywords>
@@ -1005,7 +987,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, we talk about what we learned from reading Billionaire Richard Branson's book, Screw it, Let's Do it.</p>]]></description>
-            <enclosure length="45737438" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_40_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="45737438" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_40_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>42:36</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>richard,branson,billionaire</itunes:keywords>
@@ -1018,7 +1000,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this 5 minute episode, Preston lay's out the 3 C's of leadership that he learned at the 101st Airborne Division.</p>]]></description>
-            <enclosure length="11162526" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/In-B-Tween_002_-_The_Three_Cs_of_Leadership_Investing_Podcast.mp3?dest-id=223117" />
+            <enclosure length="11162526" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/In-B-Tween_002_-_The_Three_Cs_of_Leadership_Investing_Podcast.mp3?dest-id=223117" />
             <itunes:duration>04:24</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>leadership</itunes:keywords>
@@ -1031,7 +1013,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In the second part interview with William Green, we discuss the investing approach of Mohnish Pabrai and Joel Greenblatt.  The discussion centers around the fundamentals and differences that the great minds of investing share.</p>]]></description>
-            <enclosure length="52760973" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_39_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="52760973" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_39_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>54:42</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>ray,joel,warren,charlie,buffett,munger,greenblatt,mohnish,pabrai,dalio</itunes:keywords>
@@ -1044,7 +1026,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>A 5 minute conversation about the top 3 traits of billionaires.  People mentioned during this episode are Warren Buffett, Bill Gates, Charlie Munger, Richard Branson, and Albert Einstein.</p>]]></description>
-            <enclosure length="6517466" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/In-B-Tween_001__The_Top_3_Traits_of_Billionaires_Investing_Podcast.mp3?dest-id=223117" />
+            <enclosure length="6517466" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/In-B-Tween_001__The_Top_3_Traits_of_Billionaires_Investing_Podcast.mp3?dest-id=223117" />
             <itunes:duration>04:21</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>richard,bill,warren,gates,charlie,einstein,albert,branson,buffett,munger</itunes:keywords>
@@ -1057,7 +1039,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, William Green talks to us about his new book, <em>The Great Minds of Investing.  </em>In this Interview we discuss Warren Buffett, Benjamin Graham, Charlie Munger, and many other investment gurus.  </p>]]></description>
-            <enclosure length="53302166" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_38_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="53302166" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_38_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>55:16</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>john,graham,miller,guy,joel,bill,benjamin,warren,charlie,templeton,buffett,munger,spier,greenblat,mohnish,pabrai</itunes:keywords>
@@ -1070,7 +1052,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, we discuss the book Hedge Fund Wizards by Jack Schwagger.  In the episode, we focus on the ideas of Ray Dalio, Edward Thorp, and Joel Greenblatt in order to discuss the approaches we liked the best.  </p>]]></description>
-            <enclosure length="72330850" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_37_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="72330850" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_37_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>50:03</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>ray,edward,warren,buffett,thorp,dalio</itunes:keywords>
@@ -1083,7 +1065,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, we have an engaging discussion with Jos Schmitt about his adventures in starting his own stock exchange.  The purpose of his new exchange was to combat the impact of High Frequency Trading on the Canadian Market.  If you ever wanted to hear about the inside story of starting your own stock exchange, you won't want to miss this interview.</p>]]></description>
-            <enclosure length="54667340" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_36_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="54667340" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_36_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>56:41</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>podcast,investing,high,flash,trading,boys,frequency</itunes:keywords>
@@ -1096,7 +1078,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, we discuss current events by Warren Buffett, Bill Gates, and Janet Yellen.  Additionally, we discuss the ideas contained in economist Jim Rickard's book, Currency Wars.  The discussion is helpful for people trying to understand how currencies interact with public debt, gold, and global commodities.  </p>]]></description>
-            <enclosure length="55068815" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_35_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="55068815" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_35_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>57:06</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>the,jim,wars,bill,gold,currency,janet,warren,gates,fed,buffett,yellen,rickards</itunes:keywords>
@@ -1109,7 +1091,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, Joshua Dorkin talks about his experience in the Real Estate market and how to conduct wise investment choices.  Josh runs the very popular Bigger Pockets Real Estate community.  The group discusses risks in long term interest rates and fun ideas like house flipping.  You won't want to miss this interesting conversation on how real estate investing is done the right way.  </p>]]></description>
-            <enclosure length="65188345" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_34_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="65188345" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_34_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>01:07:39</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>podcast,real,josh,investing,estate,pockets,bigger,dorkin</itunes:keywords>
@@ -1122,7 +1104,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast we talk to professional trader and hedge fund manager, Tres Knippa.  Tres talks about his unique positions in shorting the Japanese debt and currency markets.  Tres believes the Japanese currency is destined for failure based on the government's inability to sell newly issued bonds to anyone other than themselves.  The interview is very interesting and it's sure to give you some interesting ideas for the next stock market crash.</p>]]></description>
-            <enclosure length="77274084" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_33_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="77274084" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_33_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>01:20:14</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>mark,cuban,alan,tres,greenspan,janet,warren,buffett,yellen,knippa</itunes:keywords>
@@ -1135,7 +1117,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, Preston and Stig discuss the newest book they read titled: The Escape from Balance Sheet Recession and Quantitative Easing Trap.  The book was written by the economist Richard Koo and he talks about the comparison between Japan in the 1990's and the World Ecomony today.  </p>]]></description>
-            <enclosure length="47470484" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_32_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="47470484" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_32_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>49:11</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>ray,richard,warren,buffett,quantitative,easing,koo,dalio</itunes:keywords>
@@ -1148,7 +1130,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this interview, author Gillian Zoe Segal, talks about her interviews with Warren Buffett and many other Billionaires.  In Gillian's new book, Getting There, she interviews 30 people that have become enormous sucesses.  Stig and Preston ask Gillian how she got the interviews and the best pieces of advice she was provided by her subjects.</p>]]></description>
-            <enclosure length="59153934" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_31_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="59153934" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_31_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>01:01:21</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>podcast,the,jim,frank,anderson,michael,cooper,koch,marina,sara,warren,investors,kathy,ireland,bloomberg,gehry,buffett,blakely,abramovic</itunes:keywords>
@@ -1161,7 +1143,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode the Investors talk about the disruptive new digital currency technology that's growing around the world.  Bitcoin and other cryptocurrencies could eventual become a popular form of payment without limits across international boarders.  This is a fascinating discussion that you won't want to miss.</p>]]></description>
-            <enclosure length="67693704" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_30_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="67693704" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_30_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>01:10:15</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>digital,currencies,bitcoin,cryptocurrencies</itunes:keywords>
@@ -1174,7 +1156,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, we explore the history and impact of the Federal Reserve.  As you will see, the Federal Reserve has the biggest impact on the growth and contraction of any other variable.  We discuss that variable, the money multiplier, in this episode.  </p>]]></description>
-            <enclosure length="45408945" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_29_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="45408945" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_29_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>47:03</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>ben,reserve,federal,janet,warren,charlie,buffett,bernanke,yellen,munger</itunes:keywords>
@@ -1187,7 +1169,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this week's episode of The Investor's Podcast, we learn about one of the most foundational books ever written on success: Think and Grow Rich, by Napoleon Hill.  This book has an interesting premise - the things you think about most will materialize into your life if you have faith and reason. </p>]]></description>
-            <enclosure length="69356853" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_28_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="69356853" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_28_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>01:11:59</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:keywords>and,hill,rich,grow,think,napoleon</itunes:keywords>
@@ -1200,7 +1182,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, Andrew Sather talks about the dangers of value traps when conducting value investing.  This is an important episode for many of the investors that try to impliment Benjamin Graham or Warren Buffett style investing.  </p>]]></description>
-            <enclosure length="45731716" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_27_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="45731716" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_27_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>47:23</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>graham,investing,andrew,value,benjamin,warren,buffett,sather</itunes:keywords>
@@ -1213,7 +1195,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, we discuss the key points from the book, <em>Rework</em>.  The billionaire Mark Cuban said that if given a choice between a person with an MBA or a person who read the book, <em>Rework</em>, he would pick <em>Rework</em> every time.  At the end of the show, The Investors discuss the comments by billionaire Ray Dalio and famous Harvard professor, Larry Summers.</p>]]></description>
-            <enclosure length="52109623" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_26_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="52109623" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_26_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>54:01</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>podcast,mark,investing,cuban,ray,larry,summers,investor,rework,dalio</itunes:keywords>
@@ -1226,7 +1208,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://theinvestorspodcast.libsyn.com/tip-025-deep-value-investing-with-tobias-carlisle]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investors Podcast, we interview the author of the book, Deep Value.  This book is a fascinating read that statistically demonstrates the theory that companies with very bad past performance (with respect to earnings), tend to outperform high premium picks.  The book was highly influenced by Benjamin Graham and Joel Greenblatt and it comes highly recommended by Preston and Stig.  </p>]]></description>
-            <enclosure length="52875931" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_25_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="52875931" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_25_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>54:49</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:keywords>graham,investing,ray,joel,value,benjamin,preston,tobias,carlisle,greenblatt,stig,pysh,brodersen,dalio</itunes:keywords>
@@ -1239,7 +1221,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, we review Malcolm Gladwell's famous book, Outliers.  We discuss the key ingrediants for what it takes to become an outlier and what people should be thinking about if they really want to become an enormous success like Bill Gates or the Beatles.  </p>]]></description>
-            <enclosure length="49024698" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_24_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="49024698" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_24_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>50:48</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>podcast,investing,gladwell,malcolm</itunes:keywords>
@@ -1252,7 +1234,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>At the beginning of 2015, the Stock Market is at an all time high.  As a result, The Investor's ask MorningStar's expert, Paul Arnold, about the proper asset allocation during these periods of high valuations.  If you have a lot of money in the stock market, you might want to listen closely to this weeks episode.</p>]]></description>
-            <enclosure length="51919230" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_23_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="51919230" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_23_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>53:49</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>podcast,investing,crash,market,stock,asset,morningstar,allocation</itunes:keywords>
@@ -1265,7 +1247,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>The Billionaire Charlie Munger has said that the book, Influence by Robert Cialdini is his favorite book of all time.  In this episode we talk about the top level ideas found in Cialdini's book and relate some of the concepts back to stock investing.</p>]]></description>
-            <enclosure length="58785159" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_22_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="58785159" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_22_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>01:00:58</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>podcast,investing,robert,influence,cialdini</itunes:keywords>
@@ -1278,7 +1260,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>Have you every wanted to buy commercial real estate, but you didn't know how to get into the game?  In this episode, we harness the decades of experience from our mystery guest and learn how he built a real estate portfolio with over 100 units. You'll learn how real estate is valued and the general principals to good management.</p>]]></description>
-            <enclosure length="65176509" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_21_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="65176509" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_21_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>01:07:38</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>real,investing,estate</itunes:keywords>
@@ -1291,7 +1273,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>Pat Flynn is an internet superstar that has created a multimillion dollar enterprise around online business. In this episode, Pat shares some of his secrets for creating new assets.</p>]]></description>
-            <enclosure length="65492566" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_20_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="65492566" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_20_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>01:07:58</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>smart,an,asset,passive,pat,create,flynn,income,spi</itunes:keywords>
@@ -1304,7 +1286,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>Finance can be a very dry subject, but this episode is surely going to debunk that opinion.  High Frequency Trading is a fascinating story of how a few elite technologists have outsmarted big Wall Street banks in making Billions of dollars through 1 cent increments.  The problem is the common investor is the one paying the bill.  You won't want to miss this exciting and ever changing story.</p>]]></description>
-            <enclosure length="39108304" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_19_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="39108304" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_19_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>40:29</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>high,trading,frequency</itunes:keywords>
@@ -1317,7 +1299,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, Preston and Stig talk about what they learned in Tony Robbins' book, Money: Master the Game.  During their discussion, they talk about the myths of investing and they also talk about the advice of a few billionaires.  This was a fun and interesting episode that you won't want to miss.</p>]]></description>
-            <enclosure length="60184732" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_18_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="60184732" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_18_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>01:02:26</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>money,tony,robbins</itunes:keywords>
@@ -1330,7 +1312,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>Have you ever wondered what it would be like to go on the hit TV show, Shark Tank?  In our interview with Stephan Aarstol, we ask him insider questions and also what it's like to be a business owner with billionaire Mark Cuban.  The episode generated some good discussion about search engine optimization (SEO) and running an online business.</p>]]></description>
-            <enclosure length="56945965" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_17_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="56945965" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_17_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>59:04</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>mark,stephan,cuban,tank,shark,aarstol</itunes:keywords>
@@ -1343,7 +1325,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>Are you getting ripped-off by owning a mutual fund? We think so, but let's here what MorningStar expert, Alex Bryan has to say.  Learn what other options you have for protecting your principal and growing your money.   </p>]]></description>
-            <enclosure length="31653259" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_16_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="31653259" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_16_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>32:43</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>funds,mutual,morningstar,etfs</itunes:keywords>
@@ -1356,7 +1338,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this second part interview with Guy Spier, The Investor's continue their discussion with the author of, <a href= "http://www.amazon.com/gp/product/1137278811/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1137278811&linkCode=as2&tag=pypull-20&linkId=XER7H45FJL6XYHW7" target="_blank">The Education of a Value Investor</a>.  This episode discusses intrinsic value, Guy's checklist, and how to protect your capital during adverse conditions.  </p>]]></description>
-            <enclosure length="55300355" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_15_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="55300355" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_15_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>57:21</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>guy,value,intrinsic,spier,mohnish,pabrai</itunes:keywords>
@@ -1369,7 +1351,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, we have the renown Guy Spier on the show to talk about his new book, <a href= "http://www.amazon.com/gp/product/1137278811/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1137278811&linkCode=as2&tag=pypull-20&linkId=XER7H45FJL6XYHW7" target="_blank">The Education of a Value Investor</a>.  in 2008, Guy and Mohnish Pabrai bid $650,000 to have lunch with Warren Buffett.  In our interview, you'll quickly learn there's a lot more to guy than investing and expensive lunches.  </p>]]></description>
-            <enclosure length="48659920" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_14_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="48659920" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_14_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>50:26</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>guy,warren,buffett,spier,mohnish,pabrai</itunes:keywords>
@@ -1382,7 +1364,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, we have a discussion about Google and the book, <em>In The Plex</em>.  If you ever wanted to know more about the Google founders, Larry Page and Serga Brin, or how Google makes money, you'll definitely enjoy this episode.  </p>]]></description>
-            <enclosure length="47783418" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_13_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="47783418" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_13_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>49:31</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>google,larry,brin,page,sergey</itunes:keywords>
@@ -1395,7 +1377,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, we have a discussion with the author of, <a href= "http://www.amazon.com/gp/product/0615688322/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0615688322&linkCode=as2&tag=pypull-20&linkId=6LDHZHMQ47K6EP7E" target="_blank">The Emotionally Intelligent Investor</a>, about psychology and Stock Investing.  If you're interested in learning about your conscious and unconscious decisions, this episode will definitely peek your interest.</p>]]></description>
-            <enclosure length="30373080" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_12_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="30373080" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_12_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>31:23</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>investing,psychology,stock</itunes:keywords>
@@ -1408,7 +1390,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, Stig, Preston, and Hari, discuss Jeff Bezos's success with Amazon. The catalyst for the discussion is Brad Stone's Book, The Everything Store. Click here to download our <a href= "http://www.theinvestorspodcast.com/exec-summaries/the-everything-store-summary-jeff-bezos.pdf" target="_blank">executive summary</a> of this book. Members who sign-up on our <a href= "http://www.theinvestorspodcast.com/sign-up.html" target= "_blank">mailing list</a> will recieve these free book outlines/summaries in the future.</p>]]></description>
-            <enclosure length="33712465" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_11_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="33712465" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_11_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>34:51</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:keywords>jeff,amazon,billionaire,bezos</itunes:keywords>
@@ -1421,7 +1403,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of <a href= "http://www.theinvestorspodcast.com" target="_blank">The Investor's Podcast</a>, Stig and Preston have a question and answer period with Peter Gaudet - an owner of his own Investment Bank. The panel discusses venture capital and how to be successful as the founder of a company.</p>]]></description>
-            <enclosure length="30573904" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_10_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="30573904" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_10_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>31:35</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:keywords>venture,capital</itunes:keywords>
@@ -1434,7 +1416,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of <a href="http://www.theinvestorspodcast.com" target="_blank">The Investor's Podcast</a>, Stig and Preston discover Charles Koch's secrets to financial success.  They base their opinions on Charles' book, <a href= "http://www.amazon.com/gp/product/0470139889/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0470139889&linkCode=as2&tag=pypull-20&linkId=GSBMT4UK7B25DDPB" target="_blank">The Science of Success</a>.  This episode is packed with valuable information, so you'll definitely want to check-out their <a href= "http://www.theinvestorspodcast.com/episodes/9-charles-koch-science-of-success.html" target="_blank">show notes</a>.</p>]]></description>
-            <enclosure length="30263139" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_09_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="30263139" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_09_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>31:16</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <itunes:keywords>the,of,science,charles,koch,success</itunes:keywords>
@@ -1447,7 +1429,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, the panel is asked important questions from a new value investor that's interested in putting money into the stock market.  If you're looking to do the same, or you're interested in hearing some fantastic questions, you won't want to miss this week's episode.</p>]]></description>
-            <enclosure length="44828597" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_08_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="44828597" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_08_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>46:26</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>investing,value</itunes:keywords>
@@ -1460,7 +1442,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com/episodes/7-zero-to-one-summary.html]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, the panel discusses the ideas of Peter Thiel.  Peter is a famous Silicon Valley Billionaire who founded PayPal and Palantir.  He also owned a 10% stake in Facebook.  The Investors, along with Hari Ramachandra, discuss Peter's new book - Zero to One.  </p>]]></description>
-            <enclosure length="35275369" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_07_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="35275369" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_07_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>36:29</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>peter,thiel</itunes:keywords>
@@ -1473,7 +1455,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com/episodes/6-stock-market-crash-interest-rates.html]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p><!-- [if gte mso 9]><xml>  <o:DocumentProperties>   <o:Revision>0</o:Revision>   <o:TotalTime>0</o:TotalTime>   <o:Pages>1</o:Pages>   <o:Words>59</o:Words>   <o:Characters>341</o:Characters>   <o:Company>Farm Town</o:Company>   <o:Lines>2</o:Lines>   <o:Paragraphs>1</o:Paragraphs>   <o:CharactersWithSpaces>399</o:CharactersWithSpaces>   <o:Version>14.0</o:Version>  </o:DocumentProperties>  <o:OfficeDocumentSettings>   <o:AllowPNG/>  </o:OfficeDocumentSettings> </xml><![endif]--> <!-- [if gte mso 9]><xml>  <w:WordDocument>   <w:View>Normal</w:View>   <w:Zoom>0</w:Zoom>   <w:TrackMoves/>   <w:TrackFormatting/>   <w:PunctuationKerning/>   <w:ValidateAgainstSchemas/>   <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>   <w:IgnoreMixedContent>false</w:IgnoreMixedContent>   <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>   <w:DoNotPromoteQF/>   <w:LidThemeOther>EN-US</w:LidThemeOther>   <w:LidThemeAsian>JA</w:LidThemeAsian>   <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>   <w:Compatibility>    <w:BreakWrappedTables/>    <w:SnapToGridInCell/>    <w:WrapTextWithPunct/>    <w:UseAsianBreakRules/>    <w:DontGrowAutofit/>    <w:SplitPgBreakAndParaMark/>    <w:EnableOpenTypeKerning/>    <w:DontFlipMirrorIndents/>    <w:OverrideTableStyleHps/>    <w:UseFELayout/>   </w:Compatibility>   <m:mathPr>    <m:mathFont m:val="Cambria Math"/>    <m:brkBin m:val="before"/>    <m:brkBinSub m:val="--"/>    <m:smallFrac m:val="off"/>    <m:dispDef/>    <m:lMargin m:val="0"/>    <m:rMargin m:val="0"/>    <m:defJc m:val="centerGroup"/>    <m:wrapIndent m:val="1440"/>    <m:intLim m:val="subSup"/>    <m:naryLim m:val="undOvr"/>   </m:mathPr></w:WordDocument> </xml><![endif]--><!-- [if gte mso 9]><xml>  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"   DefSemiHidden="true" DefQFormat="false" DefPriority="99"   LatentStyleCount="276">   <w:LsdException Locked="false" Priority="0" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Normal"/>   <w:LsdException Locked="false" Priority="9" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>   <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>   <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>   <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>   <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>   <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>   <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>   <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>   <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>   <w:LsdException Locked="false" Priority="39" Name="toc 1"/>   <w:LsdException Locked="false" Priority="39" Name="toc 2"/>   <w:LsdException Locked="false" Priority="39" Name="toc 3"/>   <w:LsdException Locked="false" Priority="39" Name="toc 4"/>   <w:LsdException Locked="false" Priority="39" Name="toc 5"/>   <w:LsdException Locked="false" Priority="39" Name="toc 6"/>   <w:LsdException Locked="false" Priority="39" Name="toc 7"/>   <w:LsdException Locked="false" Priority="39" Name="toc 8"/>   <w:LsdException Locked="false" Priority="39" Name="toc 9"/>   <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>   <w:LsdException Locked="false" Priority="10" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Title"/>   <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>   <w:LsdException Locked="false" Priority="11" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>   <w:LsdException Locked="false" Priority="22" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Strong"/>   <w:LsdException Locked="false" Priority="20" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>   <w:LsdException Locked="false" Priority="59" SemiHidden="false"    UnhideWhenUsed="false" Name="Table Grid"/>   <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>   <w:LsdException Locked="false" Priority="1" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>   <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading"/>   <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List"/>   <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid"/>   <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1"/>   <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2"/>   <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1"/>   <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2"/>   <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1"/>   <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2"/>   <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3"/>   <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List"/>   <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading"/>   <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List"/>   <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid"/>   <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 1"/>   <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 1"/>   <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 1"/>   <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>   <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>   <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>   <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>   <w:LsdException Locked="false" Priority="34" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>   <w:LsdException Locked="false" Priority="29" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Quote"/>   <w:LsdException Locked="false" Priority="30" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>   <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>   <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>   <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>   <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>   <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 1"/>   <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>   <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 1"/>   <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>   <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 2"/>   <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 2"/>   <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 2"/>   <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>   <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>   <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>   <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>   <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>   <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>   <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>   <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 2"/>   <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>   <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 2"/>   <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>   <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 3"/>   <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 3"/>   <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 3"/>   <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>   <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>   <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>   <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>   <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>   <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>   <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>   <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 3"/>   <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>   <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 3"/>   <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>   <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 4"/>   <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 4"/>   <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 4"/>   <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>   <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>   <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>   <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>   <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>   <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>   <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>   <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 4"/>   <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>   <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 4"/>   <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>   <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 5"/>   <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 5"/>   <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 5"/>   <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>   <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>   <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>   <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>   <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>   <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>   <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>   <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 5"/>   <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>   <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 5"/>   <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>   <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 6"/>   <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 6"/>   <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 6"/>   <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>   <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>   <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>   <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>   <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>   <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>   <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>   <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 6"/>   <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>   <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 6"/>   <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>   <w:LsdException Locked="false" Priority="19" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>   <w:LsdException Locked="false" Priority="21" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>   <w:LsdException Locked="false" Priority="31" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>   <w:LsdException Locked="false" Priority="32" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>   <w:LsdException Locked="false" Priority="33" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>   <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>   <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>  </w:LatentStyles> </xml><![endif]--> <!-- [if gte mso 10]> <style>  /* Style Definitions */ table.MsoNormalTable         {mso-style-name:"Table Normal";         mso-tstyle-rowband-size:0;         mso-tstyle-colband-size:0;         mso-style-noshow:yes;         mso-style-priority:99;         mso-style-parent:"";         mso-padding-alt:0in 5.4pt 0in 5.4pt;         mso-para-margin-top:0in;         mso-para-margin-right:0in;         mso-para-margin-bottom:10.0pt;         mso-para-margin-left:0in;         mso-pagination:widow-orphan;         font-size:12.0pt;         font-family:Cambria;         mso-ascii-font-family:Cambria;         mso-ascii-theme-font:minor-latin;         mso-hansi-font-family:Cambria;         mso-hansi-theme-font:minor-latin;         mso-fareast-language:JA;} </style> <![endif]--> <!--StartFragment--> <!--EndFragment--></p> <p class="MsoNormal"><span style= "font-size: 11.0pt; font-family: Verdana; mso-bidi-font-family: Verdana;"> In this episode of The Investor's Podcast, the panel discusses the impact of interest rates on Stock Market Crashes.  The Investors are joined by Rob Mercuri, who's a Vice President of Risk management from a top-ten consumer bank in America.  You won't want to miss this episode if you want to know how top executives view the market as a whole and how to take advantage of potential opportunities.</span></p>]]></description>
-            <enclosure length="62067051" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_06_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="62067051" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_06_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>43:06</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>market,stock,interest,crashes,rates</itunes:keywords>
@@ -1486,7 +1468,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this episode of The Investor's Podcast, we have a fun and casual conversation with Gregg Pisani - a former trader on the floor of the NY Stock Exchange. Gregg discusses the typical work day and what it's like processing millions of trades each day. If you've ever wondered what all those people are doing on the floor of the NY Stock Exchange, you'll probably enjoy listening to some of Gregg's funny experiences. </p>]]></description>
-            <enclosure length="37018442" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_05_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="37018442" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_05_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>38:18</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>investing,ny,stock,exchange</itunes:keywords>
@@ -1499,7 +1481,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p><!-- [if gte mso 9]><xml>  <o:DocumentProperties>   <o:Revision>0</o:Revision>   <o:TotalTime>0</o:TotalTime>   <o:Pages>1</o:Pages>   <o:Words>56</o:Words>   <o:Characters>321</o:Characters>   <o:Company>Farm Town</o:Company>   <o:Lines>2</o:Lines>   <o:Paragraphs>1</o:Paragraphs>   <o:CharactersWithSpaces>376</o:CharactersWithSpaces>   <o:Version>14.0</o:Version>  </o:DocumentProperties>  <o:OfficeDocumentSettings>   <o:AllowPNG/>  </o:OfficeDocumentSettings> </xml><![endif]--> <!-- [if gte mso 9]><xml>  <w:WordDocument>   <w:View>Normal</w:View>   <w:Zoom>0</w:Zoom>   <w:TrackMoves/>   <w:TrackFormatting/>   <w:PunctuationKerning/>   <w:ValidateAgainstSchemas/>   <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>   <w:IgnoreMixedContent>false</w:IgnoreMixedContent>   <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>   <w:DoNotPromoteQF/>   <w:LidThemeOther>EN-US</w:LidThemeOther>   <w:LidThemeAsian>JA</w:LidThemeAsian>   <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>   <w:Compatibility>    <w:BreakWrappedTables/>    <w:SnapToGridInCell/>    <w:WrapTextWithPunct/>    <w:UseAsianBreakRules/>    <w:DontGrowAutofit/>    <w:SplitPgBreakAndParaMark/>    <w:EnableOpenTypeKerning/>    <w:DontFlipMirrorIndents/>    <w:OverrideTableStyleHps/>    <w:UseFELayout/>   </w:Compatibility>   <m:mathPr>    <m:mathFont m:val="Cambria Math"/>    <m:brkBin m:val="before"/>    <m:brkBinSub m:val="--"/>    <m:smallFrac m:val="off"/>    <m:dispDef/>    <m:lMargin m:val="0"/>    <m:rMargin m:val="0"/>    <m:defJc m:val="centerGroup"/>    <m:wrapIndent m:val="1440"/>    <m:intLim m:val="subSup"/>    <m:naryLim m:val="undOvr"/>   </m:mathPr></w:WordDocument> </xml><![endif]--><!-- [if gte mso 9]><xml>  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"   DefSemiHidden="true" DefQFormat="false" DefPriority="99"   LatentStyleCount="276">   <w:LsdException Locked="false" Priority="0" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Normal"/>   <w:LsdException Locked="false" Priority="9" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>   <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>   <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>   <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>   <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>   <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>   <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>   <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>   <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>   <w:LsdException Locked="false" Priority="39" Name="toc 1"/>   <w:LsdException Locked="false" Priority="39" Name="toc 2"/>   <w:LsdException Locked="false" Priority="39" Name="toc 3"/>   <w:LsdException Locked="false" Priority="39" Name="toc 4"/>   <w:LsdException Locked="false" Priority="39" Name="toc 5"/>   <w:LsdException Locked="false" Priority="39" Name="toc 6"/>   <w:LsdException Locked="false" Priority="39" Name="toc 7"/>   <w:LsdException Locked="false" Priority="39" Name="toc 8"/>   <w:LsdException Locked="false" Priority="39" Name="toc 9"/>   <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>   <w:LsdException Locked="false" Priority="10" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Title"/>   <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>   <w:LsdException Locked="false" Priority="11" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>   <w:LsdException Locked="false" Priority="22" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Strong"/>   <w:LsdException Locked="false" Priority="20" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>   <w:LsdException Locked="false" Priority="59" SemiHidden="false"    UnhideWhenUsed="false" Name="Table Grid"/>   <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>   <w:LsdException Locked="false" Priority="1" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>   <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading"/>   <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List"/>   <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid"/>   <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1"/>   <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2"/>   <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1"/>   <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2"/>   <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1"/>   <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2"/>   <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3"/>   <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List"/>   <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading"/>   <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List"/>   <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid"/>   <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 1"/>   <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 1"/>   <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 1"/>   <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>   <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>   <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>   <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>   <w:LsdException Locked="false" Priority="34" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>   <w:LsdException Locked="false" Priority="29" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Quote"/>   <w:LsdException Locked="false" Priority="30" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>   <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>   <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>   <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>   <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>   <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 1"/>   <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>   <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 1"/>   <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>   <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 2"/>   <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 2"/>   <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 2"/>   <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>   <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>   <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>   <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>   <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>   <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>   <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>   <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 2"/>   <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>   <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 2"/>   <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>   <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 3"/>   <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 3"/>   <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 3"/>   <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>   <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>   <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>   <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>   <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>   <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>   <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>   <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 3"/>   <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>   <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 3"/>   <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>   <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 4"/>   <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 4"/>   <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 4"/>   <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>   <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>   <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>   <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>   <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>   <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>   <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>   <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 4"/>   <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>   <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 4"/>   <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>   <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 5"/>   <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 5"/>   <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 5"/>   <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>   <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>   <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>   <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>   <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>   <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>   <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>   <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 5"/>   <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>   <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 5"/>   <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>   <w:LsdException Locked="false" Priority="60" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Shading Accent 6"/>   <w:LsdException Locked="false" Priority="61" SemiHidden="false"    UnhideWhenUsed="false" Name="Light List Accent 6"/>   <w:LsdException Locked="false" Priority="62" SemiHidden="false"    UnhideWhenUsed="false" Name="Light Grid Accent 6"/>   <w:LsdException Locked="false" Priority="63" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>   <w:LsdException Locked="false" Priority="64" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>   <w:LsdException Locked="false" Priority="65" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>   <w:LsdException Locked="false" Priority="66" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>   <w:LsdException Locked="false" Priority="67" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>   <w:LsdException Locked="false" Priority="68" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>   <w:LsdException Locked="false" Priority="69" SemiHidden="false"    UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>   <w:LsdException Locked="false" Priority="70" SemiHidden="false"    UnhideWhenUsed="false" Name="Dark List Accent 6"/>   <w:LsdException Locked="false" Priority="71" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>   <w:LsdException Locked="false" Priority="72" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful List Accent 6"/>   <w:LsdException Locked="false" Priority="73" SemiHidden="false"    UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>   <w:LsdException Locked="false" Priority="19" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>   <w:LsdException Locked="false" Priority="21" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>   <w:LsdException Locked="false" Priority="31" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>   <w:LsdException Locked="false" Priority="32" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>   <w:LsdException Locked="false" Priority="33" SemiHidden="false"    UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>   <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>   <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>  </w:LatentStyles> </xml><![endif]--> <!-- [if gte mso 10]> <style>  /* Style Definitions */ table.MsoNormalTable         {mso-style-name:"Table Normal";         mso-tstyle-rowband-size:0;         mso-tstyle-colband-size:0;         mso-style-noshow:yes;         mso-style-priority:99;         mso-style-parent:"";         mso-padding-alt:0in 5.4pt 0in 5.4pt;         mso-para-margin-top:0in;         mso-para-margin-right:0in;         mso-para-margin-bottom:10.0pt;         mso-para-margin-left:0in;         mso-pagination:widow-orphan;         font-size:12.0pt;         font-family:Cambria;         mso-ascii-font-family:Cambria;         mso-ascii-theme-font:minor-latin;         mso-hansi-font-family:Cambria;         mso-hansi-theme-font:minor-latin;         mso-fareast-language:JA;} </style> <![endif]--> <!--StartFragment--> <!--EndFragment--></p> <p class="MsoNormal"><span style= "font-size: 11.0pt; font-family: Verdana; mso-bidi-font-family: Verdana;"> In this episode of The Investor's Podcast, Hari Ramachandra discusses his investment in the Pabrai Funds, managed by the emerging, and newly famous, Mohnish Pabrai.  Pabrai has adopted the same principals as Warren Buffett, and Hari discusses the similarities and differences during the episode.  Hari also discusses his experience of attending Pabrai's shareholders meeting.</span></p>]]></description>
-            <enclosure length="33894263" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_04_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="33894263" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_04_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>35:03</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>funds,warren,buffett,holdings,mohnish,pabrai,dhandho</itunes:keywords>
@@ -1512,7 +1494,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p><span style= "color: #010000; font-family: Roboto, sans-serif; font-size: 16px; line-height: 24px;"> Have you ever wondered what rules Warren Buffett might use to analyze potential stock picks. In episode three, the Investors discuss Buffett's 4 rules to selecting a successful stock pick. You won't want to miss this important discussion!</span></p>]]></description>
-            <enclosure length="27358562" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_03_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="27358562" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_03_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>28:20</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>warren,buffett</itunes:keywords>
@@ -1525,7 +1507,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this session of The Investor's Podcast, we discuss the two methods of receiving earnings and Benjamin Graham's Mr. Market example.</p>]]></description>
-            <enclosure length="22200262" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_02_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="22200262" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_02_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>22:58</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords>podcast,investing,stocks,warren,bonds,buffett</itunes:keywords>
@@ -1538,7 +1520,7 @@ empire.  </p>]]></description>
             <link><![CDATA[http://www.theinvestorspodcast.com]]></link>
             <itunes:image href="http://static.libsyn.com/p/assets/a/2/4/7/a247954468a589d8/Investing-Podcast.jpg" />
             <description><![CDATA[<p>In this session of The Investor's Podcast, we discuss the fundamental elements of Warren Buffett's investing approach in the stock market.</p>]]></description>
-            <enclosure length="27463548" type="audio/mpeg" url="http://traffic.libsyn.com/theinvestorspodcast/TIP_01_-_with_RVTV.mp3?dest-id=223117" />
+            <enclosure length="27463548" type="audio/mpeg" url="https://traffic.libsyn.com/theinvestorspodcast/TIP_01_-_with_RVTV.mp3?dest-id=223117" />
             <itunes:duration>28:27</itunes:duration>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:keywords />
