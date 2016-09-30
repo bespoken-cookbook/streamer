@@ -87,17 +87,6 @@ describe('AudioConverter', function() {
                 }
             );
         });
-
-        it("Converts and uploads mp3 file to S3", function(done) {
-            AudioConverter.convertAndUpload('UnitTestUploaded2.mp3',
-                'https://s3.amazonaws.com/xapp-alexa/JPKUnitTest-JPKUnitTest-1645-TAKEMETOWALMART-TRAILING.mp3',
-                function (url) {
-                    console.log("TIME: " + (new Date().getTime() - start));
-                    assert.equal(url, 'https://s3.amazonaws.com/bespoken/streaming/UnitTestUploaded2.mp3');
-                    done();
-                }
-            );
-        });
     });
 });
 

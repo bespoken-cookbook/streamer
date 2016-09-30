@@ -3,7 +3,7 @@ var AudioManager = require('../lib/audioManager');
 
 describe('AudioManager', function() {
     describe('#fromURL', function() {
-        it("Correctly loads RSS feed from URL", function(done) {
+        it("Correctly loads RSS feed from file", function(done) {
             this.timeout(10000);
             AudioManager.load('file', 'test/rssFeed.xml', function () {
                 assert.equal(AudioManager.feed().items.length, 6);
