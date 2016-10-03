@@ -100,7 +100,7 @@ describe('Streamer', function() {
             alexa.spoken('Play {3}', function (error, response) {
                 assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
                 assert.equal(response.response.directives[0].audioItem.stream.token, '3');
-                assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/theinvestorspodcast/TIP102_final_mp3_with_new_intro_with_discount_code.mp3?dest-id=223117')
+                assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/theinvestorspodcast/TIP102_final_mp3_with_new_intro_with_discount_code.mp3?dest-id=223117');
                 done();
             });
         });
@@ -113,16 +113,20 @@ describe('Streamer', function() {
             alexa.spoken('Scan', function (error, response) {
                 assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
                 assert.equal(response.response.directives[0].audioItem.stream.token, '0');
-                assert.equal(response.response.directives[0].audioItem.stream.url, 'https://s3.amazonaws.com/bespoken/streaming/TIP105MastermindGroup20163rdQuarterBusinessPodcast.mp3')
+                assert.equal(response.response.directives[0].audioItem.stream.url, 'https://s3.amazonaws.com/bespoken/streaming/TIP105MastermindGroup20163rdQuarterBusinessPodcast.mp3');
+                alexa.audioItemFinished();
+                alexa.on('AudioPlayer.PlaybackStarted', function () {
+                    alexa.intended('AMAZON.NextIntent', null, function (error, response) {
+                        assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
+                        assert.equal(response.response.directives[0].audioItem.stream.token, '1');
+                        assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/theinvestorspodcast/TIP_-_104_-_King_Icahn_final_mp3.mp3?dest-id=223117');
+                        done();
+                    });
+                });
+
             });
 
-            alexa.on('response', function(response, request) {
-                // Do this test because we had a bug where it did a REPLACE_ALL on PlaybackNearlyFinished
-                if (request.request.type === 'AudioPlayer.PlaybackNearlyFinished') {
-                    assert.equal(response.response.directives[0].playBehavior, 'ENQUEUE');
-                    done();
-                }
-            });
+
         });
     });
         // it('Starts and plays', function (done) {
