@@ -21,6 +21,14 @@ describe('TextToSpeech', function() {
                 done();
             });
         });
+
+        it("Converts Text To Speech As MP3 Using Cache", function(done) {
+            this.timeout(10);
+            TextToSpeech.convertToSpeechAsMP3('HELLO-THERE-UNIT-TEST.mp3', 'Hello there, ladies and gentlemen', null, function (error, url) {
+                assert(url, 'https://s3.amazonaws.com/bespoken/streaming/HELLO-THERE-UNIT-TEST.mp3');
+                done();
+            });
+        });
     });
 
     describe('#checkStatus', function () {
