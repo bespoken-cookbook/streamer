@@ -75,6 +75,22 @@ describe('Streamer', function() {
             });
 
         });
+
+        it('Plays And Two Nexts', function (done) {
+            this.timeout(10000);
+
+            alexa.spoken('Play', function (error, response) {
+                alexa.intended('AMAZON.NextIntent');
+
+                alexa.intended('AMAZON.NextIntent', null, function (error, response) {
+                    assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
+                    assert.equal(response.response.directives[0].audioItem.stream.token, '2');
+                    assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/theinvestorspodcast/TIP_103_-_final_mp3.mp3?dest-id=223117');
+                    done();
+                });
+            });
+
+        });
     });
 
     describe('Play Named', function() {
