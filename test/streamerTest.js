@@ -105,6 +105,26 @@ describe('Streamer', function() {
             });
         });
     });
+
+    describe('Scan', function() {
+        it('Scans', function (done) {
+            this.timeout(30000);
+
+            alexa.spoken('Scan', function (error, response) {
+                assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
+                assert.equal(response.response.directives[0].audioItem.stream.token, '0');
+                assert.equal(response.response.directives[0].audioItem.stream.url, 'https://s3.amazonaws.com/bespoken/streaming/TIP105MastermindGroup20163rdQuarterBusinessPodcast.mp3')
+            });
+
+            alexa.on('response', function(response, request) {
+                // Do this test because we had a bug where it did a REPLACE_ALL on PlaybackNearlyFinished
+                if (request.request.type === 'AudioPlayer.PlaybackNearlyFinished') {
+                    assert.equal(response.response.directives[0].playBehavior, 'ENQUEUE');
+                    done();
+                }
+            });
+        });
+    });
         // it('Starts and plays', function (done) {
         //     this.timeout(10000);
         //

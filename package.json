@@ -17,6 +17,7 @@
     "alexa-sdk": "^1.0.4",
     "mockery": "^1.7.0",
     "node-uuid": "^1.4.7",
+    "striptags": "^2.1.1",
     "tmp": "0.0.28",
     "underscore.string": "^3.3.4",
     "xml2js": "0.4.15"

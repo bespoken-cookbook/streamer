@@ -17,6 +17,7 @@ describe('RSSAdapter', function() {
             RSSAdapter.fromURL('https://s3.amazonaws.com/bespoken/streaming/rssFeed.xml', function (error, feed) {
                 assert.equal(feed.items.length, 4);
                 assert.equal(feed.items[0].audioURL, 'https://feeds.soundcloud.com/stream/275202399-amazon-web-services-306355661-amazon-web-services.mp3');
+                assert.equal(feed.items[0].description.trim(), 'Welcome the first show on Alexa Streaming');
                 done();
             });
         });

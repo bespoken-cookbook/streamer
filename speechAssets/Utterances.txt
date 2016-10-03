@@ -2,12 +2,6 @@ Play play
 Play play {feedItem}
 Scan scan
 Scan scan titles
-About about
 About about the podcast
-LatestAudio latest
-LatestAudio play latest
-LatestAudio play the latest
-LatestAudio play newest
-LatestAudio play the newest
 
 
