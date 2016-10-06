@@ -107,7 +107,25 @@ describe('Streamer', function() {
     });
 
     describe('Scan', function() {
-        it('Scans and Plays First', function (done) {
+        it('Launches and Scans to First', function (done) {
+            this.timeout(30000);
+
+            alexa.launched(function (error, response) {
+                alexa.spoken('Scan', function (error, response) {
+                    assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
+                    assert.equal(response.response.directives[0].audioItem.stream.token, '0');
+                    assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/bespoken/TIP103-Summary.mp3');
+                    alexa.intended('AMAZON.NextIntent', null, function (error, response) {
+                        assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
+                        assert.equal(response.response.directives[0].audioItem.stream.token, '0');
+                        assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/bespoken/TIP103.mp3?dest-id=432208');
+                        done();
+                    });
+                });
+            });
+        });
+
+        it('Launches and Scans to First', function (done) {
             this.timeout(30000);
 
             alexa.spoken('Scan', function (error, response) {
