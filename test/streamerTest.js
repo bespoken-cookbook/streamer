@@ -112,6 +112,7 @@ describe('Streamer', function() {
 
             alexa.launched(function (error, response) {
                 alexa.spoken('Scan', function (error, response) {
+                    assert.equal(response.response.outputSpeech.ssml, '<speak> At any time, just say Alexa Play Next to jump into a podcast </speak>');
                     assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
                     assert.equal(response.response.directives[0].audioItem.stream.token, '0');
                     assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/bespoken/TIP103-Summary.mp3');
@@ -161,5 +162,20 @@ describe('Streamer', function() {
 
             });
         });
+    });
+
+    describe('About', function() {
+        it('Launches and Plays About', function (done) {
+            this.timeout(10000);
+
+            alexa.launched(function (error, response) {
+                alexa.spoken('About the podcast', function (error, response) {
+                    assert.equal(response.response.outputSpeech.ssml, '<speak> <audio src="https://s3.amazonaws.com/bespoken/streaming/bespokenspodcast-ABOUT.mp3" />You can say play, scan titles, or about the podcast </speak>');
+                    assert(!response.response.directives);
+                    done();
+                });
+            });
+        });
+
     });
 });

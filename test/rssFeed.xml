@@ -28,6 +28,7 @@
             <itunes:category text="Podcasting"/>
         </itunes:category>
         <introduction url="https://s3.amazonaws.com/xapp-alexa/JPKUnitTest-JPKUnitTest-1645-TAKEMETOWALMART-TRAILING.mp3" />
+        <about url="https://s3.amazonaws.com/xapp-alexa/About.mp3" />
 
         <item>
             <title>Episode 140</title>

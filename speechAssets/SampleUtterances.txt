@@ -2,6 +2,6 @@ Play play
 Play play {feedItem}
 Scan scan
 Scan scan titles
+Scan scan podcasts
 About about the podcast
-
-
+About about this podcast
