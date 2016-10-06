@@ -48,6 +48,14 @@ describe('AudioConverter', function() {
                 done();
             });
         });
+
+        it("Downloads another file", function(done) {
+            this.timeout(5000);
+            AudioConverter.download('http://traffic.libsyn.com/bespoken/Introduction.mp3', function (data) {
+                assert.equal(data.length, 343899);
+                done();
+            });
+        });
     });
 
     describe('#upload', function() {
