@@ -6,7 +6,7 @@ describe('Streamer', function() {
     var alexa = null;
 
     beforeEach(function (done) {
-        server = new bst.LambdaServer('./lib/index.js', 10000, false);
+        server = new bst.LambdaServer('./lib/index.js', 10000, true);
         alexa = new bst.BSTAlexa('http://localhost:10000',
             './speechAssets/IntentSchema.json',
             './speechAssets/SampleUtterances.txt',
@@ -150,16 +150,18 @@ describe('Streamer', function() {
                 assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
                 assert.equal(response.response.directives[0].audioItem.stream.token, '0');
                 assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/bespoken/TIP103-Summary.mp3');
-                alexa.audioItemFinished();
-                alexa.on('AudioPlayer.PlaybackStarted', function () {
-                    alexa.intended('AMAZON.NextIntent', null, function (error, response) {
-                        assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
-                        assert.equal(response.response.directives[0].audioItem.stream.token, '1');
-                        assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/bespoken/TIP104.mp3?dest-id=432208');
-                        done();
+                alexa.once('AudioPlayer.PlaybackStarted', function () {
+                    alexa.playbackNearlyFinished();
+                    alexa.playbackFinished(function () {
+                        alexa.intended('AMAZON.NextIntent', null, function (error, response) {
+                            assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
+                            assert.equal(response.response.directives[0].audioItem.stream.token, '1');
+                            assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/bespoken/TIP104.mp3?dest-id=432208');
+                            done();
+                        });
                     });
-                });
 
+                });
             });
         });
     });
@@ -177,5 +179,56 @@ describe('Streamer', function() {
             });
         });
 
+    });
+
+    describe('Resume', function() {
+        it('Launches and then resumes', function (done) {
+            this.timeout(10000);
+
+            alexa.launched(function (error, response) {
+                alexa.spoken('Play');
+                alexa.once('AudioPlayer.PlaybackStarted', function () {
+                    alexa.playbackOffset(1000);
+                    alexa.intended('AMAZON.StopIntent', null, function () {
+                        alexa.launched(function (error, response, request) {
+                            assert.equal(request.session.new, true);
+                            console.log('RESPONSE: ' + response.sessionAttributes['STATE']);
+                            assert.equal(response.response.outputSpeech.ssml, '<speak> You were listening to TIP 103 : Life Inc. - Running your home finances like a business w/ Doug McCormick Would you like to resume? </speak>');
+                            alexa.intended('AMAZON.YesIntent', null, function (error, response, request) {
+                                assert.equal(request.session.attributes['STATE'], '_RESUME_DECISION_MODE');
+                            });
+
+                            alexa.once('AudioPlayer.PlaybackStarted', function(audioItem) {
+                                assert.equal(audioItem.stream.url, 'https://traffic.libsyn.com/bespoken/TIP103.mp3?dest-id=432208');
+                                assert.equal(audioItem.stream.offsetInMilliseconds, 1000);
+                                done();
+                            });
+                        });
+                    });
+                });
+            });
+        });
+
+        it('Launches and does not resume', function (done) {
+            this.timeout(10000);
+
+            alexa.launched(function (error, response) {
+                alexa.spoken('Play');
+                alexa.once('AudioPlayer.PlaybackStarted', function () {
+                    alexa.intended('AMAZON.StopIntent', null, function () {
+                        alexa.launched(function (error, response, request) {
+                            assert.equal(request.session.new, true);
+                            console.log('RESPONSE: ' + response.sessionAttributes['STATE']);
+                            assert.equal(response.response.outputSpeech.ssml, '<speak> You were listening to TIP 103 : Life Inc. - Running your home finances like a business w/ Doug McCormick Would you like to resume? </speak>');
+                            alexa.intended('AMAZON.NoIntent', null, function (error, response, request) {
+
+                                assert.equal(request.session.attributes['STATE'], '_RESUME_DECISION_MODE');
+                                done();
+                            });
+                        });
+                    });
+                });
+            });
+        });
     });
 });
