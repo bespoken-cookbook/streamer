@@ -1,16 +1,60 @@
-# Quick Setup with BST
+# Streamer
+The streamer uses RSS feeds to as a source of content for an Alexa skill.
 
-If you would like to get started working with this project quickly, to see how the new streaming works, just follow these directions.  
+It supports three main functions at this time:
+* Play
+* Scan
+* About
 
-You can take a look at the [deploy README] (https://github.com/bespoken/skill-sample-nodejs-audio-player/README_DEPLOY.md) 
+## Play
+Play is fairly self-explanatory - it will take the first podcast in an RSS feed and begin playing it.
+
+## Scan
+Scan plays snippets of audio about podcasts, allowing the user to choose which one they want to listen to.
+
+The user simply says 'Alexa, Play Next' to jump into one of them.
+
+The snippets are supplied as an extra element in the RSS feed, under an <item> tag, like this:
+```
+<summary url="https://mypodcast.com/audio/PODCAST-104-SUMMARY.mp3" />
+```
+
+[Here is a real example](https://github.com/bespoken/streamer/blob/XAPPAdapter/test/BespokenCast.xml#L44).
+
+## About
+The about section simply plays information about the podcast. 
+
+It is also set as a custom element in the RSS feed under the channel element. It looks like this:
+```
+<about url="https://mypodcast.com/audio/ABOUT.mp3" />
+```
+
+[Here is a real example](https://github.com/bespoken/streamer/blob/XAPPAdapter/test/BespokenCast.xml#L30).
+
+## Introduction
+Lastly, an introduction can be produced. This will be played whenever the listener first enters the Skill.
+
+It is also set as a custom element:
+```
+<introduction url="https://mypodcast.com/audio/ABOUT.mp3" />
+```
+
+[Here is a real introduction example](https://github.com/bespoken/streamer/blob/XAPPAdapter/test/BespokenCast.xml#L29).
+
+# Development
+## Quick Setup with bst
+
+If you would like to get started working with this project quickly, to see how the streamer works, just follow these directions.  
+
+You can take a look at the [deploy README] (https://github.com/bespoken/streamer/README_DEPLOY.md) 
 if/when you want to make the skill available publicly. These steps will allow you to get quickly setup and then do "frictionless iterations" on your code.
 
 ## Running the Sample
 
 1) Clone the project
 ```bash
-git clone https://github.com/alexa/skill-sample-nodejs-audio-player.git
-cd skill-sample-nodejs-audio-player/js
+git clone https://github.com/bespoken/streamer.git
+cd streamer
 npm install
 ```
 
@@ -29,12 +73,12 @@ npm install bespoken-tools -g
 From the directory where you cloned the project, switch to the "js" folder and run the bst proxy:
 ```bash
 cd js
-bst proxy lambda index.js
+bst proxy lambda lib/index.js
 ```
 
 The proxy will print out some basic information:
 ```
-BST: v0.6.12  Node: v6.3.0
+BST: v0.7.5  Node: v6.3.0
 
 Your URL for Alexa Skill configuration:
 https://proxy.bespoken.tools?node-id=83118179-ae4a-4132-8c15-82af566efa2b
