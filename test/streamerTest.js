@@ -32,8 +32,6 @@ describe('Streamer', function() {
 
     describe('Play Latest', function() {
         it('Launches and then plays first', function (done) {
-            this.timeout(10000);
-
             alexa.launched(function (error, response) {
                 //assert.equal(response.response.outputSpeech.ssml, '<speak> <audio src="https://s3.amazonaws.com/bespoken/streaming/WeStudyBillionaires-TheInvestorsPodcast-INTRODUCTION.mp3" /> </speak>');
                 assert.equal(response.response.outputSpeech.ssml, '<speak> <audio src="https://s3.amazonaws.com/bespoken/streaming/bespokenspodcast-INTRODUCTION.mp3" />You can say play, scan titles, or about the podcast </speak>');
@@ -47,8 +45,6 @@ describe('Streamer', function() {
         });
 
         it('Plays', function (done) {
-            this.timeout(10000);
-
             alexa.spoken('Play', function (error, response) {
                 assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
                 assert.equal(response.response.directives[0].audioItem.stream.token, '0');
@@ -58,8 +54,6 @@ describe('Streamer', function() {
         });
 
         it('Plays And Goes To Next', function (done) {
-            this.timeout(10000);
-
             alexa.spoken('Play', function (error, response) {
                 // We want to make sure playback started
                 alexa.on('AudioPlayer.PlaybackStarted', function (audioItem) {
@@ -77,8 +71,6 @@ describe('Streamer', function() {
         });
 
         it('Plays And Two Nexts', function (done) {
-            this.timeout(10000);
-
             alexa.spoken('Play', function (error, response) {
                 alexa.intended('AMAZON.NextIntent');
 
@@ -95,8 +87,6 @@ describe('Streamer', function() {
 
     describe('Play Named', function() {
         it('Plays Named Podcast', function (done) {
-            this.timeout(10000);
-
             alexa.spoken('Play {3}', function (error, response) {
                 assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
                 assert.equal(response.response.directives[0].audioItem.stream.token, '2');
@@ -108,8 +98,6 @@ describe('Streamer', function() {
 
     describe('Scan', function() {
         it('Launches and Scans to First', function (done) {
-            this.timeout(30000);
-
             alexa.launched(function (error, response) {
                 alexa.spoken('Scan', function (error, response) {
                     assert.equal(response.response.outputSpeech.ssml, '<speak> At any time, just say Alexa Play Next to jump into a podcast </speak>');
@@ -127,8 +115,6 @@ describe('Streamer', function() {
         });
 
         it('Launches and Scans to First', function (done) {
-            this.timeout(30000);
-
             alexa.spoken('Scan', function (error, response) {
                 assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
                 assert.equal(response.response.directives[0].audioItem.stream.token, '0');
@@ -144,8 +130,6 @@ describe('Streamer', function() {
         });
 
         it('Scans Past One And Then Plays', function (done) {
-            this.timeout(30000);
-
             alexa.spoken('Scan', function (error, response) {
                 assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
                 assert.equal(response.response.directives[0].audioItem.stream.token, '0');
@@ -168,8 +152,6 @@ describe('Streamer', function() {
 
     describe('About', function() {
         it('Launches and Plays About', function (done) {
-            this.timeout(10000);
-
             alexa.launched(function (error, response) {
                 alexa.spoken('About the podcast', function (error, response) {
                     assert.equal(response.response.outputSpeech.ssml, '<speak> <audio src="https://s3.amazonaws.com/bespoken/streaming/bespokenspodcast-ABOUT.mp3" />You can say play, scan titles, or about the podcast </speak>');
@@ -183,8 +165,6 @@ describe('Streamer', function() {
 
     describe('Resume', function() {
         it('Launches and then resumes', function (done) {
-            this.timeout(10000);
-
             alexa.launched(function (error, response) {
                 alexa.spoken('Play');
                 alexa.once('AudioPlayer.PlaybackStarted', function () {
@@ -210,8 +190,6 @@ describe('Streamer', function() {
         });
 
         it('Launches and does not resume', function (done) {
-            this.timeout(10000);
-
             alexa.launched(function (error, response) {
                 alexa.spoken('Play');
                 alexa.once('AudioPlayer.PlaybackStarted', function () {
@@ -221,7 +199,6 @@ describe('Streamer', function() {
                             console.log('RESPONSE: ' + response.sessionAttributes['STATE']);
                             assert.equal(response.response.outputSpeech.ssml, '<speak> You were listening to TIP 103 : Life Inc. - Running your home finances like a business w/ Doug McCormick Would you like to resume? </speak>');
                             alexa.intended('AMAZON.NoIntent', null, function (error, response, request) {
-
                                 assert.equal(request.session.attributes['STATE'], '_RESUME_DECISION_MODE');
                                 assert.equal(response.response.outputSpeech.ssml, '<speak> <audio src="https://s3.amazonaws.com/bespoken/streaming/bespokenspodcast-INTRODUCTION.mp3" />You can say play, scan titles, or about the podcast </speak>');
                                 done();
