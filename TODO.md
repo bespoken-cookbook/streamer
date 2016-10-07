@@ -8,7 +8,6 @@ Make sure cards are working correctly
 
 Add support for directive events
 
-    
 Add support for getting URL from Lambda
 
 Use codeship/code deploy/etc
@@ -20,3 +19,6 @@ Make dynamo flag easy to configure
 
 Talk about debugging story
     Especially with regard to that one commit
+    
+Make repo public
+    Add license

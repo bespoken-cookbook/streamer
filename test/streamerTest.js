@@ -196,10 +196,12 @@ describe('Streamer', function() {
                     alexa.intended('AMAZON.StopIntent', null, function () {
                         alexa.launched(function (error, response, request) {
                             assert.equal(request.session.new, true);
-                            console.log('RESPONSE: ' + response.sessionAttributes['STATE']);
                             assert.equal(response.response.outputSpeech.ssml, '<speak> You were listening to TIP 103 : Life Inc. - Running your home finances like a business w/ Doug McCormick Would you like to resume? </speak>');
+                            assert.equal(response.sessionAttributes['STATE'], '_RESUME_DECISION_MODE');
+
                             alexa.intended('AMAZON.NoIntent', null, function (error, response, request) {
                                 assert.equal(request.session.attributes['STATE'], '_RESUME_DECISION_MODE');
+                                assert.equal(response.sessionAttributes['STATE'], '');
                                 assert.equal(response.response.outputSpeech.ssml, '<speak> <audio src="https://s3.amazonaws.com/bespoken/streaming/bespokenspodcast-INTRODUCTION.mp3" />You can say play, scan titles, or about the podcast </speak>');
                                 done();
                             });
