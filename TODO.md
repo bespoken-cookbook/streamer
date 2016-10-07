@@ -8,9 +8,15 @@ Make sure cards are working correctly
 
 Add support for directive events
 
-Ensure CI is working
+    
+Add support for getting URL from Lambda
+
+Use codeship/code deploy/etc
+    Ensure CI is working
+
+After RESUME and NO, does not correctly reset the state (stays in resume mode, cannot scan titles)
+
+Make dynamo flag easy to configure
 
 Talk about debugging story
     Especially with regard to that one commit
-    
-After RESUME and NO, does not correctly reset the state (stays in resume mode, cannot scan titles)
