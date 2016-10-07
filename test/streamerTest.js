@@ -223,6 +223,7 @@ describe('Streamer', function() {
                             alexa.intended('AMAZON.NoIntent', null, function (error, response, request) {
 
                                 assert.equal(request.session.attributes['STATE'], '_RESUME_DECISION_MODE');
+                                assert.equal(response.response.outputSpeech.ssml, '<speak> <audio src="https://s3.amazonaws.com/bespoken/streaming/bespokenspodcast-INTRODUCTION.mp3" />You can say play, scan titles, or about the podcast </speak>');
                                 done();
                             });
                         });
