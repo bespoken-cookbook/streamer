@@ -40,17 +40,6 @@ describe('TextToSpeech', function() {
         });
     });
 
-    describe('#checkStatus', function () {
-        it("Checks Status", function(done) {
-            this.timeout(10000);
-
-            TextToSpeech.checkStatus(2, function(error, data) {
-                console.log('CheckStatus Data: ' + data);
-                done();
-            });
-        });
-    });
-
     describe('#convertConvertSimpleResponse', function () {
         it("Converts Simple Response From XML to JS Object", function(done) {
             var xml = '<response resultCode="0" resultString="success" conversionNumber="2" status="Queued" statusCode="1"/>';
