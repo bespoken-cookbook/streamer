@@ -1,5 +1,5 @@
 {
-  "name": "skill-sample-nodejs-audio-player",
+  "name": "streamer",
   "version": "0.1.10",
   "description": "An audio player sample skill.",
   "main": "index.js",
