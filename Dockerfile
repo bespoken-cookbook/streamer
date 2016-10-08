@@ -10,8 +10,8 @@ ENV PATH="/opt/node/bin:${PATH}"
 
 RUN git pull
 
-RUN /opt/node/bin/npm -version
+RUN npm -version
 
-RUN /opt/node/bin/npm install
+RUN npm install
 
-CMD /opt/node/bin/node bin/server.js
+CMD node bin/server.js
