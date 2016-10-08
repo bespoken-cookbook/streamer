@@ -1,4 +1,4 @@
 app:
   build:
-    image: codeship/bst-streamer
+    image: xappmedia/bst-streamer
     dockerfile_path: Dockerfile

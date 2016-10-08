@@ -1,10 +1,7 @@
-- name: foo_step
-  service: app
-  command: echo done
-
 - name: push
   type: push
   service: app
   image_name: xappmedia/bst-streamer
   image_tag: "{{.Branch}}.{{.BuildID}}"
   registry: https://index.docker.io/v1/
+  encrypted_dockercfg_path: dockercfg.encrypted

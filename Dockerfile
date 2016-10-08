@@ -8,8 +8,8 @@ WORKDIR /opt/streamer
 
 RUN git pull
 
-RUN npm -version
+RUN /opt/node/bin/npm -version
 
-RUN npm install
+RUN /opt/node/bin/npm install
 
-CMD node bin/server.js
+CMD /opt/node/bin/node bin/server.js
