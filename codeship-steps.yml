@@ -3,6 +3,7 @@
   command: echo done
 
 - name: push
+  type: push
   service: app
   image_name: xappmedia/bst-streamer
   image_tag: "{{.Branch}}.{{.BuildID}}"
