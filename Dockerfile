@@ -6,6 +6,8 @@ EXPOSE 10000
 
 WORKDIR /opt/streamer
 
+ENV PATH="/opt/node/bin:${PATH}"
+
 RUN git pull
 
 RUN /opt/node/bin/npm -version
