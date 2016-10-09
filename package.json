@@ -8,7 +8,6 @@
     "skill",
     "audio player"
   ],
-  "author": "Amazon.com",
   "license": "See license in ../LICENSE.txt",
   "devDependencies": {
     "mocha": "2.5.3"
