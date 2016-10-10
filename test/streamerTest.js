@@ -11,7 +11,7 @@ describe('Streamer', function() {
             './speechAssets/IntentSchema.json',
             './speechAssets/SampleUtterances.txt',
             'JPK');
-        server.start(function (error) {
+        server.start(function () {
             alexa.start(function (error) {
                 if (error !== undefined) {
                     console.error("Error: " + error);
