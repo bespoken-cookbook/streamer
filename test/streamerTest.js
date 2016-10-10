@@ -152,6 +152,7 @@ describe('Streamer', function() {
 
     describe('About', function() {
         it('Launches and Plays About', function (done) {
+            this.timeout(5000);
             alexa.launched(function (error, response) {
                 alexa.spoken('About the podcast', function (error, response) {
                     assert.equal(response.response.outputSpeech.ssml, '<speak> <audio src="https://s3.amazonaws.com/bespoken/streaming/bespokenspodcast-ABOUT.mp3" />You can say play, scan titles, or about the podcast </speak>');
@@ -165,6 +166,7 @@ describe('Streamer', function() {
 
     describe('Resume', function() {
         it('Launches and then resumes', function (done) {
+            timeout(10000);
             alexa.launched(function (error, response) {
                 alexa.spoken('Play');
                 alexa.once('AudioPlayer.PlaybackStarted', function () {
