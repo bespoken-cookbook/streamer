@@ -41,6 +41,7 @@ describe('Streamer', function() {
                 // Emulate the user saying 'Play'
                 alexa.spoken('Play', function (error, payload) {
                     // Ensure the correct directive and audioItem is returned
+                    assert.equal(payload.response.card.image.smallImageUrl, 'https://s3.amazonaws.com/bespoken/TIP/Card.jpg');
                     assert.equal(payload.response.directives[0].type, 'AudioPlayer.Play');
                     assert.equal(payload.response.directives[0].playBehavior, 'REPLACE_ALL');
                     assert.equal(payload.response.directives[0].audioItem.stream.token, '0');
