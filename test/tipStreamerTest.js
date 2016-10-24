@@ -70,6 +70,27 @@ describe('TIP Streamer', function() {
                 });
             });
         });
+
+        it('Launches and does not go to resume on scan', function (done) {
+            this.timeout(10000);
+            alexa.launched(function (error, response) {
+                alexa.spoken('Scan');
+                alexa.once('AudioPlayer.PlaybackStarted', function () {
+                    alexa.intended('AMAZON.StopIntent', null, function () {
+                        alexa.launched(function (error, response, request) {
+                            assert.equal(request.session.new, true);
+                            assert.equal(response.response.outputSpeech.ssml, '<speak> <audio src="https://s3.amazonaws.com/bespoken/streaming/WeStudyBillionairesTheInvestorsPodcast-INTRODUCTION.mp3" /><audio src="https://s3.amazonaws.com/bespoken/streaming/WeStudyBillionairesTheInvestorsPodcast-PROMPT.mp3" /> </speak>');
+                            assert.equal(response.sessionAttributes['STATE'], '');
+                            alexa.spoken('Play', function(error, response){
+                                console.log("response: " + response);
+                                done();
+                            });
+
+                        });
+                    });
+                });
+            });
+        });
     });
 
     describe('About', function() {

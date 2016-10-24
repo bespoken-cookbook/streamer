@@ -252,5 +252,25 @@ describe('Streamer', function() {
                 });
             });
         });
+
+        it('Launches and does not go to resume on scan', function (done) {
+            alexa.launched(function (error, response) {
+                alexa.spoken('Scan');
+                alexa.once('AudioPlayer.PlaybackStarted', function () {
+                    alexa.intended('AMAZON.StopIntent', null, function () {
+                        alexa.launched(function (error, response, request) {
+                            assert.equal(request.session.new, true);
+                            assert.equal(response.response.outputSpeech.ssml, '<speak> <audio src=\"https://s3.amazonaws.com/bespoken/streaming/bespokenspodcast-INTRODUCTION.mp3\" />You can say play, scan titles, or about the podcast </speak>');
+                            assert.equal(response.sessionAttributes['STATE'], '');
+                            alexa.spoken('Play', function(error, response){
+                                console.log("response: " + response);
+                                done();
+                            });
+
+                        });
+                    });
+                });
+            });
+        });
     });
 });
