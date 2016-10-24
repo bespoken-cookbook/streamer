@@ -32,6 +32,7 @@ describe('Streamer', function() {
 
     describe('Play Latest', function() {
         it('Launches and then plays first', function (done) {
+            this.timeout(10000);
             // Launch the skill via sending it a LaunchRequest
             alexa.launched(function (error, payload) {
                 // Check that the introduction is play as outputSpeech
@@ -43,7 +44,7 @@ describe('Streamer', function() {
                     assert.equal(payload.response.directives[0].type, 'AudioPlayer.Play');
                     assert.equal(payload.response.directives[0].playBehavior, 'REPLACE_ALL');
                     assert.equal(payload.response.directives[0].audioItem.stream.token, '0');
-                    assert.equal(payload.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/bespoken/TIP103.mp3?dest-id=432208');
+                    assert(payload.response.directives[0].audioItem.stream.url.startsWith('https://traffic.libsyn.com/bespoken'));
                     done();
                 });
             });
@@ -169,6 +170,7 @@ describe('Streamer', function() {
         });
 
         it('Scans Past One And Then Plays', function (done) {
+            this.timeout(10000);
             alexa.spoken('Scan', function (error, response) {
                 assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
                 assert.equal(response.response.directives[0].audioItem.stream.token, '0');
@@ -176,14 +178,16 @@ describe('Streamer', function() {
                 alexa.once('AudioPlayer.PlaybackStarted', function () {
                     alexa.playbackNearlyFinished();
                     alexa.playbackFinished(function () {
-                        alexa.intended('AMAZON.NextIntent', null, function (error, response) {
-                            assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
-                            assert.equal(response.response.directives[0].audioItem.stream.token, '1');
-                            assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/bespoken/TIP104.mp3?dest-id=432208');
-                            done();
+                        alexa.playbackNearlyFinished();
+                        alexa.playbackFinished(function () {
+                            alexa.intended('AMAZON.NextIntent', null, function (error, response) {
+                                assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
+                                assert.equal(response.response.directives[0].audioItem.stream.token, '1');
+                                assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/bespoken/TIP104.mp3?dest-id=432208');
+                                done();
+                            });
                         });
                     });
-
                 });
             });
         });
@@ -246,6 +250,26 @@ describe('Streamer', function() {
                                 assert.equal(response.response.outputSpeech.ssml, '<speak> <audio src="https://s3.amazonaws.com/bespoken/streaming/bespokenspodcast-INTRODUCTION.mp3" />You can say play, scan titles, or about the podcast </speak>');
                                 done();
                             });
+                        });
+                    });
+                });
+            });
+        });
+
+        it('Launches and does not go to resume on scan', function (done) {
+            alexa.launched(function (error, response) {
+                alexa.spoken('Scan');
+                alexa.once('AudioPlayer.PlaybackStarted', function () {
+                    alexa.intended('AMAZON.StopIntent', null, function () {
+                        alexa.launched(function (error, response, request) {
+                            assert.equal(request.session.new, true);
+                            assert.equal(response.response.outputSpeech.ssml, '<speak> <audio src=\"https://s3.amazonaws.com/bespoken/streaming/bespokenspodcast-INTRODUCTION.mp3\" />You can say play, scan titles, or about the podcast </speak>');
+                            assert.equal(response.sessionAttributes['STATE'], '');
+                            alexa.spoken('Play', function(error, response){
+                                console.log("response: " + response);
+                                done();
+                            });
+
                         });
                     });
                 });
