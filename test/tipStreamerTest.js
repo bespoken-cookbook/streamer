@@ -1,7 +1,7 @@
 var assert = require('assert');
 var bst = require('bespoken-tools');
 
-describe('Streamer', function() {
+describe('TIP Streamer', function() {
     var server = null;
     var alexa = null;
 
@@ -41,7 +41,7 @@ describe('Streamer', function() {
                 // Emulate the user saying 'Play'
                 alexa.spoken('Play', function (error, payload) {
                     // Ensure the correct directive and audioItem is returned
-                    assert.equal(payload.response.card.image.smallImageUrl, 'https://s3.amazonaws.com/bespoken/TIP/Card.jpg');
+                    assert.equal(payload.response.card.image.smallImageUrl, 'https://s3.amazonaws.com/bespoken/TIP/SmallCard.jpg');
                     assert.equal(payload.response.directives[0].type, 'AudioPlayer.Play');
                     assert.equal(payload.response.directives[0].playBehavior, 'REPLACE_ALL');
                     assert.equal(payload.response.directives[0].audioItem.stream.token, '0');
@@ -59,11 +59,11 @@ describe('Streamer', function() {
                 alexa.spoken('Scan', function (error, response) {
                     assert.equal(response.response.outputSpeech.ssml, '<speak> At any time, just say Alexa Play Next to jump into a podcast </speak>');
                     assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
-                    assert.equal(response.response.directives[0].audioItem.stream.token, '0');
+                    assert.equal(response.response.directives[0].audioItem.stream.token, '1');
                     assert.equal(response.response.directives[0].audioItem.stream.url, 'https://s3.amazonaws.com/bespoken/TIP/EP108.mp3');
                     alexa.intended('AMAZON.NextIntent', null, function (error, response) {
                         assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
-                        assert.equal(response.response.directives[0].audioItem.stream.token, '0');
+                        assert.equal(response.response.directives[0].audioItem.stream.token, '1');
                         assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/theinvestorspodcast/TIP_-_108_-_The_Outsiders_-_final_mp3.mp3?dest-id=223117');
                         done();
                     });
@@ -77,7 +77,7 @@ describe('Streamer', function() {
             this.timeout(5000);
             alexa.launched(function (error, response) {
                 alexa.spoken('About the podcast', function (error, response) {
-                    assert.equal(response.response.outputSpeech.ssml, '<speak> <audio src="https://s3.amazonaws.com/bespoken/streaming/WeStudyBillionairesTheInvestorsPodcast-ABOUT.mp3" /> You can say Play or Scan Titles </speak>');
+                    assert.equal(response.response.outputSpeech.ssml, '<speak> <audio src="https://s3.amazonaws.com/bespoken/streaming/WeStudyBillionairesTheInvestorsPodcast-ABOUT.mp3" />You can say play, scan titles, or about the podcast </speak>');
                     assert(!response.response.directives);
                     done();
                 });
