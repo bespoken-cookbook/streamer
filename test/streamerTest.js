@@ -170,6 +170,7 @@ describe('Streamer', function() {
         });
 
         it('Scans Past One And Then Plays', function (done) {
+            this.timeout(10000);
             alexa.spoken('Scan', function (error, response) {
                 assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
                 assert.equal(response.response.directives[0].audioItem.stream.token, '0');
@@ -177,14 +178,16 @@ describe('Streamer', function() {
                 alexa.once('AudioPlayer.PlaybackStarted', function () {
                     alexa.playbackNearlyFinished();
                     alexa.playbackFinished(function () {
-                        alexa.intended('AMAZON.NextIntent', null, function (error, response) {
-                            assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
-                            assert.equal(response.response.directives[0].audioItem.stream.token, '1');
-                            assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/bespoken/TIP104.mp3?dest-id=432208');
-                            done();
+                        alexa.playbackNearlyFinished();
+                        alexa.playbackFinished(function () {
+                            alexa.intended('AMAZON.NextIntent', null, function (error, response) {
+                                assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
+                                assert.equal(response.response.directives[0].audioItem.stream.token, '1');
+                                assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/bespoken/TIP104.mp3?dest-id=432208');
+                                done();
+                            });
                         });
                     });
-
                 });
             });
         });
