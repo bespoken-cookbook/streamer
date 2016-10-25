@@ -14,6 +14,8 @@ COPY lib/ ./lib/
 
 COPY test/ ./test/
 
+COPY speechAssets/ ./speechAssets/
+
 COPY *.yml ./
 
 COPY *.json ./
