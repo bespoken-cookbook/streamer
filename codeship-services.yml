@@ -1,4 +1,4 @@
 app:
   build:
     image: xappmedia/bst-streamer
-    dockerfile_path: Dockerfile
+    dockerfile_path: docker/Dockerfile
