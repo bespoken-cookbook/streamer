@@ -23,6 +23,7 @@ describe('TIP Streamer', function() {
     });
 
     afterEach(function(done) {
+        this.timeout(5000);
         alexa.stop(function () {
             server.stop(function () {
                 done();
@@ -54,7 +55,7 @@ describe('TIP Streamer', function() {
 
     describe('Scan', function() {
         it('Launches and Scans to First', function (done) {
-            this.timeout(10000);
+            this.timeout(30000);
             alexa.launched(function (error, response) {
                 alexa.spoken('Scan', function (error, response) {
                     assert.equal(response.response.outputSpeech.ssml, '<speak> At any time, just say Alexa Play Next to jump into a podcast </speak>');
@@ -72,7 +73,7 @@ describe('TIP Streamer', function() {
         });
 
         it('Launches and does not go to resume on scan', function (done) {
-            this.timeout(10000);
+            this.timeout(30000);
             alexa.launched(function (error, response) {
                 alexa.spoken('Scan');
                 alexa.once('AudioPlayer.PlaybackStarted', function () {
@@ -95,7 +96,7 @@ describe('TIP Streamer', function() {
 
     describe('About', function() {
         it('Launches and Plays About', function (done) {
-            this.timeout(5000);
+            this.timeout(30000);
             alexa.launched(function (error, response) {
                 alexa.spoken('About the podcast', function (error, response) {
                     assert.equal(response.response.outputSpeech.ssml, '<speak> <audio src="https://s3.amazonaws.com/bespoken/streaming/WeStudyBillionairesTheInvestorsPodcast-ABOUT.mp3" />You can say play, scan titles, or about the podcast </speak>');
