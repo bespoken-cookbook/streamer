@@ -253,6 +253,7 @@ describe('Streamer', function() {
         });
 
         it('Launches and does not resume', function (done) {
+            this.timeout(5000);
             alexa.launched(function (error, response) {
                 alexa.spoken('Play');
                 alexa.once('AudioPlayer.PlaybackStarted', function () {

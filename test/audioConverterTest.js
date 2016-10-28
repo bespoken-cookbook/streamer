@@ -71,7 +71,7 @@ describe('AudioConverter', function() {
 
     describe('#convertAndUpload', function() {
         this.timeout(10000);
-        let start = new Date().getTime();
+        var start = new Date().getTime();
 
         it("Converts and uploads file to S3", function(done) {
             AudioConverter.convertAndUpload('UnitTestUploaded.mp3',
@@ -85,7 +85,7 @@ describe('AudioConverter', function() {
         });
 
         it("Converts and caches file to S3", function(done) {
-            let start = new Date().getTime();
+            var start = new Date().getTime();
             AudioConverter.convertAndUpload('UnitTestUploaded.mp3',
                 'https://d2mxb5cuq6ityb.cloudfront.net/ContentPromoPrompt-d77c8cac-de94-4c5b-8014-34c65beb0cc1.m4a',
                 function (url) {
