@@ -123,15 +123,46 @@ describe('Streamer', function() {
             });
 
         });
-    });
 
-    describe('Play Named', function() {
-        it('Plays Named Podcast', function (done) {
-            alexa.spoken('Play {3}', function (error, response) {
-                assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
-                assert.equal(response.response.directives[0].audioItem.stream.token, '2');
-                assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/bespoken/TIP_-_105_-_Mastermind_-_final_mp3.mp3?dest-id=432208');
-                done();
+        it('Plays, Then Next, Then Previous', function (done) {
+            alexa.spoken('Play', function (error, response) {
+                alexa.intended('AMAZON.NextIntent');
+
+                alexa.intended('AMAZON.PreviousIntent', null, function (error, response) {
+                    assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
+                    assert.equal(response.response.directives[0].audioItem.stream.token, '0');
+                    assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/bespoken/TIP103.mp3?dest-id=432208');
+                    done();
+                });
+            });
+
+        });
+
+        it('Plays Then Stops', function (done) {
+            alexa.spoken('Play', function (error, response) {
+                alexa.on('AudioPlayer.PlaybackStarted', function () {
+                    alexa.intended('AMAZON.StopIntent', null, function (error, response) {
+                        assert.equal(response.response.directives[0].type, 'AudioPlayer.Stop');
+                        done();
+                    });
+                });
+            });
+        });
+
+        it('Plays Then Starts Over', function (done) {
+            alexa.spoken('Play', function (error, response) {
+                alexa.on('AudioPlayer.PlaybackStarted', function () {
+                    alexa.playbackOffset(100);
+                    alexa.playbackNearlyFinished(function (error, payload) {
+                        alexa.intended('AMAZON.StartOverIntent', null, function (error, response) {
+                            assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
+                            assert.equal(response.response.directives[0].audioItem.stream.offsetInMilliseconds, 0);
+                            assert.equal(response.response.directives[0].audioItem.stream.token, "0");
+                            done();
+                        });
+                    });
+
+                });
             });
         });
     });
@@ -154,37 +185,27 @@ describe('Streamer', function() {
             });
         });
 
-        it('Launches and Scans to First', function (done) {
-            alexa.spoken('Scan', function (error, response) {
-                assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
-                assert.equal(response.response.directives[0].audioItem.stream.token, '0');
-                assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/bespoken/TIP103-Summary.mp3');
-                alexa.intended('AMAZON.NextIntent', null, function (error, response) {
-                    assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
-                    assert.equal(response.response.directives[0].audioItem.stream.token, '0');
-                    assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/bespoken/TIP103.mp3?dest-id=432208');
-                    done();
-                });
-
-            });
-        });
-
         it('Scans Past One And Then Plays', function (done) {
             alexa.spoken('Scan', function (error, response) {
                 assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
                 assert.equal(response.response.directives[0].audioItem.stream.token, '0');
                 assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/bespoken/TIP103-Summary.mp3');
                 alexa.once('AudioPlayer.PlaybackStarted', function () {
-                    alexa.playbackNearlyFinished();
-                    alexa.playbackFinished(function () {
-                        alexa.intended('AMAZON.NextIntent', null, function (error, response) {
-                            assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
-                            assert.equal(response.response.directives[0].audioItem.stream.token, '1');
-                            assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/bespoken/TIP104.mp3?dest-id=432208');
-                            done();
+                    alexa.playbackNearlyFinished().playbackFinished();
+
+                    alexa.once('AudioPlayer.PlaybackStarted', function (audioItem) {
+                        assert.equal(audioItem.stream.token, '0-SILENCE');
+                        assert.equal(audioItem.stream.url, 'https://s3.amazonaws.com/bespoken/encoded/SilenceTwoSeconds.mp3');
+                        alexa.playbackNearlyFinished().playbackFinished();
+                        alexa.once('AudioPlayer.PlaybackStarted', function () {
+                            alexa.intended('AMAZON.NextIntent', null, function (request, response) {
+                                assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
+                                assert.equal(response.response.directives[0].audioItem.stream.token, '1');
+                                assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/bespoken/TIP104.mp3?dest-id=432208');
+                                done();
+                            });
                         });
                     });
-
                 });
             });
         });
