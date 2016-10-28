@@ -209,6 +209,31 @@ describe('Streamer', function() {
                 });
             });
         });
+
+        it('Scans Past One And Then Goes To Previous', function (done) {
+            alexa.spoken('Scan', function (error, response) {
+                assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
+                assert.equal(response.response.directives[0].audioItem.stream.token, '0');
+                assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/bespoken/TIP103-Summary.mp3');
+                alexa.once('AudioPlayer.PlaybackStarted', function () {
+                    alexa.playbackNearlyFinished().playbackFinished();
+
+                    alexa.once('AudioPlayer.PlaybackStarted', function (audioItem) {
+                        assert.equal(audioItem.stream.token, '0-SILENCE');
+                        assert.equal(audioItem.stream.url, 'https://s3.amazonaws.com/bespoken/encoded/SilenceTwoSeconds.mp3');
+                        alexa.playbackNearlyFinished().playbackFinished();
+                        alexa.once('AudioPlayer.PlaybackStarted', function () {
+                            alexa.intended('AMAZON.PreviousIntent', null, function (request, response) {
+                                assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
+                                assert.equal(response.response.directives[0].audioItem.stream.token, '0');
+                                assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/bespoken/TIP103-Summary.mp3');
+                                done();
+                            });
+                        });
+                    });
+                });
+            });
+        });
     });
 
     describe('About', function() {
