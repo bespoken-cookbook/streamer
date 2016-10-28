@@ -5,3 +5,6 @@ Scan scan titles
 Scan scan podcasts
 About about the podcast
 About about this podcast
+About about the show
+About about
+About About this show

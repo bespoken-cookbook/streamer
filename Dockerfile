@@ -1,4 +1,4 @@
-FROM xappmedia/bst-streamer:baseline
+FROM xappmedia/bst-streamer:clean
 
 MAINTAINER John Kelvie
 
@@ -8,7 +8,17 @@ WORKDIR /opt/streamer
 
 ENV PATH="/opt/node/bin:${PATH}"
 
-RUN git pull
+COPY bin/ ./bin/
+
+COPY lib/ ./lib/
+
+COPY test/ ./test/
+
+COPY speechAssets/ ./speechAssets/
+
+COPY *.yml ./
+
+COPY *.json ./
 
 RUN npm -version
 
