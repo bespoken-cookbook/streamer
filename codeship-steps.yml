@@ -10,4 +10,4 @@
   image_name: xappmedia/bst-streamer
   image_tag: "{{.Branch}}.test"
   registry: https://index.docker.io/v1/
-  encrypted_dockercfg_path: dockercfg.encrypted
+  encrypted_dockercfg_path: docker/dockercfg.encrypted
