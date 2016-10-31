@@ -1,10 +1,10 @@
 Play play
-Play play {feedItem}
+Play play podcast
+Play start playing
+Play play show
 Scan scan
 Scan scan titles
 Scan scan podcasts
 About about the podcast
 About about this podcast
 About about the show
-About about
-About About this show

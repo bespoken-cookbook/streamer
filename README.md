@@ -1,5 +1,5 @@
 # Streamer
-The streamer uses RSS feeds to as a source of content for an Alexa skill.
+The streamer uses RSS feeds as a source of content for an Alexa skill.
 
 It supports three main functions at this time:
 * Play
@@ -72,7 +72,6 @@ npm install bespoken-tools -g
 
 From the directory where you cloned the project, switch to the "js" folder and run the bst proxy:
 ```bash
-cd js
 bst proxy lambda lib/index.js
 ```
 

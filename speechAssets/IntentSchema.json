@@ -1,13 +1,7 @@
 {
   "intents": [
     {
-      "intent": "Play",
-      "slots": [
-          {
-            "name": "feedItem",
-            "type": "AMAZON.NUMBER"
-          }
-      ]
+      "intent": "Play"
     },
     {
       "intent": "About"
