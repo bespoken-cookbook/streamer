@@ -60,12 +60,12 @@ describe('TIP Streamer', function() {
                 alexa.spoken('Scan', function (error, response) {
                     assert.equal(response.response.outputSpeech.ssml, '<speak> At any time, just say Alexa Play Next to jump into a podcast </speak>');
                     assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
-                    assert.equal(response.response.directives[0].audioItem.stream.token, '1');
+                    assert.equal(response.response.directives[0].audioItem.stream.token, '2');
                     assert.equal(response.response.directives[0].audioItem.stream.url, 'https://s3.amazonaws.com/bespoken/TIP/EP108.mp3');
                     alexa.intended('AMAZON.NextIntent', null, function (error, response) {
                         assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
                         assert.equal(response.response.directives[0].playBehavior, 'REPLACE_ALL');
-                        assert.equal(response.response.directives[0].audioItem.stream.token, '1');
+                        assert.equal(response.response.directives[0].audioItem.stream.token, '2');
                         assert.equal(response.response.directives[0].audioItem.stream.url, 'https://traffic.libsyn.com/theinvestorspodcast/TIP_-_108_-_The_Outsiders_-_final_mp3.mp3?dest-id=223117');
                         done();
                     });
@@ -98,19 +98,19 @@ describe('TIP Streamer', function() {
             this.timeout(30000);
             alexa.spoken('Scan', function (error, response) {
                 assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
-                assert.equal(response.response.directives[0].audioItem.stream.token, '1');
+                assert.equal(response.response.directives[0].audioItem.stream.token, '2');
                 assert.equal(response.response.directives[0].audioItem.stream.url, 'https://s3.amazonaws.com/bespoken/TIP/EP108.mp3');
                 alexa.once('AudioPlayer.PlaybackStarted', function () {
                     alexa.playbackNearlyFinished().playbackFinished();
 
                     alexa.once('AudioPlayer.PlaybackStarted', function (audioItem) {
-                        assert.equal(audioItem.stream.token, '1-SILENCE');
+                        assert.equal(audioItem.stream.token, '2-SILENCE');
                         assert.equal(audioItem.stream.url, 'https://s3.amazonaws.com/bespoken/encoded/SilenceTwoSeconds.mp3');
                         alexa.playbackNearlyFinished().playbackFinished();
                         alexa.once('AudioPlayer.PlaybackStarted', function () {
                             alexa.intended('AMAZON.PreviousIntent', null, function (request, response) {
                                 assert.equal(response.response.directives[0].type, 'AudioPlayer.Play');
-                                assert.equal(response.response.directives[0].audioItem.stream.token, '1');
+                                assert.equal(response.response.directives[0].audioItem.stream.token, '2');
                                 assert.equal(response.response.directives[0].audioItem.stream.url, 'https://s3.amazonaws.com/bespoken/TIP/EP108.mp3');
                                 done();
                             });
