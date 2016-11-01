@@ -126,7 +126,7 @@ describe('TIP Streamer', function() {
             this.timeout(30000);
             alexa.launched(function (error, response) {
                 alexa.spoken('About the podcast', function (error, response) {
-                    assert.equal(response.response.outputSpeech.ssml, '<speak> <audio src="https://s3.amazonaws.com/bespoken/streaming/WeStudyBillionairesTheInvestorsPodcast-ABOUT.mp3" />You can say play, scan titles, or about the podcast </speak>');
+                    assert.equal(response.response.outputSpeech.ssml, '<speak> <audio src="https://s3.amazonaws.com/bespoken/streaming/WeStudyBillionairesTheInvestorsPodcast-INTRODUCTION.mp3" />You can say play, scan titles, or about the podcast </speak>');
                     assert(!response.response.directives);
                     done();
                 });
