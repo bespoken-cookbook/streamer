@@ -1,6 +1,8 @@
 var assert = require('assert');
 var bst = require('bespoken-tools');
 
+// This changes frequently based on update to the RSS feed
+// It is very useful, so we keep it around, but not part of npm test
 describe('TIP Streamer', function() {
     var server = null;
     var alexa = null;
