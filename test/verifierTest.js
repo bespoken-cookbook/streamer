@@ -61,6 +61,8 @@ function createEvent(secondsOffset) {
 }
 
 function createContext(validateSignature) {
+    Verifier.disableSignatureCheck = !validateSignature;
+
     return {
         request: {
             headers: {
@@ -69,7 +71,6 @@ function createContext(validateSignature) {
             }
         },
         body: new Buffer("Test"),
-        disableSignatureCheck: !validateSignature
     };
 }
 

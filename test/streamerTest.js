@@ -1,5 +1,6 @@
 var assert = require('assert');
 var bst = require('bespoken-tools');
+var Verifier = require('../lib/verifier');
 
 describe('Streamer', function() {
     var server = null;
@@ -7,7 +8,7 @@ describe('Streamer', function() {
 
     beforeEach(function (done) {
         server = new bst.LambdaServer('./lib/index.js', 10000, true);
-        alexa = new bst.BSTAlexa('http://localhost:10000',
+        alexa = new bst.BSTAlexa('http://localhost:10000?disableSignatureCheck=true',
             './speechAssets/IntentSchema.json',
             './speechAssets/SampleUtterances.txt',
             'JPK');
