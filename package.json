@@ -10,6 +10,8 @@
   ],
   "license": "See license in ../LICENSE.txt",
   "devDependencies": {
+    "coveralls": "^2.11.15",
+    "istanbul": "^0.4.5",
     "mocha": "2.5.3"
   },
   "dependencies": {
@@ -30,6 +32,8 @@
     "url": "https://github.com/bespoken/skill-sample-nodejs-audio-player"
   },
   "scripts": {
+    "coverage": "istanbul cover _mocha test/**/*Test.js",
+    "coveralls": "npm run coverage && coveralls < coverage/lcov.info",
     "postversion": "git push && git push --tags",
     "test": "mocha test/*Test.js"
   }
