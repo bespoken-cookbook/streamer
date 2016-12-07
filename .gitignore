@@ -6,3 +6,5 @@ lib/config.json
 js/config.jpk.json
 js/config.json
 coverage/
+*.log
+docker/codeship.env
