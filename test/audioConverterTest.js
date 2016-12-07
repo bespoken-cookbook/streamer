@@ -34,7 +34,7 @@ describe('AudioConverter', function() {
 
     describe('#download', function() {
         it("Downloads file", function(done) {
-            this.timeout(5000);
+            this.timeout(30000);
             AudioConverter.download('https://d2mxb5cuq6ityb.cloudfront.net/ContentPromoPrompt-d77c8cac-de94-4c5b-8014-34c65beb0cc1.m4a', function (data) {
                 assert.equal(data.length, 607027);
                 done();
@@ -42,7 +42,7 @@ describe('AudioConverter', function() {
         });
 
         it("Downloads a problem file", function(done) {
-            this.timeout(5000);
+            this.timeout(30000);
             AudioConverter.download('https://s3.amazonaws.com/xapp-alexa/JPKUnitTest-JPKUnitTest-1645-TAKEMETOWALMART-TRAILING.mp3', function (data) {
                 assert.equal(data.length, 21956);
                 done();
@@ -50,7 +50,7 @@ describe('AudioConverter', function() {
         });
 
         it("Downloads another file", function(done) {
-            this.timeout(5000);
+            this.timeout(30000);
             AudioConverter.download('http://traffic.libsyn.com/bespoken/Introduction.mp3', function (data) {
                 assert.equal(data.length, 119446);
                 done();

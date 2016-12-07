@@ -20,6 +20,8 @@ COPY *.yml ./
 
 COPY *.json ./
 
+RUN echo $COVERALLS_REPO_TOKEN
+
 RUN npm -version
 
 RUN npm install
