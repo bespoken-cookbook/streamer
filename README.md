@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/bespoken/streamer.svg?branch=master)](https://travis-ci.org/bespoken/streamer)
-[![Coverage Status](https://coveralls.io/repos/github/bespoken/streamer/badge.svg?branch=CleanUp)](https://coveralls.io/github/bespoken/streamer?branch=CleanUp)
+[![Coverage Status](https://coveralls.io/repos/github/bespoken/streamer/badge.svg?branch=master)](https://coveralls.io/github/bespoken/streamer?branch=master)
 
 # Streamer
 The streamer uses RSS feeds as a source of content for an Alexa skill.
