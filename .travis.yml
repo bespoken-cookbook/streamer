@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "4.3"
+script: npm run coverage
+after_success: npm run coveralls
+branches:
+  only:
+    - "master"
+cache:
+  directories:
+  - node_modules
+  - typings
