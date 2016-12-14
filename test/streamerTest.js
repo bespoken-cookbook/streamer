@@ -1,6 +1,5 @@
 var assert = require('assert');
 var bst = require('bespoken-tools');
-var Verifier = require('../lib/verifier');
 
 describe('Streamer', function() {
     var server = null;
