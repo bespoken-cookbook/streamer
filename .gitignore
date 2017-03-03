@@ -8,3 +8,4 @@ js/config.json
 coverage/
 *.log
 docker/codeship.env
+.env
