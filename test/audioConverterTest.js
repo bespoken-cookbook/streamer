@@ -1,6 +1,9 @@
+require('dotenv').config();
+
 var assert = require('assert');
 var fs = require('fs');
 var AudioConverter = require('../lib/audioConverter');
+
 
 describe('AudioConverter', function() {
     describe('#convertAndUpload', function() {

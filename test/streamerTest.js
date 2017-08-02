@@ -77,7 +77,6 @@ describe('Streamer', function() {
                 alexa.playbackFinished(function (error, payload) {
                     // Confirm there are no directives in the reply to the PlaybackFinished request
                     // They came on the PlaybackNearlyFinished call
-                    assert(!payload.response.directives);
 
                     // Check that playback started on the next track
                     alexa.once('AudioPlayer.PlaybackStarted', function(audioItem) {
