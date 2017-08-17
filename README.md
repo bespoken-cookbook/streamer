@@ -49,7 +49,7 @@ It is also set as a custom element:
 
 If you would like to get started working with this project quickly, to see how the streamer works, just follow these directions.  
 
-You can take a look at the [deploy README](https://github.com/bespoken/streamer/README_DEPLOY.md)
+You can take a look at the [deploy README](https://github.com/bespoken/streamer/blob/master/README_DEPLOY.md)
 if/when you want to make the skill available publicly. These steps will allow you to get quickly setup and then do "frictionless iterations" on your code.
 
 ## Running the Sample
