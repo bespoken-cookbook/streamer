@@ -2,15 +2,13 @@
 
 The Alexa Skills Kit now allows developers to build skills that play long-form audio content on Alexa devices.  This sample project demonstrates how to use the new interfaces for triggering playback of audio and handling audio player input events.
 
-## How to Run the Sample
-
-1. Clone the project and package the skill:
-```bash
-git clone https://github.com/alexa/skill-sample-nodejs-audio-player.git
-cd skill-sample-nodejs-audio-player/js
-npm install
-zip -r ../audio-player.zip *
+## How to Deploy The AudioPlayer
+1. Zip the directory
 ```
+cd streamer
+zip -r streamer.zip *
+```
+
 2. Create or login to an [AWS account](https://aws.amazon.com/). In the AWS Console:
 
     1. Create an AWS Role in IAM with access to Lambda, CloudWatch Logs and DynamoDB.
@@ -18,10 +16,11 @@ zip -r ../audio-player.zip *
         ![create_role_2](https://cloud.githubusercontent.com/assets/7671574/17451100/0c3ef928-5b19-11e6-9aca-8cd353106396.png "AWS Create Role Screenshot 2")
         ![create_role_3](https://cloud.githubusercontent.com/assets/7671574/18011103/7b05f2b2-6b68-11e6-8dc3-3aa9ead6d83e.png "AWS Create Role Screenshot 3")
 
-    2. Create an AWS Lambda function named AudioPlayerLambdaFunction being sure to select the role created above, configuring "Alexa Skills Kit" as the "Trigger" and using the zip file created above as the source.
+    2. Create an AWS Lambda function named Streamer being sure to select the role created above, configuring "Alexa Skills Kit" as the "Trigger" and using the zip file created above as the source. **NOTE**: Make sure the handler is set to lib/index.handler.
         ![alt text](https://s3.amazonaws.com/lantern-public-assets/audio-player-assets/aws-lambda-role.PNG "AWS Lambda Role")
         ![alt text](https://s3.amazonaws.com/lantern-public-assets/audio-player-assets/aws-lambda-ask-trigger.PNG "AWS Lambda Trigger")
-    3. After creation, take note of the ARN on the upper right, which you'll configure in the Developer Console below.
+    3. Set environment variables on the Lambda - especially RSS_URL and USE_DYNAMO ("true" if you want to use Dynamo)
+    4. After creation, take note of the ARN on the upper right, which you'll configure in the Developer Console below.
     
 3. Create or login to an [Amazon Developer account](https://developer.amazon.com).  In the Developer Console:
 
