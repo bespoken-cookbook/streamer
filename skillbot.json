@@ -1,0 +1,9 @@
+{
+  "id": "amzn1.ask.skill.4ccfe4ca-0fb8-4bd5-94c1-bc37db8c19c1",
+  "imageURL": "https://s3.amazonaws.com/bespoken/TIP/SmallCard.jpg",
+  "intentSchemaFile": "speechAssets/IntentSchema.json",
+  "invocationName": "we study billionaires",
+  "sampleUtterancesFile": "speechAssets/SampleUtterances.txt",
+  "url": "https://streamer.bespoken.link",
+  "name": "We Study Billionaires"
+}

@@ -1,4 +1,4 @@
-FROM xappmedia/bst-streamer:clean
+FROM bespoken/streamer:clean
 
 MAINTAINER John Kelvie
 
