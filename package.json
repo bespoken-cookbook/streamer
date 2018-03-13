@@ -15,7 +15,7 @@
     "mocha": "2.5.3"
   },
   "dependencies": {
-    "alexa-sdk": "^1.0.4",
+    "alexa-sdk": "1.0.22",
     "alexa-verifier": "0.0.5",
     "bespoken-tools": "0.9.15",
     "chalk": "^1.1.3",
