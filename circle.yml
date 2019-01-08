@@ -1,36 +1,106 @@
-machine:
-  node:
-    version: 6.9.2
-  services:
-    - docker
+#machine:
+#  node:
+#    version: 6.9.2
+#  services:
+#    - docker
+#
+#dependencies:
+#  pre:
+#    - wget https://hyper-install.s3.amazonaws.com/hyper-linux-x86_64.tar.gz
+#    - tar xzf hyper-linux-x86_64.tar.gz
+#    - chmod +x hyper
+#    - ./hyper --help
+#
+#test:
+#  override:
+#    - echo "No tests being run"
+#
+#deployment:
+#  prod:
+#    tag: /prod-.*/
+#    commands:
+#      - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
+#      - docker build -f docker/Dockerfile -t bespoken/streamer:$CIRCLE_TAG .
+#      - docker push bespoken/streamer:$CIRCLE_TAG
+#      - ./hyper config --accesskey $HYPER_KEY --secretkey $HYPER_SECRET --default-region us-west-1
+#      - ./hyper login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
+#      - ./hyper pull bespoken/streamer:$CIRCLE_TAG
+#      - ./hyper rm -f streamer || true
+#      - >
+#        ./hyper run
+#        -d
+#        --name streamer
+#        --size s4
+#        --restart=always
+#        -P bespoken/streamer:$CIRCLE_TAG
+#      - ./hyper fip attach -f 199.245.57.97 streamer
 
-dependencies:
-  pre:
-    - wget https://hyper-install.s3.amazonaws.com/hyper-linux-x86_64.tar.gz
-    - tar xzf hyper-linux-x86_64.tar.gz
-    - chmod +x hyper
-    - ./hyper --help
-
-test:
-  override:
-    - echo "No tests being run"
-
-deployment:
-  prod:
-    tag: /prod-.*/
-    commands:
-      - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
-      - docker build -f docker/Dockerfile -t bespoken/streamer:$CIRCLE_TAG .
-      - docker push bespoken/streamer:$CIRCLE_TAG
-      - ./hyper config --accesskey $HYPER_KEY --secretkey $HYPER_SECRET --default-region us-west-1
-      - ./hyper login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
-      - ./hyper pull bespoken/streamer:$CIRCLE_TAG
-      - ./hyper rm -f streamer || true
-      - >
-        ./hyper run
-        -d
+# default-steps is an anchor that we can reuse later
+steps: &default-steps
+  - checkout
+  - run:
+      name: install docker-compose
+      command: |
+        curl -L https://github.com/docker/compose/releases/download/1.19.0/docker-compose-`uname -s`-`uname -m` > ~/docker-compose
+  - run:  chmod +x ~/docker-compose
+  - run:  sudo mv ~/docker-compose /usr/local/bin/docker-compose
+  - setup_remote_docker
+  - run:
+      name: docker login, build and push image
+      command: |
+        docker login -u $DOCKER_USER -p $DOCKER_PASS
+  - run: docker-compose build
+  - run: docker push bespoken/streamer:$CIRCLE_TAG
+  - run:
+      name: deploy streamer:$CIRCLE_TAG in fargate
+      command: |
+        sudo npm install fargate-helper -g
+        fargate service \
+        --command "node bin/server.js" \
+        --containerPort 10000 \
+        --cpu 1024 \
+        --env AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID \
+        --env AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY \
+        --env AWS_DEFAULT_REGION=$AWS_REGION \
+        --image bespoken/streamer:$CIRCLE_TAG \
+        --memory 2048 \
+        --hostname "$CONTAINER_NAME.bespoken.tools" \
         --name streamer
-        --size s4
-        --restart=always
-        -P bespoken/streamer:$CIRCLE_TAG
-      - ./hyper fip attach -f 199.245.57.97 streamer
+
+version: 2.0
+jobs:
+
+  streamer-prod:
+    docker:
+      - image: circleci/node
+    environment:
+      - NODE_ENV: "production"
+    working_directory: ~/bespoken
+    steps: *default-steps
+
+  test:
+    docker:
+      - image: circleci/node
+    environment:
+      - NODE_ENV: "test"
+    working_directory: ~/bespoken
+    steps:
+      - checkout
+      - run: echo "No tests being run"
+
+workflows:
+  version: 2
+  test-n-deploy:
+    jobs:
+      - test:
+          filters:
+            tags:
+              only: /.*/
+      - streamer-prod:
+          requires:
+            - test
+          filters:
+            tags:
+              only: /prod-.*/
+            branches:
+              ignore: /.*/
