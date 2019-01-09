@@ -2,7 +2,7 @@ FROM bespoken/streamer:clean
 
 MAINTAINER John Kelvie
 
-EXPOSE 10000
+EXPOSE 3000
 
 WORKDIR /opt/streamer
 
