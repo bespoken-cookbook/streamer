@@ -46,11 +46,11 @@ steps: &default-steps
   - run:  sudo mv ~/docker-compose /usr/local/bin/docker-compose
   - setup_remote_docker
   - run:
-      name: docker login, build and push image
-      command: |
-        docker login -u $DOCKER_USER -p $DOCKER_PASS
-  - run: docker-compose build
-  - run: docker push bespoken/streamer:$CIRCLE_TAG
+        name: docker login, build and push image
+        command: |
+          docker login -u $DOCKER_USER -p $DOCKER_PASS
+          docker build -f docker/Dockerfile -t bespoken/streamer:$CIRCLE_TAG .
+          docker push bespoken/streamer:$CIRCLE_TAG
   - run:
       name: deploy streamer:$CIRCLE_TAG in fargate
       command: |
