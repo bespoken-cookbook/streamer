@@ -57,7 +57,7 @@ steps: &default-steps
         sudo npm install fargate-helper -g
         fargate service \
         --command "node bin/server.js" \
-        --containerPort 10000 \
+        --containerPort 3000 \
         --cpu 1024 \
         --env AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID \
         --env AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY \
