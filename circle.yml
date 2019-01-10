@@ -64,7 +64,7 @@ steps: &default-steps
         --env AWS_DEFAULT_REGION=$AWS_REGION \
         --image bespoken/streamer:$CIRCLE_TAG \
         --memory 2048 \
-        --hostname "streamer.bespoken.tools" \
+        --hostname "streamer.bespoken.io" \
         --name streamer
 
 version: 2.0

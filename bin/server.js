@@ -1,6 +1,4 @@
 const bst = require('bespoken-tools');
 
 const server = new bst.LambdaServer('lib/index.js', 3000, true);
-server.start(function() {
-    console.log("Server running on port 3000");
-});
+server.start();
